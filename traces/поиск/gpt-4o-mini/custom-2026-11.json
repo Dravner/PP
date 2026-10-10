@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-11",
+  "source": "fresh",
+  "question": "Who set the fastest lap at the 2026 Australian Grand Prix?",
+  "answer": "Max Verstappen",
+  "evidence": "Australia | Max Verstappen VER | 1:22.091",
+  "page": "2026 DHL Fastest Lap Award",
+  "url": "https://www.formula1.com/en/results/2026/awards/fastest-laps",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Max Verstappen set the fastest lap at the 2026 Australian Grand Prix with a time of 1:22.091. \n\nFINAL: Max Verstappen",
+ "correct": true,
+ "cost": 0.0001224000000000086,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who set the fastest lap at the 2026 Australian Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_49yFYeqUUgx41smMp7M5A66J",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"2026 Australian Grand Prix fastest lap\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_49yFYeqUUgx41smMp7M5A66J",
+   "content": "1. FORMULA 1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026 - FASTEST LAPS\nURL: https://www.formula1.com/en/results/2026/races/1279/australia/fastest-laps\nMar 8, 2026 · FORMULA 1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026 - FASTEST LAPS 06 - 08 Mar 2026 Albert Park Grand Prix Circuit, Melbourne\n\n2. 2026 Australian GP Race: Fastest Lap & Pace Gaps\nURL: https://www.formuladream.app/gaps/2026/melbourne/race\nWho set the fastest lap at the Australian Grand Prix 2026? Max Verstappen (Red Bull Racing) set the fastest lap at the Australian Grand Prix 2026 race with a 1:22.091 at Melbourne.\n\n3. 2026 Australian Grand Prix — results - Lapchive\nURL: https://lapchive.com/races/2026/1\nMar 8, 2026 · 2026 F1 Australian Grand Prix results — won by George Russell. qualifying, race results, lap times, tyre strategy, pit stops, penalties, FIA decisions. Albert Park Grand Prix Circuit, Round 1."
+  },
+  {
+   "role": "assistant",
+   "content": "Max Verstappen set the fastest lap at the 2026 Australian Grand Prix with a time of 1:22.091. \n\nFINAL: Max Verstappen",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-41",
+  "source": "fresh",
+  "question": "Which country won the 2026 FIFA World Cup?",
+  "answer": "Spain",
+  "evidence": "Spain have been crowned FIFA World Cup 2026™ winners following their 1-0 victory over Argentina after extra-time in the final at New York New Jersey Stadium.",
+  "page": "World Cup 2026: Final tournament standings",
+  "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/final-tournament-standings",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "The 2026 FIFA World Cup has not yet taken place, as it is scheduled to happen in June and July 2026. Therefore, there is currently no winner. \n\nFINAL: Not yet determined.",
+ "correct": false,
+ "cost": 3.8099999999999246e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which country won the 2026 FIFA World Cup?"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 FIFA World Cup has not yet taken place, as it is scheduled to happen in June and July 2026. Therefore, there is currently no winner. \n\nFINAL: Not yet determined.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

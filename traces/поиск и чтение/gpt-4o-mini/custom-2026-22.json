@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-22",
+  "source": "fresh",
+  "question": "Who won the 2026 Oscar for Actor in a Leading Role?",
+  "answer": "Michael B. Jordan",
+  "evidence": "Actor in a Leading Role\nWinner\nMichael B. Jordan\nSinners",
+  "page": "The 98th Academy Awards | 2026",
+  "url": "https://www.oscars.org/oscars/ceremonies/2026",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "В 2026 году Оскар еще не проводился, поэтому информации о победителе в категории \"Лучший актер в главной роли\" нет. \n\nFINAL: Нет информации о победителе.",
+ "correct": false,
+ "cost": 0.00011654999999999305,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Oscar for Actor in a Leading Role?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_aZiQWcGtUDwt22zjXHSBie85",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"2026 Oscar for Actor in a Leading Role winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_aZiQWcGtUDwt22zjXHSBie85",
+   "content": "ошибка поиска: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": "В 2026 году Оскар еще не проводился, поэтому информации о победителе в категории \"Лучший актер в главной роли\" нет. \n\nFINAL: Нет информации о победителе.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

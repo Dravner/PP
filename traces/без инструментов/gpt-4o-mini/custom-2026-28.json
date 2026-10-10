@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-28",
+  "source": "fresh",
+  "question": "Which country won the 2026 Oscar for International Feature Film with Sentimental Value?",
+  "answer": "Norway",
+  "evidence": "International Feature Film\nWinner\nNorway\nSentimental Value",
+  "page": "The 98th Academy Awards | 2026",
+  "url": "https://www.oscars.org/oscars/ceremonies/2026",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "As of now, the 2026 Oscar winners have not been announced since it is still in the future. Therefore, I do not have information about which country won the Oscar for International Feature Film. \n\nFINAL: Unknown",
+ "correct": false,
+ "cost": 4.020000000000412e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which country won the 2026 Oscar for International Feature Film with Sentimental Value?"
+  },
+  {
+   "role": "assistant",
+   "content": "As of now, the 2026 Oscar winners have not been announced since it is still in the future. Therefore, I do not have information about which country won the Oscar for International Feature Film. \n\nFINAL: Unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

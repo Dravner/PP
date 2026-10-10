@@ -1,0 +1,51 @@
+config,model,id,source,correct,steps,tool_calls,cost,seconds,answer,gold
+поиск и чтение,gpt-4o-mini,custom-2026-00,fresh,True,2,1,0.00014309999999999323,8.3,George Russell,George Russell
+поиск и чтение,gpt-4o-mini,custom-2026-01,fresh,True,2,1,0.00013695000000001067,10.1,Kimi Antonelli,Kimi Antonelli
+поиск и чтение,gpt-4o-mini,custom-2026-02,fresh,True,2,1,0.00014444999999999042,7.3,Kimi Antonelli,Kimi Antonelli
+поиск и чтение,gpt-4o-mini,custom-2026-03,fresh,False,2,1,0.00011895000000000655,11.4,Информация недоступна.,Kimi Antonelli
+поиск и чтение,gpt-4o-mini,custom-2026-04,fresh,False,5,6,0.0005474999999999924,41.4,Информация недоступна.,Kimi Antonelli
+поиск и чтение,gpt-4o-mini,custom-2026-05,fresh,True,2,1,0.00013950000000000073,8.6,Kimi Antonelli,Kimi Antonelli
+поиск и чтение,gpt-4o-mini,custom-2026-06,fresh,True,2,1,0.00015435000000001142,11.6,Lewis Hamilton,Lewis Hamilton
+поиск и чтение,gpt-4o-mini,custom-2026-07,fresh,True,2,1,0.00013364999999999905,10.2,George Russell,George Russell
+поиск и чтение,gpt-4o-mini,custom-2026-08,fresh,False,4,4,0.0007370999999999905,29.0,Неизвестно.,Charles Leclerc
+поиск и чтение,gpt-4o-mini,custom-2026-09,fresh,True,4,5,0.0004287000000000041,27.6,Kimi Antonelli,Kimi Antonelli
+поиск и чтение,gpt-4o-mini,custom-2026-10,fresh,True,3,2,0.00020580000000000598,32.5,Lando Norris,Lando Norris
+поиск и чтение,gpt-4o-mini,custom-2026-11,fresh,False,2,1,0.00015749999999999098,10.6,Макс Ферстаппен,Max Verstappen
+поиск и чтение,gpt-4o-mini,custom-2026-12,fresh,True,3,2,0.000400049999999999,11.3,Lando Norris,Lando Norris
+поиск и чтение,gpt-4o-mini,custom-2026-13,fresh,True,2,1,0.00018479999999999885,8.2,Kimi Antonelli,Kimi Antonelli
+поиск и чтение,gpt-4o-mini,custom-2026-14,fresh,True,3,2,0.00036105000000000165,9.9,Oscar Piastri,Oscar Piastri
+поиск и чтение,gpt-4o-mini,custom-2026-15,fresh,False,5,4,0.0004008000000000067,48.7,Информация недоступна.,Charles Leclerc
+поиск и чтение,gpt-4o-mini,custom-2026-16,fresh,False,6,9,0.0014854499999999993,39.3,"Sebastian Vettel: 5, Lewis Hamilton: 5, Fernando Alonso: 2",4
+поиск и чтение,gpt-4o-mini,custom-2026-17,fresh,False,2,1,0.00011205000000000243,12.6,50,50 years
+поиск и чтение,gpt-4o-mini,custom-2026-18,fresh,False,3,2,0.00029069999999999097,26.4,10,10 years
+поиск и чтение,gpt-4o-mini,custom-2026-19,fresh,False,3,2,0.0004591500000000054,12.9,9 years,nine years
+поиск и чтение,gpt-4o-mini,custom-2026-20,fresh,False,8,12,0.0028004999999999974,106.2,30,30 years
+поиск и чтение,gpt-4o-mini,custom-2026-21,fresh,False,4,3,0.0002565000000000067,74.4,Not available.,One Battle after Another
+поиск и чтение,gpt-4o-mini,custom-2026-22,fresh,False,2,1,0.00011654999999999305,25.6,Нет информации о победителе.,Michael B. Jordan
+поиск и чтение,gpt-4o-mini,custom-2026-23,fresh,False,3,1,0.00015465000000000617,30.1,информация недоступна.,Sean Penn
+поиск и чтение,gpt-4o-mini,custom-2026-24,fresh,False,2,1,0.0001213499999999923,26.2,Информация недоступна.,Jessie Buckley
+поиск и чтение,gpt-4o-mini,custom-2026-25,fresh,True,3,2,0.00021600000000000785,32.6,Amy Madigan,Amy Madigan
+поиск и чтение,gpt-4o-mini,custom-2026-26,fresh,True,3,2,0.00029295000000000015,9.3,KPop Demon Hunters,KPop Demon Hunters
+поиск и чтение,gpt-4o-mini,custom-2026-27,fresh,False,3,1,0.00016244999999999454,25.0,информация недоступна.,Paul Thomas Anderson
+поиск и чтение,gpt-4o-mini,custom-2026-28,fresh,True,2,1,0.0001482000000000011,24.5,Norway,Norway
+поиск и чтение,gpt-4o-mini,custom-2026-29,fresh,True,5,4,0.0006910499999999986,33.1,F1,F1
+поиск и чтение,gpt-4o-mini,custom-2026-30,fresh,True,8,10,0.001924200000000001,119.8,Avatar: Fire and Ash,Avatar: Fire and Ash
+поиск и чтение,gpt-4o-mini,custom-2026-31,fresh,False,3,1,0.00016649999999999998,28.8,информация недоступна.,luther
+поиск и чтение,gpt-4o-mini,custom-2026-32,fresh,False,3,1,0.0001593000000000011,29.9,Unknown,DeBÍ TiRAR MáS FOToS
+поиск и чтение,gpt-4o-mini,custom-2026-33,fresh,False,5,4,0.0008209500000000008,15.8,Unable to determine the exact winner.,WILDFLOWER
+поиск и чтение,gpt-4o-mini,custom-2026-34,fresh,False,3,1,0.00015690000000000148,29.4,неизвестно.,Olivia Dean
+поиск и чтение,gpt-4o-mini,custom-2026-35,fresh,False,2,1,0.0001546499999999923,9.0,Ariana Grande and Cynthia Erivo,"Cynthia Erivo, Ariana Grande"
+поиск и чтение,gpt-4o-mini,custom-2026-36,fresh,True,3,2,0.0003043500000000088,29.6,Tame Impala,Tame Impala
+поиск и чтение,gpt-4o-mini,custom-2026-37,fresh,True,5,4,0.0005959499999999979,32.7,The Cure - Songs of a Lost World,Songs Of A Lost World
+поиск и чтение,gpt-4o-mini,custom-2026-38,fresh,False,4,2,0.00023984999999999979,59.9,Неизвестно.,Chris Stapleton
+поиск и чтение,gpt-4o-mini,custom-2026-39,fresh,True,3,2,0.00030270000000000297,9.1,Caetano e Bethânia Ao Vivo,Caetano e Bethânia Ao Vivo
+поиск и чтение,gpt-4o-mini,custom-2026-40,fresh,False,3,1,0.0001754999999999951,30.6,Информация недоступна.,Austin Wintory
+поиск и чтение,gpt-4o-mini,custom-2026-41,fresh,True,2,1,0.00018689999999998985,12.5,Spain,Spain
+поиск и чтение,gpt-4o-mini,custom-2026-42,fresh,True,2,1,0.00021090000000001385,8.9,Argentina,Argentina
+поиск и чтение,gpt-4o-mini,custom-2026-43,fresh,True,4,3,0.000863699999999995,38.1,1,1
+поиск и чтение,gpt-4o-mini,custom-2026-44,fresh,True,2,1,0.00016499999999999848,9.4,Bukayo Saka,Bukayo Saka
+поиск и чтение,gpt-4o-mini,custom-2026-45,fresh,True,2,1,0.00018585000000001517,5.5,Seattle Seahawks,Seattle Seahawks
+поиск и чтение,gpt-4o-mini,custom-2026-46,fresh,True,2,1,0.00015584999999998517,26.1,29-13,29-13
+поиск и чтение,gpt-4o-mini,custom-2026-47,fresh,True,2,1,0.00014834999999999154,23.3,125.6 million,125.6 million
+поиск и чтение,gpt-4o-mini,custom-2026-48,fresh,False,0,0,0.0,0.0,"ошибка: ('Connection aborted.', ConnectionResetError(54, 'Co",Norway
+поиск и чтение,gpt-4o-mini,custom-2026-49,fresh,True,2,1,0.0001531499999999908,25.1,Mikhail Shaidorov,Mikhail Shaidorov

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-44",
+  "source": "fresh",
+  "question": "Who scored a hat-trick for England in the 2026 FIFA World Cup Bronze final?",
+  "answer": "Bukayo Saka",
+  "evidence": "England completed their best tournament since winning on home turf in 1966 as Bukayo Saka's hat-trick in a breathless end-to-end encounter with France at Miami Stadium saw the Three Lions win the Bronze final by a barely-believable 6-4 scoreline.",
+  "page": "World Cup 2026: Final tournament standings",
+  "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/final-tournament-standings",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "The 2026 FIFA World Cup hasn't taken place yet (it's scheduled for the summer of 2026), so I don't have information about its results, including any hat-tricks in the Bronze final.\n\nFINAL: The 2026 FIFA World Cup has not yet occurred, so this information is unavailable.",
+ "correct": false,
+ "cost": 0.001466999999999996,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who scored a hat-trick for England in the 2026 FIFA World Cup Bronze final?"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 FIFA World Cup hasn't taken place yet (it's scheduled for the summer of 2026), so I don't have information about its results, including any hat-tricks in the Bronze final.\n\nFINAL: The 2026 FIFA World Cup has not yet occurred, so this information is unavailable.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

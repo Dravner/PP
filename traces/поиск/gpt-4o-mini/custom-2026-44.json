@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-44",
+  "source": "fresh",
+  "question": "Who scored a hat-trick for England in the 2026 FIFA World Cup Bronze final?",
+  "answer": "Bukayo Saka",
+  "evidence": "England completed their best tournament since winning on home turf in 1966 as Bukayo Saka's hat-trick in a breathless end-to-end encounter with France at Miami Stadium saw the Three Lions win the Bronze final by a barely-believable 6-4 scoreline.",
+  "page": "World Cup 2026: Final tournament standings",
+  "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/final-tournament-standings",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Bukayo Saka scored a hat-trick for England in the 2026 FIFA World Cup Bronze final. \n\nFINAL: Bukayo Saka",
+ "correct": true,
+ "cost": 0.00013364999999999905,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who scored a hat-trick for England in the 2026 FIFA World Cup Bronze final?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_AXIIHWOSbRiccx6bTevaBeBM",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"England 2026 FIFA World Cup Bronze final hat-trick scorer\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_AXIIHWOSbRiccx6bTevaBeBM",
+   "content": "1. List of England national football team hat-tricks - Wikipedia\nURL: https://en.wikipedia.org/wiki/List_of_England_national_football_team_hat-tricks\nIn the 1966 FIFA World Cup Final, Geoff Hurst scored a hat-trick, generally considered one of the most famous of all time. [2][3][4] The most recent hat-trick was scored by Bukayo Saka in the 2026 FIFA World Cup match for third place against France in July 2026.\n\n2. England 6-4 France: Saka hat-trick seals World Cup bronze\nURL: https://worldcuplocaltime.com/england-6-4-france-saka-hat-trick-world-cup-bronze/\nJul 19, 2026 · Bukayo Saka hit a hat-trick as England beat France 6-4 in a record-breaking FIFA World Cup 2026 third-place thriller in Miami, with Mbappé making history.\n\n3. England Beat France 6-4 in Bronze Final | Saka Hat-Trick ...\nURL: https://wcsoccerie2026.com/world-cup-2026-news/england-bronze-final-france-6-4-saka-hat-trick/\n1 day ago · England beat France 6-4 in the 2026 bronze final at MetLife Stadium — the highest-scoring World Cup match since 1982. Bukayo Saka scored a hat-trick; Bellingham and Kane also scored."
+  },
+  {
+   "role": "assistant",
+   "content": "Bukayo Saka scored a hat-trick for England in the 2026 FIFA World Cup Bronze final. \n\nFINAL: Bukayo Saka",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

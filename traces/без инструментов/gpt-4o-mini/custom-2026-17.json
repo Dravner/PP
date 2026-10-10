@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-17",
+  "source": "fresh",
+  "question": "In Formula 1's 2026 retrospective, how many years had passed since the 1976 F1 season began?",
+  "answer": "50 years",
+  "evidence": "The storied 1976 F1 season began 50 years ago today, featuring a title fight between Ferrari’s Niki Lauda and McLaren’s James Hunt that was so dramatic, it inspired the hit film Rush.",
+  "page": "On this day 50 years ago: The iconic 1976 Formula 1 season that inspired Rush begins",
+  "url": "https://www.formula1.com/en/latest/article/on-this-day-50-years-ago-the-iconic-1976-formula-1-season-that-inspired-rush.Otn39lw7ILaJlV0jR0KOo.Otn39lw7ILaJlV0jR0KOo",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "To find out how many years had passed since the 1976 F1 season began until 2026, we can perform a simple subtraction.\n\n2026 - 1976 = 50\n\nSo, 50 years had passed since the 1976 F1 season began.\n\nFINAL: 50",
+ "correct": false,
+ "cost": 5.100000000000937e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "In Formula 1's 2026 retrospective, how many years had passed since the 1976 F1 season began?"
+  },
+  {
+   "role": "assistant",
+   "content": "To find out how many years had passed since the 1976 F1 season began until 2026, we can perform a simple subtraction.\n\n2026 - 1976 = 50\n\nSo, 50 years had passed since the 1976 F1 season began.\n\nFINAL: 50",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

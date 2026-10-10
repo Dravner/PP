@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-46",
+  "source": "fresh",
+  "question": "What was the final score of Super Bowl LX in 2026?",
+  "answer": "29-13",
+  "evidence": "The Seattle Seahawks' 29-13 victory over the New England Patriots averaged 124.9 million viewers on NBC, Peacock, Telemundo, NBC Sports Digital and NFL+.",
+  "page": "Super Bowl LX second most-watched all time",
+  "url": "https://www.nfl.com/news/super-bowl-lx-second-most-watched-all-time-with-nearly-125m-viewers",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Super Bowl LX has not yet occurred, as it is scheduled for February 2026. Therefore, there is no final score available. \n\nFINAL: Not applicable (event hasn't happened)",
+ "correct": false,
+ "cost": 3.554999999999531e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What was the final score of Super Bowl LX in 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "Super Bowl LX has not yet occurred, as it is scheduled for February 2026. Therefore, there is no final score available. \n\nFINAL: Not applicable (event hasn't happened)",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

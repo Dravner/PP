@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-30",
+  "source": "fresh",
+  "question": "Which film won the Visual Effects Oscar at the 98th Academy Awards in 2026?",
+  "answer": "Avatar: Fire and Ash",
+  "evidence": "Visual Effects\nWinner\nAvatar: Fire and Ash",
+  "page": "The 98th Academy Awards | 2026",
+  "url": "https://www.oscars.org/oscars/ceremonies/2026",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Похоже, у меня нет информации о победителе Оскара за визуальные эффекты на 98-х Оскаровых наградах в 2026 году, так как эти данные выходят за рамки моего обучения. Вы можете проверить актуальные источники, такие как официальные сайты киноакадемии или новостные статьи. \n\nFINAL: Информация недоступна.",
+ "correct": false,
+ "cost": 0.00011804999999999455,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which film won the Visual Effects Oscar at the 98th Academy Awards in 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_v2XYJl2nhMIYJ2PokMiUc0ey",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Visual Effects Oscar 98th Academy Awards 2026 winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_v2XYJl2nhMIYJ2PokMiUc0ey",
+   "content": "ошибка поиска: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": "Похоже, у меня нет информации о победителе Оскара за визуальные эффекты на 98-х Оскаровых наградах в 2026 году, так как эти данные выходят за рамки моего обучения. Вы можете проверить актуальные источники, такие как официальные сайты киноакадемии или новостные статьи. \n\nFINAL: Информация недоступна.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

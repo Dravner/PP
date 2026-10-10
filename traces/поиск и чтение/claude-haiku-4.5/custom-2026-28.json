@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "custom-2026-28",
+  "source": "fresh",
+  "question": "Which country won the 2026 Oscar for International Feature Film with Sentimental Value?",
+  "answer": "Norway",
+  "evidence": "International Feature Film\nWinner\nNorway\nSentimental Value",
+  "page": "The 98th Academy Awards | 2026",
+  "url": "https://www.oscars.org/oscars/ceremonies/2026",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Perfect! I found the information. According to the search results, \"Sentimental Value\" won the 2026 Oscar for Best International Feature Film, and it's from Norway.\n\nFINAL: Norway",
+ "correct": true,
+ "cost": 0.006776000000000004,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which country won the 2026 Oscar for International Feature Film with Sentimental Value?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the 2026 Oscar for International Feature Film called \"Sentimental Value\".",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01E9v8Xku7cMPgaK8hWL8drN",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"2026 Oscar International Feature Film Sentimental Value\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01E9v8Xku7cMPgaK8hWL8drN",
+   "content": "ошибка поиска: error sending request for url (https://html.duckduckgo.com/html/) > operation timed out"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try a different search approach:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01DYJytboiikwtfJADMY1QZD",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"Sentimental Value film 2026 Academy Award\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01DYJytboiikwtfJADMY1QZD",
+   "content": "1. Sentimental Value - Wikipedia\nURL: https://en.wikipedia.org/wiki/Sentimental_Value\nAt the 98th Academy Awards, it received nine nominations, including Best Picture, Best Director, Best Actress (Reinsve), Best Supporting Actor (Skarsgård) and two Best Supporting Actress nominations (Fanning and Lilleaas), and became the first Norwegian film to win Best International Feature Film.\n\n2. Sentimental Value (2025) - Awards - IMDb\nURL: https://www.imdb.com/title/tt27714581/awards/\nAcademy Awards, USA 2026 Winner Oscar Best International Feature Film Norway 2026 Nominee Oscar Best Motion Picture of the Year Maria Ekerhovd Andrea Berentsen Ottmar\n\n3. ‘Sentimental Value’ wins Oscar for best international film ...\nURL: https://apnews.com/article/oscars-2026-best-international-film-ac9d608fec5a03ecbe2d0a0b67b44bbd\nJoachim Trier accepts the award for international feature film for “Sentimental Value” during the Oscars on Sunday, March 15, 2026, at the Dolby Theatre in Los Angeles."
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the information. According to the search results, \"Sentimental Value\" won the 2026 Oscar for Best International Feature Film, and it's from Norway.\n\nFINAL: Norway",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

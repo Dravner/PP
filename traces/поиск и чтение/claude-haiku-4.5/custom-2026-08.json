@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-08",
+  "source": "fresh",
+  "question": "Who won the 2026 British Grand Prix?",
+  "answer": "Charles Leclerc",
+  "evidence": "Great Britain | 05 Jul | Charles Leclerc LEC | Ferrari | 52 | 1:27:11.335",
+  "page": "2026 Race Results",
+  "url": "https://www.formula1.com/en/results/2026/races",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Charles Leclerc won the 2026 British Grand Prix",
+ "correct": true,
+ "cost": 0.004267000000000021,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 British Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the 2026 British Grand Prix winner.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01YGrZGiXpkDnXxcsVh9GU5e",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"2026 British Grand Prix winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01YGrZGiXpkDnXxcsVh9GU5e",
+   "content": "1. 2026 British Grand Prix - Wikipedia\nURL: https://en.wikipedia.org/wiki/2026_British_Grand_Prix\nLeclerc took his ninth Formula One victory, his first at the British Grand Prix, ahead of George Russell (Mercedes), who took his first podium at Silverstone, and Hamilton.\n\n2. 2026 British Grand Prix race report and highlights: Charles ...\nURL: https://www.formula1.com/en/latest/article/leclerc-wins-dramatic-british-grand-prix-from-russell-and-hamilton-as-antonelli-suffers-issue.3bGl6laB38GIr1PfxJTNmY\nJul 5, 2026 · Charles Leclerc has claimed victory in a dramatic British Grand Prix, with Kimi Antonelli dropping backwards due to a car issue in the latter stages while a crash for Max Verstappen triggered a late-race Safety Car.\n\n3. FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026 - RACE RESULT\nURL: https://www.formula1.com/en/results/2026/races/1289/great-britain/race-result\nJul 5, 2026 · FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026 - RACE RESULT 03 - 05 Jul 2026 Silverstone Circuit, Silverstone"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Charles Leclerc won the 2026 British Grand Prix",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

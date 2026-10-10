@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-26",
+  "source": "fresh",
+  "question": "Which film won the 2026 Oscar for Animated Feature Film?",
+  "answer": "KPop Demon Hunters",
+  "evidence": "Animated Feature Film\nWinner\nKPop Demon Hunters",
+  "page": "The 98th Academy Awards | 2026",
+  "url": "https://www.oscars.org/oscars/ceremonies/2026",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "The film that won the 2026 Oscar for Animated Feature Film is \"KPop Demon Hunters.\" \n\nFINAL: KPop Demon Hunters",
+ "correct": true,
+ "cost": 0.0001177499999999998,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which film won the 2026 Oscar for Animated Feature Film?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_SppRYfAPX1em3Nc01yYMMprw",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"2026 Oscar for Animated Feature Film winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_SppRYfAPX1em3Nc01yYMMprw",
+   "content": "1. Academy Award for Best Animated Feature - Wikipedia\nURL: https://en.wikipedia.org/wiki/Academy_Award_for_Best_Animated_Feature\nThe Academy Award for Best Animated Feature is an Academy Award presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) for the best animated feature film.\n\n2. Oscars 2026: Full winners list from the 98th Academy Awards\nURL: https://abcnews.com/GMA/Culture/oscars-2026-full-winners-list/story?id=130769299\nMar 15, 2026 · The 2026 Oscars were hosted by Conan O'Brien, who returned to emcee the ceremony for the second year in a row. The awards were held at the Dolby Theatre in Los Angeles and broadcast live on ABC, with streaming also available on Hulu. See the complete list of winners from the 2026 Oscars below.\n\n3. Oscars 2026: Kpop Demon Hunters wins best animated film and ...\nURL: https://www.bbc.com/news/articles/cvg823zkx0go\nMar 16, 2026 · KPop Demon Hunters, the story of a righteous K-pop girl band, has won Oscars for best animated feature and best original song."
+  },
+  {
+   "role": "assistant",
+   "content": "The film that won the 2026 Oscar for Animated Feature Film is \"KPop Demon Hunters.\" \n\nFINAL: KPop Demon Hunters",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

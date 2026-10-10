@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-46",
+  "source": "fresh",
+  "question": "What was the final score of Super Bowl LX in 2026?",
+  "answer": "29-13",
+  "evidence": "The Seattle Seahawks' 29-13 victory over the New England Patriots averaged 124.9 million viewers on NBC, Peacock, Telemundo, NBC Sports Digital and NFL+.",
+  "page": "Super Bowl LX second most-watched all time",
+  "url": "https://www.nfl.com/news/super-bowl-lx-second-most-watched-all-time-with-nearly-125m-viewers",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Seattle Seahawks 29, New England Patriots 13",
+ "correct": false,
+ "cost": 0.00014055000000000317,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What was the final score of Super Bowl LX in 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ukyprp1w9uTT0AiN8Z2cqyVe",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Super Bowl LX final score 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ukyprp1w9uTT0AiN8Z2cqyVe",
+   "content": "1. Super Bowl LX - WikipediaSuper Bowl LX - Boxscore: Feb 8, 2026Seahawks vs. Patriots - Final Score - February 08, 2026Super Bowl LX - Seattle Seahawks vs. New England Patriots ...\nURL: https://en.wikipedia.org/wiki/Super_Bowl_LX\nThe game took place on February 8, 2026, at Levi's Stadium in Santa Clara, California, the second Super Bowl held in the stadium and the third held in the San Francisco Bay Area. The Seahawks' victory was their second, previously having won 2013's Super Bowl XLVIII during their Legion of Boom era. Feb 8, 2026 · View the box score for Seahawks vs. Patriots on February 08, 2026, including team and player statistics and results. Feb 8, 2026 · See how Seahawks vs. Patriots ended on February 08, 2026: final score, box score, top performers and highlights. Seattle Seahawks 29 vs. New England Patriots 13 on February 8th, 2026 - Full team and player stats and box score.\n\n2. Super Bowl LX 2026 Results: Seahawks vs Patriots Final Score ...\nURL: https://sportsbrackets.net/2026/02/08/super-bowl-lx-2026-results-seahawks-vs-patriots-final-score-key-plays-mvp-props-hits-misses-printable-recap-sheet/\nFeb 8, 2026 · Here’s the Super Bowl LX 2026 results for you. The Seattle Seahawks are Super Bowl champions once again. In a dominant defensive showcase at Levi's Stadium in Santa Clara, California, on February 8, 2026, the Seahawks defeated the New England Patriots 29-13 to claim their second Lombardi Trophy in franchise history. This marked Seattle's first\n\n3. Seahawks 29-13 Patriots (Feb 8, 2026) Final Score - ESPN\nURL: https://www.espn.com/nfl/game/_/gameId/401772988/seahawks-patriots\nGame summary of the Seattle Seahawks vs. New England Patriots NFL game, final score 29-13, from February 8, 2026 on ESPN."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Seattle Seahawks 29, New England Patriots 13",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

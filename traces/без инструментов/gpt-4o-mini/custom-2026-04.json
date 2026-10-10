@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-04",
+  "source": "fresh",
+  "question": "Who won the 2026 Canadian Grand Prix?",
+  "answer": "Kimi Antonelli",
+  "evidence": "Canada | 24 May | Kimi Antonelli ANT | Mercedes | 68 | 1:28:15.758",
+  "page": "2026 Race Results",
+  "url": "https://www.formula1.com/en/results/2026/races",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "The winner of the 2026 Canadian Grand Prix is not known as the event has not yet taken place, and my data only extends until October 2023. \n\nFINAL: Unknown.",
+ "correct": false,
+ "cost": 3.554999999999531e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Canadian Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": "The winner of the 2026 Canadian Grand Prix is not known as the event has not yet taken place, and my data only extends until October 2023. \n\nFINAL: Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

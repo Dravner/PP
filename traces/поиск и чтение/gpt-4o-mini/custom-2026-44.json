@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-44",
+  "source": "fresh",
+  "question": "Who scored a hat-trick for England in the 2026 FIFA World Cup Bronze final?",
+  "answer": "Bukayo Saka",
+  "evidence": "England completed their best tournament since winning on home turf in 1966 as Bukayo Saka's hat-trick in a breathless end-to-end encounter with France at Miami Stadium saw the Three Lions win the Bronze final by a barely-believable 6-4 scoreline.",
+  "page": "World Cup 2026: Final tournament standings",
+  "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/final-tournament-standings",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Bukayo Saka scored a hat-trick for England in the 2026 FIFA World Cup Bronze final against France. \n\nFINAL: Bukayo Saka",
+ "correct": true,
+ "cost": 0.00016499999999999848,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who scored a hat-trick for England in the 2026 FIFA World Cup Bronze final?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_1WdOxjDWgNtGTASHjFgtpRu4",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"2026 FIFA World Cup Bronze final England hat-trick scorer\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_1WdOxjDWgNtGTASHjFgtpRu4",
+   "content": "1. France 4-6 England: Saka Hat-Trick Wins World Cup Bronze\nURL: https://www.world-cup-schedule.com/blog/france-4-6-england-world-cup-2026-third-place-recap\nJul 18, 2026 · England beat France 6-4 in the 2026 World Cup third-place match as Bukayo Saka scored a hat-trick and Kylian Mbappé led a dramatic second-half comeback. England led 4-0 at halftime, watched Kylian Mbappé drive France back to 4-3, and then found two late goals to secure the best men's World Cup finish outside their 1966 title.\n\n2. England Beat France 6-4 in Bronze Final | Saka Hat-Trick ...\nURL: https://wcsoccerie2026.com/world-cup-2026-news/england-bronze-final-france-6-4-saka-hat-trick/\n1 day ago · England beat France 6-4 in the 2026 bronze final at MetLife Stadium — the highest-scoring World Cup match since 1982. Bukayo Saka scored a hat-trick; Bellingham and Kane also scored.\n\n3. England 6-4 France: Saka hat-trick seals World Cup bronze\nURL: https://worldcuplocaltime.com/england-6-4-france-saka-hat-trick-world-cup-bronze/\nJul 19, 2026 · Bukayo Saka hit a hat-trick as England beat France 6-4 in a record-breaking FIFA World Cup 2026 third-place thriller in Miami, with Mbappé making history."
+  },
+  {
+   "role": "assistant",
+   "content": "Bukayo Saka scored a hat-trick for England in the 2026 FIFA World Cup Bronze final against France. \n\nFINAL: Bukayo Saka",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

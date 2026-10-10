@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-24",
+  "source": "fresh",
+  "question": "Who won the 2026 Oscar for Actress in a Leading Role?",
+  "answer": "Jessie Buckley",
+  "evidence": "Actress in a Leading Role\nWinner\nJessie Buckley\nHamnet",
+  "page": "The 98th Academy Awards | 2026",
+  "url": "https://www.oscars.org/oscars/ceremonies/2026",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "I don't have information about the 2026 Oscar ceremonies, as my knowledge cutoff is early 2025 and the 2026 Academy Awards have not yet taken place (or the results aren't in my training data).\n\nFINAL: Unknown — the 2026 Oscars results are beyond my knowledge cutoff.",
+ "correct": false,
+ "cost": 0.0014850000000000002,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Oscar for Actress in a Leading Role?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have information about the 2026 Oscar ceremonies, as my knowledge cutoff is early 2025 and the 2026 Academy Awards have not yet taken place (or the results aren't in my training data).\n\nFINAL: Unknown — the 2026 Oscars results are beyond my knowledge cutoff.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

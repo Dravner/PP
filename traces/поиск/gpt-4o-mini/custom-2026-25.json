@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-25",
+  "source": "fresh",
+  "question": "Who won the 2026 Oscar for Actress in a Supporting Role?",
+  "answer": "Amy Madigan",
+  "evidence": "Actress in a Supporting Role\nWinner\nAmy Madigan\nWeapons",
+  "page": "The 98th Academy Awards | 2026",
+  "url": "https://www.oscars.org/oscars/ceremonies/2026",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Amy Madigan",
+ "correct": true,
+ "cost": 0.00011114999999999042,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Oscar for Actress in a Supporting Role?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_FZT45ddPxlo9vGlOPeEAiLm0",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"2026 Oscar for Actress in a Supporting Role winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_FZT45ddPxlo9vGlOPeEAiLm0",
+   "content": "1. Academy Award for Best Supporting Actress - Wikipedia\nURL: https://en.wikipedia.org/wiki/Academy_Award_for_Best_Supporting_Actress\nThe Academy Award for Best Supporting Actress is an award presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS). It has been awarded since the 9th Academy Awards to an actress who has delivered an outstanding performance in a supporting role in a film released that year.\n\n2. Oscars 2026: Full winners list from the 98th Academy Awards\nURL: https://abcnews.com/GMA/Culture/oscars-2026-full-winners-list/story?id=130769299\nMar 15, 2026 · The 2026 Oscars were hosted by Conan O'Brien, who returned to emcee the ceremony for the second year in a row. The awards were held at the Dolby Theatre in Los Angeles and broadcast live on ABC, with streaming also available on Hulu. See the complete list of winners from the 2026 Oscars below.\n\n3. Amy Madigan wins best supporting actress at Oscars 2026 | AP News\nURL: https://apnews.com/article/oscars-2026-best-supporting-actress-c64ae19ea012253e08a94206f130d22b\nAmy Madigan has won the Academy Award for best supporting actress for her role in the supernatural thriller “Weapons.”"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Amy Madigan",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

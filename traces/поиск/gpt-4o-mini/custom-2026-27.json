@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-27",
+  "source": "fresh",
+  "question": "Who won the Directing Oscar at the 98th Academy Awards in 2026?",
+  "answer": "Paul Thomas Anderson",
+  "evidence": "Directing\nWinner\nOne Battle after Another\nPaul Thomas Anderson",
+  "page": "The 98th Academy Awards | 2026",
+  "url": "https://www.oscars.org/oscars/ceremonies/2026",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "FINAL: One Battle After Another",
+ "correct": false,
+ "cost": 0.00011175000000000768,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the Directing Oscar at the 98th Academy Awards in 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_7wPicGjYBas81DQE7EHzOGkP",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"98th Academy Awards 2026 Directing Oscar winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_7wPicGjYBas81DQE7EHzOGkP",
+   "content": "1. 98th Academy Awards - Wikipedia\nURL: https://en.wikipedia.org/wiki/98th_Academy_Awards\nDuring the gala, the AMPAS presented Academy Awards (commonly referred to as Oscars) in 24 categories honoring films released in 2025. The ceremony, televised in the United States by ABC and streamed on Hulu, was produced by Raj Kapoor and Katy Mullan, and was directed by Hamish Hamilton. [4]\n\n2. Oscars 2026: Full winners list from the 98th Academy Awards\nURL: https://abcnews.com/GMA/Culture/oscars-2026-full-winners-list/story?id=130769299\nMar 15, 2026 · The awards were held at the Dolby Theatre in Los Angeles and broadcast live on ABC, with streaming also available on Hulu. See the complete list of winners from the 2026 Oscars below.\n\n3. 2026 Oscar Winners: The Complete List of 98th Academy Awards\nURL: https://oscarwinners.net/2026-oscars-winners-list/\nMar 16, 2026 · One Battle After Another won the most Oscars in 2026 with six wins. Those wins were Best Picture, Best Director, Best Supporting Actor, Best Adapted Screenplay, Best Film Editing and Best Casting."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: One Battle After Another",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

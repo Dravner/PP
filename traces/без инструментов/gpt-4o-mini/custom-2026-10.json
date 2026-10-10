@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-10",
+  "source": "fresh",
+  "question": "Who won the 2026 Hungarian Grand Prix?",
+  "answer": "Lando Norris",
+  "evidence": "Hungary | 26 Jul | Lando Norris NOR | McLaren | 70 | 1:39:56.180",
+  "page": "2026 Race Results",
+  "url": "https://www.formula1.com/en/results/2026/races",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "The 2026 Hungarian Grand Prix has not yet taken place, as it is scheduled for a future date. Therefore, there is no winner to report at this time. \n\nFINAL: No winner yet.",
+ "correct": false,
+ "cost": 3.7350000000005434e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Hungarian Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 Hungarian Grand Prix has not yet taken place, as it is scheduled for a future date. Therefore, there is no winner to report at this time. \n\nFINAL: No winner yet.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-19",
+  "source": "fresh",
+  "question": "When Formula 1 returned to Sepang in 2026, how long had it been since the championship last raced there?",
+  "answer": "nine years",
+  "evidence": "Formula 1 returns to Sepang this week for the first time in nine years, with the Malaysian circuit hosting the Bahrain Grand Prix in Malaysia.",
+  "page": "What was happening in the world the last time F1 raced in Malaysia?",
+  "url": "https://www.formula1.com/en/latest/article/what-was-happening-in-the-world-the-last-time-f1-raced-in-malaysia.6FhCdurEMcfv9tQrcB37d3.6FhCdurEMcfv9tQrcB37d3",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "I need to check whether Formula 1 actually returned to Sepang in 2026, as my knowledge cutoff is early 2025.\n\nBased on my knowledge, the Malaysian Grand Prix at Sepang last took place in **2017**. As of my knowledge cutoff (early 2025), I have no confirmed information that F1 scheduled or held a race at Sepang in 2026.\n\nIf F1 did return to Sepang in 2026, it would have been a gap of **9 years** (since 2017).\n\nFINAL: 9 years",
+ "correct": false,
+ "cost": 0.0024209999999999995,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "When Formula 1 returned to Sepang in 2026, how long had it been since the championship last raced there?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to check whether Formula 1 actually returned to Sepang in 2026, as my knowledge cutoff is early 2025.\n\nBased on my knowledge, the Malaysian Grand Prix at Sepang last took place in **2017**. As of my knowledge cutoff (early 2025), I have no confirmed information that F1 scheduled or held a race at Sepang in 2026.\n\nIf F1 did return to Sepang in 2026, it would have been a gap of **9 years** (since 2017).\n\nFINAL: 9 years",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

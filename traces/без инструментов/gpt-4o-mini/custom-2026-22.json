@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-22",
+  "source": "fresh",
+  "question": "Who won the 2026 Oscar for Actor in a Leading Role?",
+  "answer": "Michael B. Jordan",
+  "evidence": "Actor in a Leading Role\nWinner\nMichael B. Jordan\nSinners",
+  "page": "The 98th Academy Awards | 2026",
+  "url": "https://www.oscars.org/oscars/ceremonies/2026",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "The 2026 Oscars have not yet occurred, so there is no winner for the Actor in a Leading Role. FINAL: Not applicable.",
+ "correct": false,
+ "cost": 3.0149999999992683e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Oscar for Actor in a Leading Role?"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 Oscars have not yet occurred, so there is no winner for the Actor in a Leading Role. FINAL: Not applicable.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

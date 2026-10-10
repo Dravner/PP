@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-39",
+  "source": "fresh",
+  "question": "Which album won Best Global Music Album at the 2026 Grammy Awards?",
+  "answer": "Caetano e Bethânia Ao Vivo",
+  "evidence": "Best Global Music Album | Caetano Veloso, Maria Bethânia | Caetano e Bethânia Ao Vivo",
+  "page": "68th Annual Grammy Awards 2026",
+  "url": "https://www.grammy.com/awards/68th-annual-grammy-awards-2025/",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "I currently do not have information on events that occurred after October 2023, including the 2026 Grammy Awards. Please check a reliable source for the most recent information. \n\nFINAL: Information not available.",
+ "correct": false,
+ "cost": 3.870000000000262e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which album won Best Global Music Album at the 2026 Grammy Awards?"
+  },
+  {
+   "role": "assistant",
+   "content": "I currently do not have information on events that occurred after October 2023, including the 2026 Grammy Awards. Please check a reliable source for the most recent information. \n\nFINAL: Information not available.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

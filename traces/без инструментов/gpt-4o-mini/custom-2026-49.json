@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-49",
+  "source": "fresh",
+  "question": "Who won the men's singles figure skating gold medal at the 2026 Winter Olympics?",
+  "answer": "Mikhail Shaidorov",
+  "evidence": "Mikhail Shaidorov of Kazakhstan won the gold medal, Yuma Kagiyama of Japan won the silver medal, and Shun Sato, also of Japan, won the bronze medal.",
+  "page": "Figure skating at the 2026 Winter Olympics – Men's singles",
+  "url": "https://en.wikipedia.org/wiki/Figure_skating_at_the_2026_Winter_Olympics_%E2%80%93_Men%27s_singles",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "I'm sorry, but I don't have information on events that occurred after October 2023, including the 2026 Winter Olympics. FINAL: Unknown.",
+ "correct": false,
+ "cost": 3.1799999999998496e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the men's singles figure skating gold medal at the 2026 Winter Olympics?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'm sorry, but I don't have information on events that occurred after October 2023, including the 2026 Winter Olympics. FINAL: Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

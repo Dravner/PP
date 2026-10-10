@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-18",
+  "source": "fresh",
+  "question": "At the 2026 Belgian Grand Prix, how many years had Esteban Ocon been in Formula 1 since his debut?",
+  "answer": "10 years",
+  "evidence": "At this weekend’s Belgian Grand Prix, Esteban Ocon will celebrate 10 years since his F1 debut.",
+  "page": "Esteban Ocon reflects on 10 years in F1",
+  "url": "https://www.formula1.com/en/latest/article/im-a-very-different-driver-ocon-reveals-his-biggest-lesson-from-crazy-10-years-in-f1.DdnNLzhT1DOhVRgpSYJNc",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "I need to find when Esteban Ocon made his Formula 1 debut and calculate how many years had passed by the 2026 Belgian Grand Prix.\n\nEsteban Ocon made his Formula 1 debut at the 2016 Belgian Grand Prix (as a replacement driver for Manor Racing).\n\nThe 2026 Belgian Grand Prix would be in 2026.\n\n2026 - 2016 = 10 years.\n\nFINAL: 10",
+ "correct": false,
+ "cost": 0.0020550000000000013,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "At the 2026 Belgian Grand Prix, how many years had Esteban Ocon been in Formula 1 since his debut?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to find when Esteban Ocon made his Formula 1 debut and calculate how many years had passed by the 2026 Belgian Grand Prix.\n\nEsteban Ocon made his Formula 1 debut at the 2016 Belgian Grand Prix (as a replacement driver for Manor Racing).\n\nThe 2026 Belgian Grand Prix would be in 2026.\n\n2026 - 2016 = 10 years.\n\nFINAL: 10",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

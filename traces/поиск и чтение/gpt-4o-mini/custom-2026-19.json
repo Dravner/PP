@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "custom-2026-19",
+  "source": "fresh",
+  "question": "When Formula 1 returned to Sepang in 2026, how long had it been since the championship last raced there?",
+  "answer": "nine years",
+  "evidence": "Formula 1 returns to Sepang this week for the first time in nine years, with the Malaysian circuit hosting the Bahrain Grand Prix in Malaysia.",
+  "page": "What was happening in the world the last time F1 raced in Malaysia?",
+  "url": "https://www.formula1.com/en/latest/article/what-was-happening-in-the-world-the-last-time-f1-raced-in-malaysia.6FhCdurEMcfv9tQrcB37d3.6FhCdurEMcfv9tQrcB37d3",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Formula 1 last raced at the Sepang International Circuit on October 1, 2017. The next race at Sepang is scheduled for October 2–4, 2026. Therefore, it had been 9 years since the championship last raced there.\n\nFINAL: 9 years",
+ "correct": false,
+ "cost": 0.0004591500000000054,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "When Formula 1 returned to Sepang in 2026, how long had it been since the championship last raced there?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_UK8Buz1CGHwf3THWAdIxGGUV",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Formula 1 Sepang circuit last raced date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_UK8Buz1CGHwf3THWAdIxGGUV",
+   "content": "1. 2017 Malaysian Grand Prix - Wikipedia\nURL: https://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix\nThe 2017 Malaysian Grand Prix (formally known as the 2017 Formula 1 Petronas Malaysia Grand Prix) [4] was a Formula One motor race that was held on 1 October 2017 at the Sepang International Circuit in Selangor, Malaysia.\n\n2. Sepang International Circuit - Wikipedia\nURL: https://en.wikipedia.org/wiki/Sepang_International_Circuit\nIn July 2026, Prime Minister Anwar Ibrahim announced that SIC would host the 2026 Bahrain Grand Prix, officially titled the \"Formula 1 Gulf Air Bahrain Grand Prix in Malaysia\", from 2 to 4 October. Reports indicated that Bahrain would cover most of the rescheduling costs.\n\n3. F1 last raced at Sepang in 2017: what changes for its 2026 ...\nURL: https://grandepremio.com/en/f1/f1-last-raced-at-sepang-in-2017-what-changes-for-its-2026-return/\nSep 30, 2026 · When Formula 1 last raced at Sepang, Max Verstappen drove a Red Bull to victory ahead of Lewis Hamilton and Daniel Ricciardo. The date was 1 October 2017. Nine years later, the circuit returns to the calendar on 2–4 October 2026 as the venue for the Bahrain Grand Prix in Malaysia. The name of the ..."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_rQqmu8zJMvkflVVBYednlxBP",
+     "function": {
+      "name": "read_page",
+      "arguments": "{\"url\":\"https://grandepremio.com/en/f1/f1-last-raced-at-sepang-in-2017-what-changes-for-its-2026-return/\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_rQqmu8zJMvkflVVBYednlxBP",
+   "content": "Summary\n- Verstappen won the last F1 race at Sepang, on 1 October 2017.\n- The 2026 cars use active aerodynamics and place much greater demands on electrical energy management.\n- Teams must learn how this generation of cars and tyres behaves at Sepang during Friday practice.\nWhen Formula 1 last raced at Sepang, Max Verstappen drove a Red Bull to victory ahead of Lewis Hamilton and Daniel Ricciardo. The date was 1 October 2017. Nine years later, the circuit returns to the calendar on 2–4 October 2026 as the venue for the Bahrain Grand Prix in Malaysia.\nThe name of the event is unusual, but the larger sporting question is what teams can learn from a circuit they have not visited with any of their current cars. Sepang still asks drivers to negotiate long straights, heavy braking, fast changes of direction, heat and humidity. The machinery responding to those demands has changed substantially.\nA lap time or strategy sheet from 2017 offers historical context. It cannot tell a team how much electrical energy its 2026 car will have available at the end of a straight, how its active aerodynamics will affect the next braking zone or how the current tyres will perform over a race stint.\nWhat is different from F1’s last visit to Malaysia?\n| Area | Sepang in 2017 | Sepang in 2026 | \n|---|---|---|\n| Race | Malaysian Grand Prix | Bahrain Grand Prix in Malaysia | \n| Last winner / current reference | Verstappen won for Red Bull | The 2026 competitive order will be established in practice | \n| Cars | Built to the 2017 aerodynamic rules | Shorter, narrower 2026 cars with active aerodynamics | \n| Power units | Earlier generation of turbo hybrids | Greater electrical contribution and a different energy-management challenge | \n| Wheels | 13-inch specification | 18-inch specification with narrower 2026 tyres | \n| Teams | Ten teams | Eleven teams, following Cadillac’s arrival | \n| Race distance | 56 laps | 56 laps | \nThe 2026 power unit changes the question on Sepang’s straights\nSepang has two long straights connected by a slow final hairpin. In 2017, acceleration, aerodynamic drag and the performance of the turbo-hybrid power unit shaped a car’s speed through that section. Those factors still matter, but the 2026 regulations give electrical deployment a much larger role.\nThe new power units are designed around a roughly equal split between combustion and electrical power. Drivers can harvest energy under braking and through other phases of a lap, then deploy it where it is most useful. At Sepang, teams must establish how much energy they can recover through the braking zones and how to spend it across the circuit’s straights without compromising another part of the lap. The FIA also introduced active aerodynamics to work with the new power-unit concept.\nThat makes Friday more than an exercise in finding a qualifying setup. Engineers need to compare the expected energy profile from simulations with what happens on track, particularly as tyre wear, traffic and changing conditions alter the way a driver completes the lap. GRANDE PRÊMIO has examined why Sepang poses a different test from Baku for the 2026 cars; the first practice sessions will provide the evidence that simulations cannot.\nTyres offer another break with 2017\nThe cars that raced at Sepang in 2017 used 13-inch wheels. Formula 1 moved to 18-inch wheels in 2022, and the 2026 tyres are narrower than those used immediately before the latest regulation change. It is therefore unsafe to carry a 2017 tyre-life estimate straight into this weekend’s strategy.\nPirelli has selected C2, C3 and C4 for Sepang: hard, medium and soft respectively. That is a different selection from the softer C3–C5 range chosen for Baku and Singapore. Long runs in practice should help establish how the three compounds respond to the Malaysian circuit and whether the conditions support more than one competitive race strategy.\nWeather can change that work quickly. A dry practice session provides useful information about degradation and cooling; rain would instead bring a different set of decisions about tyres, visibility and track conditions. Neither outcome should be assumed before the cars run.\nSome drivers know Sepang. The 2026 field does not know it together\nVerstappen has a winning memory of Sepang. Hamilton finished second to him in 2017, while Fernando Alonso, Carlos Sainz, Sergio Pérez and several other current drivers also raced there during Formula 1’s previous Malaysian run. Many of their present rivals have never competed in a Formula 1 Grand Prix at the circuit.\nExperience helps a driver recognise braking points, changes in grip and the physical demands of the venue. It does not provide a direct setup for a 2026 car. Teams also have new driver pairings, different technical groups and, in Cadillac’s case, an entirely new entrant since the last Malaysian race.\nThe 2017 result is therefore a useful marker for the story of F1 at Sepang, rather than a prediction for Sunday. Friday’s sessions will"
+  },
+  {
+   "role": "assistant",
+   "content": "Formula 1 last raced at the Sepang International Circuit on October 1, 2017. The next race at Sepang is scheduled for October 2–4, 2026. Therefore, it had been 9 years since the championship last raced there.\n\nFINAL: 9 years",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

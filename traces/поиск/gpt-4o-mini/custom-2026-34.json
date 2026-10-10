@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-34",
+  "source": "fresh",
+  "question": "Who won Best New Artist at the 2026 Grammy Awards?",
+  "answer": "Olivia Dean",
+  "evidence": "Best New Artist | Olivia Dean",
+  "page": "68th Annual Grammy Awards 2026",
+  "url": "https://www.grammy.com/awards/",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Информация о победителе в категории \"Лучший новый артист\" на Грэмми 2026 года отсутствует. Возможно, событие еще не произошло или данные еще не обновлены. \n\nFINAL: Неизвестно",
+ "correct": false,
+ "cost": 9.284999999999155e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won Best New Artist at the 2026 Grammy Awards?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_RuOOL0p25FO9UMoK7nbROdGy",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"2026 Grammy Awards Best New Artist winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_RuOOL0p25FO9UMoK7nbROdGy",
+   "content": "ошибка поиска: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": "Информация о победителе в категории \"Лучший новый артист\" на Грэмми 2026 года отсутствует. Возможно, событие еще не произошло или данные еще не обновлены. \n\nFINAL: Неизвестно",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

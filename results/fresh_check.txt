@@ -1,0 +1,12 @@
+(.agent) a1111@BigMac PP % python3 verifiers/check_fresh.py data/fresh_custom_2026.jsonl         
+записей: 50, проблем: 0
+(.agent) a1111@BigMac PP % python3 verifiers/check_fresh.py data/fresh_custom_2026.jsonl --sonnet
+записей: 50, проблем: 0
+
+Sonnet без инструментов: 5 из 50 верно, 10%. Потрачено $0.074
+критерий свежести пройден
+  custom-2026-16: As of the 2026 Singapore Grand Prix weekend, how many pole positions did each of the joint -> The joint record holders at the Singapor
+  custom-2026-17: In Formula 1's 2026 retrospective, how many years had passed since the 1976 F1 season bega -> 50 years
+  custom-2026-18: At the 2026 Belgian Grand Prix, how many years had Esteban Ocon been in Formula 1 since hi -> 10 years
+  custom-2026-20: At the 2026 Barcelona-Catalunya Grand Prix, how many years after Michael Schumacher's comp -> 30 years
+  custom-2026-28: Which country won the 2026 Oscar for International Feature Film with Sentimental Value? -> Norway

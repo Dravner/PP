@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-01",
+  "source": "fresh",
+  "question": "Who won the 2026 Chinese Grand Prix?",
+  "answer": "Kimi Antonelli",
+  "evidence": "China | 15 Mar | Kimi Antonelli ANT | Mercedes | 56 | 1:33:15.607",
+  "page": "2026 Race Results",
+  "url": "https://www.formula1.com/en/results/2026/races",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Kimi Antonelli won the 2026 Chinese Grand Prix. \n\nFINAL: Kimi Antonelli",
+ "correct": true,
+ "cost": 0.0001229999999999981,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Chinese Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_zfOUIwg4jdthznW3FrbaRnvD",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"2026 Chinese Grand Prix winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_zfOUIwg4jdthznW3FrbaRnvD",
+   "content": "1. 2026 Chinese Grand Prix - Wikipedia\nURL: https://en.wikipedia.org/wiki/2026_Chinese_Grand_Prix\nThe 2026 Chinese Grand Prix (officially known as the Formula 1 Heineken Chinese Grand Prix 2026) was a Formula One motor race that was held on 15 March 2026 at the Shanghai International Circuit in Shanghai, China. It was the second round of the 2026 Formula One World Championship and the first of six Grands Prix in the season to utilise the sprint format. George Russell (Mercedes) converted ...\n\n2. 2026 Chinese Grand Prix race report and highlights: Kimi Antonelli ...\nURL: https://www.formula1.com/en/latest/article/antonelli-beats-russell-for-maiden-f1-victory-in-china-as-hamilton-takes.5aJsWCPiRhp2euZctEwEYA\nKimi Antonelli claimed his maiden Formula 1 victory in the Chinese Grand Prix, beating Mercedes team mate George Russell as Ferrari's Lewis Hamilton claimed his first Grand Prix podium for the Scuderia after a thrilling intra-team battle.\n\n3. Chinese GP 2026 Results: Full Race Classification\nURL: https://www.total-motorsport.com/chinese-gp-2026-race-results/\nThe 2026 Chinese Grand Prix results are in, with Kimi Antonelli claiming his maiden Formula 1 victory at the Shanghai International Circuit after a composed drive from pole position. The Mercedes driver took the chequered flag 5.515 seconds clear of team mate George Russell, while Lewis Hamilton ..."
+  },
+  {
+   "role": "assistant",
+   "content": "Kimi Antonelli won the 2026 Chinese Grand Prix. \n\nFINAL: Kimi Antonelli",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

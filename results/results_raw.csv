@@ -1,0 +1,251 @@
+config,model,id,source,correct,steps,tool_calls,cost,seconds,answer,gold
+без инструментов,claude-sonnet-4.6,custom-2026-00,fresh,False,1,0,0.001365,2.7,The 2026 Australian Grand Prix has not yet occurred as of my,George Russell
+без инструментов,claude-sonnet-4.6,custom-2026-01,fresh,False,1,0,0.0013499999999999996,3.1,Unknown — the 2026 Chinese Grand Prix had not yet occurred a,Kimi Antonelli
+без инструментов,claude-sonnet-4.6,custom-2026-02,fresh,False,1,0,0.001380000000000001,2.5,Unknown — the 2026 Japanese Grand Prix has not yet occurred ,Kimi Antonelli
+без инструментов,claude-sonnet-4.6,custom-2026-03,fresh,False,1,0,0.0011549999999999998,2.5,Unknown (event is beyond my knowledge cutoff),Kimi Antonelli
+без инструментов,claude-sonnet-4.6,custom-2026-04,fresh,False,1,0,0.0012899999999999995,2.4,Unknown — the 2026 Canadian Grand Prix had not yet occurred ,Kimi Antonelli
+без инструментов,claude-sonnet-4.6,custom-2026-05,fresh,False,1,0,0.0013500000000000005,2.5,Unknown — the 2026 Monaco Grand Prix has not yet occurred as,Kimi Antonelli
+без инструментов,claude-sonnet-4.6,custom-2026-06,fresh,False,1,0,0.0012960000000000003,3.0,Unknown (event is beyond my knowledge cutoff),Lewis Hamilton
+без инструментов,claude-sonnet-4.6,custom-2026-07,fresh,False,1,0,0.0011849999999999986,2.3,Unknown (event had not occurred as of my knowledge cutoff),George Russell
+без инструментов,claude-sonnet-4.6,custom-2026-08,fresh,False,1,0,0.001440000000000002,2.6,Unknown — the 2026 British Grand Prix has not yet occurred a,Charles Leclerc
+без инструментов,claude-sonnet-4.6,custom-2026-09,fresh,False,1,0,0.0013199999999999983,2.4,Unknown — the 2026 Belgian Grand Prix had not yet occurred a,Kimi Antonelli
+без инструментов,claude-sonnet-4.6,custom-2026-10,fresh,False,1,0,0.0012750000000000018,2.4,The 2026 Hungarian Grand Prix had not yet occurred as of my ,Lando Norris
+без инструментов,claude-sonnet-4.6,custom-2026-11,fresh,False,1,0,0.0014069999999999985,2.8,The 2026 Australian Grand Prix had not yet occurred as of my,Max Verstappen
+без инструментов,claude-sonnet-4.6,custom-2026-12,fresh,False,1,0,0.001302000000000001,2.4,Unknown — the 2026 Miami Grand Prix has not yet taken place ,Lando Norris
+без инструментов,claude-sonnet-4.6,custom-2026-13,fresh,False,1,0,0.0013019999999999976,2.2,Unknown — the 2026 Canadian Grand Prix has not yet taken pla,Kimi Antonelli
+без инструментов,claude-sonnet-4.6,custom-2026-14,fresh,False,1,0,0.0012930000000000025,3.0,I don't know — this event is beyond my knowledge cutoff.,Oscar Piastri
+без инструментов,claude-sonnet-4.6,custom-2026-15,fresh,False,1,0,0.0013679999999999977,3.2,I don't know — the 2026 British Grand Prix has not yet taken,Charles Leclerc
+без инструментов,claude-sonnet-4.6,custom-2026-16,fresh,True,1,0,0.011147999999999998,14.7,I don't have confirmed data for the 2025 and 2026 Singapore ,4
+без инструментов,claude-sonnet-4.6,custom-2026-17,fresh,False,1,0,0.001014000000000001,1.9,50,50 years
+без инструментов,claude-sonnet-4.6,custom-2026-18,fresh,False,1,0,0.0020550000000000013,3.9,10,10 years
+без инструментов,claude-sonnet-4.6,custom-2026-19,fresh,False,1,0,0.0024209999999999995,3.5,9 years,nine years
+без инструментов,claude-sonnet-4.6,custom-2026-20,fresh,False,1,0,0.0033480000000000038,4.6,30,30 years
+без инструментов,claude-sonnet-4.6,custom-2026-21,fresh,False,1,0,0.0011879999999999946,2.0,The Brutalist,One Battle after Another
+без инструментов,claude-sonnet-4.6,custom-2026-22,fresh,False,1,0,0.0012720000000000023,2.7,Unknown — this information is beyond my knowledge cutoff,Michael B. Jordan
+без инструментов,claude-sonnet-4.6,custom-2026-23,fresh,False,1,0,0.001452000000000002,3.1,Unknown — the 2026 Oscar results are beyond my knowledge cut,Sean Penn
+без инструментов,claude-sonnet-4.6,custom-2026-24,fresh,False,1,0,0.0014850000000000002,2.8,Unknown — the 2026 Oscars results are beyond my knowledge cu,Jessie Buckley
+без инструментов,claude-sonnet-4.6,custom-2026-25,fresh,False,1,0,0.0016649999999999998,3.6,I don't know — the 2026 Oscars are beyond my knowledge cutof,Amy Madigan
+без инструментов,claude-sonnet-4.6,custom-2026-26,fresh,False,1,0,0.0012869999999999965,3.3,Unknown — this event is outside my knowledge cutoff.,KPop Demon Hunters
+без инструментов,claude-sonnet-4.6,custom-2026-27,fresh,False,1,0,0.0020760000000000015,3.3,I don't have information about the 98th Academy Awards (2026,Paul Thomas Anderson
+без инструментов,claude-sonnet-4.6,custom-2026-28,fresh,True,1,0,0.0023219999999999977,3.9,Norway,Norway
+без инструментов,claude-sonnet-4.6,custom-2026-29,fresh,False,1,0,0.001926000000000004,3.7,Wicked,F1
+без инструментов,claude-sonnet-4.6,custom-2026-30,fresh,False,1,0,0.0035639999999999977,6.2,I don't have reliable information about the Visual Effects w,Avatar: Fire and Ash
+без инструментов,claude-sonnet-4.6,custom-2026-31,fresh,False,1,0,0.0015450000000000047,2.9,I don't know — the 2026 Grammy Awards are beyond my knowledg,luther
+без инструментов,claude-sonnet-4.6,custom-2026-32,fresh,False,1,0,0.0011099999999999999,2.8,I don't know,DeBÍ TiRAR MáS FOToS
+без инструментов,claude-sonnet-4.6,custom-2026-33,fresh,False,1,0,0.0011699999999999905,2.7,I don't know,WILDFLOWER
+без инструментов,claude-sonnet-4.6,custom-2026-34,fresh,False,1,0,0.001569000000000001,3.8,Unknown — the 2026 Grammy Awards had not occurred as of my k,Olivia Dean
+без инструментов,claude-sonnet-4.6,custom-2026-35,fresh,False,1,0,0.0026460000000000095,5.0,I don't have verified information about the 2026 Grammy Awar,"Cynthia Erivo, Ariana Grande"
+без инструментов,claude-sonnet-4.6,custom-2026-36,fresh,False,1,0,0.0022949999999999915,3.5,I don't have reliable information about the 2026 Grammy Awar,Tame Impala
+без инструментов,claude-sonnet-4.6,custom-2026-37,fresh,False,1,0,0.0019350000000000062,3.6,Imaginal Disk by Magdalena Bay,Songs Of A Lost World
+без инструментов,claude-sonnet-4.6,custom-2026-38,fresh,True,1,0,0.0018719999999999987,4.0,Chris Stapleton,Chris Stapleton
+без инструментов,claude-sonnet-4.6,custom-2026-39,fresh,False,1,0,0.002369999999999997,3.4,I don't have verified information about the 2026 Grammy Awar,Caetano e Bethânia Ao Vivo
+без инструментов,claude-sonnet-4.6,custom-2026-40,fresh,False,1,0,0.0039929999999999966,7.2,I don't have reliable information about this specific award ,Austin Wintory
+без инструментов,claude-sonnet-4.6,custom-2026-41,fresh,False,1,0,0.0015030000000000043,3.6,The 2026 FIFA World Cup has not occurred yet (as of my knowl,Spain
+без инструментов,claude-sonnet-4.6,custom-2026-42,fresh,False,1,0,0.0012899999999999995,2.5,"The 2026 FIFA World Cup has not yet occurred, so this cannot",Argentina
+без инструментов,claude-sonnet-4.6,custom-2026-43,fresh,False,1,0,0.0014100000000000085,2.9,The 2026 FIFA World Cup final has not yet occurred (as of my,1
+без инструментов,claude-sonnet-4.6,custom-2026-44,fresh,False,1,0,0.001466999999999996,2.8,"The 2026 FIFA World Cup has not yet occurred, so this inform",Bukayo Saka
+без инструментов,claude-sonnet-4.6,custom-2026-45,fresh,False,1,0,0.0011879999999999946,3.3,Unknown — Super Bowl LX had not yet occurred as of my knowle,Seattle Seahawks
+без инструментов,claude-sonnet-4.6,custom-2026-46,fresh,False,1,0,0.0013319999999999999,2.6,Unknown — Super Bowl LX had not yet been played as of my kno,29-13
+без инструментов,claude-sonnet-4.6,custom-2026-47,fresh,False,1,0,0.0016260000000000024,3.6,Super Bowl LX has not yet taken place (scheduled for Februar,125.6 million
+без инструментов,claude-sonnet-4.6,custom-2026-48,fresh,False,1,0,0.0017250000000000043,3.4,The 2026 Winter Olympics have not occurred yet (scheduled fo,Norway
+без инструментов,claude-sonnet-4.6,custom-2026-49,fresh,False,1,0,0.0015990000000000032,3.2,The 2026 Winter Olympics had not yet occurred as of my knowl,Mikhail Shaidorov
+без инструментов,gpt-4o-mini,custom-2026-00,fresh,False,1,0,3.794999999999493e-05,2.6,Event not yet occurred.,George Russell
+без инструментов,gpt-4o-mini,custom-2026-01,fresh,False,1,0,3.675000000000206e-05,1.2,Not held yet.,Kimi Antonelli
+без инструментов,gpt-4o-mini,custom-2026-02,fresh,False,1,0,3.794999999999493e-05,1.8,Race not yet held.,Kimi Antonelli
+без инструментов,gpt-4o-mini,custom-2026-03,fresh,False,1,0,3.1349999999999434e-05,1.4,The event has not happened yet.,Kimi Antonelli
+без инструментов,gpt-4o-mini,custom-2026-04,fresh,False,1,0,3.554999999999531e-05,2.1,Unknown.,Kimi Antonelli
+без инструментов,gpt-4o-mini,custom-2026-05,fresh,False,1,0,3.2550000000006185e-05,1.6,Event not yet occurred.,Kimi Antonelli
+без инструментов,gpt-4o-mini,custom-2026-06,fresh,False,1,0,3.599999999999437e-05,3.1,Not applicable yet,Lewis Hamilton
+без инструментов,gpt-4o-mini,custom-2026-07,fresh,False,1,0,3.675000000000206e-05,2.0,Event not yet occurred.,George Russell
+без инструментов,gpt-4o-mini,custom-2026-08,fresh,False,1,0,3.5550000000009185e-05,2.7,Not available.,Charles Leclerc
+без инструментов,gpt-4o-mini,custom-2026-09,fresh,False,1,0,3.734999999999156e-05,2.1,Not applicable.,Kimi Antonelli
+без инструментов,gpt-4o-mini,custom-2026-10,fresh,False,1,0,3.7350000000005434e-05,1.4,No winner yet.,Lando Norris
+без инструментов,gpt-4o-mini,custom-2026-11,fresh,False,1,0,5.415000000000281e-05,2.3,Неизвестно.,Max Verstappen
+без инструментов,gpt-4o-mini,custom-2026-12,fresh,False,1,0,4.334999999999756e-05,2.4,Информация недоступна.,Lando Norris
+без инструментов,gpt-4o-mini,custom-2026-13,fresh,False,1,0,4.695000000000393e-05,2.1,Неизвестно.,Kimi Antonelli
+без инструментов,gpt-4o-mini,custom-2026-14,fresh,False,1,0,4.604999999999193e-05,2.2,Данные недоступны.,Oscar Piastri
+без инструментов,gpt-4o-mini,custom-2026-15,fresh,False,1,0,5.204999999999793e-05,3.5,Unknown.,Charles Leclerc
+без инструментов,gpt-4o-mini,custom-2026-16,fresh,True,1,0,4.8149999999996806e-05,2.7,4 pole positions each,4
+без инструментов,gpt-4o-mini,custom-2026-17,fresh,False,1,0,5.100000000000937e-05,2.2,50,50 years
+без инструментов,gpt-4o-mini,custom-2026-18,fresh,False,1,0,4.395000000000093e-05,2.2,10,10 years
+без инструментов,gpt-4o-mini,custom-2026-19,fresh,False,1,0,6.299999999999362e-05,2.7,9,nine years
+без инструментов,gpt-4o-mini,custom-2026-20,fresh,False,1,0,5.639999999999812e-05,2.4,23,30 years
+без инструментов,gpt-4o-mini,custom-2026-21,fresh,False,1,0,4.320000000000712e-05,2.9,Unknown.,One Battle after Another
+без инструментов,gpt-4o-mini,custom-2026-22,fresh,False,1,0,3.0149999999992683e-05,1.6,Not applicable.,Michael B. Jordan
+без инструментов,gpt-4o-mini,custom-2026-23,fresh,False,1,0,3.374999999999906e-05,1.6,Not yet announced.,Sean Penn
+без инструментов,gpt-4o-mini,custom-2026-24,fresh,False,1,0,2.235000000000431e-05,1.9,Unknown (Oscar winners for 2026 are not known yet),Jessie Buckley
+без инструментов,gpt-4o-mini,custom-2026-25,fresh,False,1,0,3.195000000000281e-05,2.4,Unknown,Amy Madigan
+без инструментов,gpt-4o-mini,custom-2026-26,fresh,False,1,0,3.899999999999737e-05,2.1,Information not available.,KPop Demon Hunters
+без инструментов,gpt-4o-mini,custom-2026-27,fresh,False,1,0,5.2949999999996056e-05,1.8,Неизвестно,Paul Thomas Anderson
+без инструментов,gpt-4o-mini,custom-2026-28,fresh,False,1,0,4.020000000000412e-05,2.7,Unknown,Norway
+без инструментов,gpt-4o-mini,custom-2026-29,fresh,False,1,0,4.094999999999793e-05,1.6,Unknown.,F1
+без инструментов,gpt-4o-mini,custom-2026-30,fresh,False,1,0,4.1100000000002246e-05,2.1,Unknown.,Avatar: Fire and Ash
+без инструментов,gpt-4o-mini,custom-2026-31,fresh,False,1,0,4.350000000000187e-05,2.3,Data unavailable.,luther
+без инструментов,gpt-4o-mini,custom-2026-32,fresh,False,1,0,3.269999999999662e-05,1.7,Unknown.,DeBÍ TiRAR MáS FOToS
+без инструментов,gpt-4o-mini,custom-2026-33,fresh,False,1,0,4.1100000000002246e-05,1.7,Unknown.,WILDFLOWER
+без инструментов,gpt-4o-mini,custom-2026-34,fresh,False,1,0,3.060000000000562e-05,2.3,Unknown.,Olivia Dean
+без инструментов,gpt-4o-mini,custom-2026-35,fresh,False,1,0,4.484999999999906e-05,1.9,неизвестно.,"Cynthia Erivo, Ariana Grande"
+без инструментов,gpt-4o-mini,custom-2026-36,fresh,False,1,0,4.3649999999992306e-05,3.7,Данные отсутствуют.,Tame Impala
+без инструментов,gpt-4o-mini,custom-2026-37,fresh,False,1,0,4.2899999999998495e-05,1.5,Unknown,Songs Of A Lost World
+без инструментов,gpt-4o-mini,custom-2026-38,fresh,False,1,0,4.0350000000008435e-05,2.0,Непригодно.,Chris Stapleton
+без инструментов,gpt-4o-mini,custom-2026-39,fresh,False,1,0,3.870000000000262e-05,2.5,Information not available.,Caetano e Bethânia Ao Vivo
+без инструментов,gpt-4o-mini,custom-2026-40,fresh,False,1,0,3.299999999999137e-05,1.8,Unknown,Austin Wintory
+без инструментов,gpt-4o-mini,custom-2026-41,fresh,False,1,0,3.8099999999999246e-05,2.5,Not yet determined.,Spain
+без инструментов,gpt-4o-mini,custom-2026-42,fresh,False,1,0,3.6300000000002997e-05,1.5,Not applicable.,Argentina
+без инструментов,gpt-4o-mini,custom-2026-43,fresh,False,1,0,4.605000000000581e-05,1.5,N/A,1
+без инструментов,gpt-4o-mini,custom-2026-44,fresh,False,1,0,4.229999999999512e-05,2.4,Not applicable.,Bukayo Saka
+без инструментов,gpt-4o-mini,custom-2026-45,fresh,False,1,0,3.8099999999999246e-05,2.5,Unknown,Seattle Seahawks
+без инструментов,gpt-4o-mini,custom-2026-46,fresh,False,1,0,3.554999999999531e-05,1.6,Not applicable (event hasn't happened),29-13
+без инструментов,gpt-4o-mini,custom-2026-47,fresh,False,1,0,3.2250000000011436e-05,3.1,113 million viewers.,125.6 million
+без инструментов,gpt-4o-mini,custom-2026-48,fresh,False,1,0,4.229999999999512e-05,1.8,Not applicable.,Norway
+без инструментов,gpt-4o-mini,custom-2026-49,fresh,False,1,0,3.1799999999998496e-05,1.9,Unknown.,Mikhail Shaidorov
+поиск,gpt-4o-mini,custom-2026-00,fresh,True,2,1,0.00012779999999999736,7.2,George Russell,George Russell
+поиск,gpt-4o-mini,custom-2026-01,fresh,True,2,1,0.0001229999999999981,12.1,Kimi Antonelli,Kimi Antonelli
+поиск,gpt-4o-mini,custom-2026-02,fresh,True,2,1,0.00012014999999999942,16.3,Kimi Antonelli,Kimi Antonelli
+поиск,gpt-4o-mini,custom-2026-03,fresh,True,2,1,0.00011595000000000355,11.3,Kimi Antonelli,Kimi Antonelli
+поиск,gpt-4o-mini,custom-2026-04,fresh,True,3,3,0.00030689999999999884,21.6,Andrea Kimi Antonelli,Kimi Antonelli
+поиск,gpt-4o-mini,custom-2026-05,fresh,True,2,1,0.00010994999999999755,11.7,Andrea Kimi Antonelli,Kimi Antonelli
+поиск,gpt-4o-mini,custom-2026-06,fresh,True,2,1,0.0001237500000000058,7.4,Lewis Hamilton,Lewis Hamilton
+поиск,gpt-4o-mini,custom-2026-07,fresh,True,3,2,0.00016004999999999492,17.8,George Russell,George Russell
+поиск,gpt-4o-mini,custom-2026-08,fresh,True,2,1,0.00011700000000000599,6.2,Charles Leclerc,Charles Leclerc
+поиск,gpt-4o-mini,custom-2026-09,fresh,False,2,1,8.684999999999943e-05,13.2,Гонка еще не состоялась.,Kimi Antonelli
+поиск,gpt-4o-mini,custom-2026-10,fresh,False,2,1,8.384999999999643e-05,15.5,событие не произошло.,Lando Norris
+поиск,gpt-4o-mini,custom-2026-11,fresh,True,2,1,0.0001224000000000086,10.9,Max Verstappen,Max Verstappen
+поиск,gpt-4o-mini,custom-2026-12,fresh,True,2,1,0.00011864999999999792,8.6,Lando Norris,Lando Norris
+поиск,gpt-4o-mini,custom-2026-13,fresh,False,2,1,8.759999999999324e-05,15.2,Событие не произошло.,Kimi Antonelli
+поиск,gpt-4o-mini,custom-2026-14,fresh,True,2,1,0.00011655000000000693,10.2,Oscar Piastri,Oscar Piastri
+поиск,gpt-4o-mini,custom-2026-15,fresh,False,5,5,0.0006062999999999902,47.2,Информация недоступна.,Charles Leclerc
+поиск,gpt-4o-mini,custom-2026-16,fresh,True,0,0,0.0,0.0,"ошибка: ('Connection aborted.', ConnectionResetError(54, 'Co",4
+поиск,gpt-4o-mini,custom-2026-17,fresh,False,3,2,0.00038100000000000633,22.1,50,50 years
+поиск,gpt-4o-mini,custom-2026-18,fresh,False,2,1,0.00018674999999999942,12.4,10,10 years
+поиск,gpt-4o-mini,custom-2026-19,fresh,False,3,2,0.00019605000000000317,22.4,9 years,nine years
+поиск,gpt-4o-mini,custom-2026-20,fresh,False,2,2,0.00030555000000000165,35.3,30,30 years
+поиск,gpt-4o-mini,custom-2026-21,fresh,True,5,5,0.0005429999999999879,45.7,One Battle After Another,One Battle after Another
+поиск,gpt-4o-mini,custom-2026-22,fresh,False,3,2,0.00013920000000000599,22.9,Церемония еще не состоялась.,Michael B. Jordan
+поиск,gpt-4o-mini,custom-2026-23,fresh,True,4,3,0.0004361999999999977,26.0,Sean Penn,Sean Penn
+поиск,gpt-4o-mini,custom-2026-24,fresh,False,3,2,0.00013395000000000767,24.1,Информация недоступна.,Jessie Buckley
+поиск,gpt-4o-mini,custom-2026-25,fresh,True,2,1,0.00011114999999999042,10.3,Amy Madigan,Amy Madigan
+поиск,gpt-4o-mini,custom-2026-26,fresh,True,2,1,0.0001177499999999998,7.7,KPop Demon Hunters,KPop Demon Hunters
+поиск,gpt-4o-mini,custom-2026-27,fresh,False,2,1,0.00011175000000000768,13.5,One Battle After Another,Paul Thomas Anderson
+поиск,gpt-4o-mini,custom-2026-28,fresh,True,2,1,0.00012719999999999398,7.3,Norway,Norway
+поиск,gpt-4o-mini,custom-2026-29,fresh,False,3,3,0.0002665500000000043,34.2,Unable to find the information.,F1
+поиск,gpt-4o-mini,custom-2026-30,fresh,False,2,1,0.00011804999999999455,12.5,Информация недоступна.,Avatar: Fire and Ash
+поиск,gpt-4o-mini,custom-2026-31,fresh,True,2,1,0.00012585000000001068,14.9,"""luther"" by Kendrick Lamar featuring SZA",luther
+поиск,gpt-4o-mini,custom-2026-32,fresh,True,2,1,0.00013019999999999698,10.8,DeBÍ TiRAR MáS FOToS,DeBÍ TiRAR MáS FOToS
+поиск,gpt-4o-mini,custom-2026-33,fresh,False,7,6,0.0008479500000000001,47.9,Information not found.,WILDFLOWER
+поиск,gpt-4o-mini,custom-2026-34,fresh,False,2,1,9.284999999999155e-05,12.7,Неизвестно,Olivia Dean
+поиск,gpt-4o-mini,custom-2026-35,fresh,False,2,1,0.00010935000000000805,9.8,Ariana Grande and Cynthia Erivo,"Cynthia Erivo, Ariana Grande"
+поиск,gpt-4o-mini,custom-2026-36,fresh,False,2,1,0.00010799999999999699,12.9,Информация недоступна.,Tame Impala
+поиск,gpt-4o-mini,custom-2026-37,fresh,False,2,1,9.660000000000224e-05,11.6,The event has not occurred yet.,Songs Of A Lost World
+поиск,gpt-4o-mini,custom-2026-38,fresh,False,2,1,8.909999999999474e-05,13.4,Нет информации.,Chris Stapleton
+поиск,gpt-4o-mini,custom-2026-39,fresh,False,5,4,0.0005098500000000061,35.8,Information not found.,Caetano e Bethânia Ao Vivo
+поиск,gpt-4o-mini,custom-2026-40,fresh,False,2,1,0.0001132499999999953,11.9,Информация недоступна.,Austin Wintory
+поиск,gpt-4o-mini,custom-2026-41,fresh,False,2,1,8.415000000000505e-05,16.2,Not occurred yet.,Spain
+поиск,gpt-4o-mini,custom-2026-42,fresh,False,2,1,8.505000000000318e-05,17.5,Not applicable.,Argentina
+поиск,gpt-4o-mini,custom-2026-43,fresh,False,2,1,0.00010169999999999624,15.7,Event not yet occurred.,1
+поиск,gpt-4o-mini,custom-2026-44,fresh,True,2,1,0.00013364999999999905,9.7,Bukayo Saka,Bukayo Saka
+поиск,gpt-4o-mini,custom-2026-45,fresh,False,2,1,8.009999999999962e-05,11.7,Future event.,Seattle Seahawks
+поиск,gpt-4o-mini,custom-2026-46,fresh,False,2,1,0.00014055000000000317,6.7,"Seattle Seahawks 29, New England Patriots 13",29-13
+поиск,gpt-4o-mini,custom-2026-47,fresh,True,2,1,0.00012405000000000055,10.2,125.6 million viewers,125.6 million
+поиск,gpt-4o-mini,custom-2026-48,fresh,True,2,1,0.00011549999999999061,10.6,Norway,Norway
+поиск,gpt-4o-mini,custom-2026-49,fresh,True,5,5,0.000394950000000005,56.1,Mikhail Shaidorov,Mikhail Shaidorov
+поиск и чтение,gpt-4o-mini,custom-2026-00,fresh,True,2,1,0.00014309999999999323,8.3,George Russell,George Russell
+поиск и чтение,gpt-4o-mini,custom-2026-01,fresh,True,2,1,0.00013695000000001067,10.1,Kimi Antonelli,Kimi Antonelli
+поиск и чтение,gpt-4o-mini,custom-2026-02,fresh,True,2,1,0.00014444999999999042,7.3,Kimi Antonelli,Kimi Antonelli
+поиск и чтение,gpt-4o-mini,custom-2026-03,fresh,False,2,1,0.00011895000000000655,11.4,Информация недоступна.,Kimi Antonelli
+поиск и чтение,gpt-4o-mini,custom-2026-04,fresh,False,5,6,0.0005474999999999924,41.4,Информация недоступна.,Kimi Antonelli
+поиск и чтение,gpt-4o-mini,custom-2026-05,fresh,True,2,1,0.00013950000000000073,8.6,Kimi Antonelli,Kimi Antonelli
+поиск и чтение,gpt-4o-mini,custom-2026-06,fresh,True,2,1,0.00015435000000001142,11.6,Lewis Hamilton,Lewis Hamilton
+поиск и чтение,gpt-4o-mini,custom-2026-07,fresh,True,2,1,0.00013364999999999905,10.2,George Russell,George Russell
+поиск и чтение,gpt-4o-mini,custom-2026-08,fresh,False,4,4,0.0007370999999999905,29.0,Неизвестно.,Charles Leclerc
+поиск и чтение,gpt-4o-mini,custom-2026-09,fresh,True,4,5,0.0004287000000000041,27.6,Kimi Antonelli,Kimi Antonelli
+поиск и чтение,gpt-4o-mini,custom-2026-10,fresh,True,3,2,0.00020580000000000598,32.5,Lando Norris,Lando Norris
+поиск и чтение,gpt-4o-mini,custom-2026-11,fresh,False,2,1,0.00015749999999999098,10.6,Макс Ферстаппен,Max Verstappen
+поиск и чтение,gpt-4o-mini,custom-2026-12,fresh,True,3,2,0.000400049999999999,11.3,Lando Norris,Lando Norris
+поиск и чтение,gpt-4o-mini,custom-2026-13,fresh,True,2,1,0.00018479999999999885,8.2,Kimi Antonelli,Kimi Antonelli
+поиск и чтение,gpt-4o-mini,custom-2026-14,fresh,True,3,2,0.00036105000000000165,9.9,Oscar Piastri,Oscar Piastri
+поиск и чтение,gpt-4o-mini,custom-2026-15,fresh,False,5,4,0.0004008000000000067,48.7,Информация недоступна.,Charles Leclerc
+поиск и чтение,gpt-4o-mini,custom-2026-16,fresh,False,6,9,0.0014854499999999993,39.3,"Sebastian Vettel: 5, Lewis Hamilton: 5, Fernando Alonso: 2",4
+поиск и чтение,gpt-4o-mini,custom-2026-17,fresh,False,2,1,0.00011205000000000243,12.6,50,50 years
+поиск и чтение,gpt-4o-mini,custom-2026-18,fresh,False,3,2,0.00029069999999999097,26.4,10,10 years
+поиск и чтение,gpt-4o-mini,custom-2026-19,fresh,False,3,2,0.0004591500000000054,12.9,9 years,nine years
+поиск и чтение,gpt-4o-mini,custom-2026-20,fresh,False,8,12,0.0028004999999999974,106.2,30,30 years
+поиск и чтение,gpt-4o-mini,custom-2026-21,fresh,False,4,3,0.0002565000000000067,74.4,Not available.,One Battle after Another
+поиск и чтение,gpt-4o-mini,custom-2026-22,fresh,False,2,1,0.00011654999999999305,25.6,Нет информации о победителе.,Michael B. Jordan
+поиск и чтение,gpt-4o-mini,custom-2026-23,fresh,False,3,1,0.00015465000000000617,30.1,информация недоступна.,Sean Penn
+поиск и чтение,gpt-4o-mini,custom-2026-24,fresh,False,2,1,0.0001213499999999923,26.2,Информация недоступна.,Jessie Buckley
+поиск и чтение,gpt-4o-mini,custom-2026-25,fresh,True,3,2,0.00021600000000000785,32.6,Amy Madigan,Amy Madigan
+поиск и чтение,gpt-4o-mini,custom-2026-26,fresh,True,3,2,0.00029295000000000015,9.3,KPop Demon Hunters,KPop Demon Hunters
+поиск и чтение,gpt-4o-mini,custom-2026-27,fresh,False,3,1,0.00016244999999999454,25.0,информация недоступна.,Paul Thomas Anderson
+поиск и чтение,gpt-4o-mini,custom-2026-28,fresh,True,2,1,0.0001482000000000011,24.5,Norway,Norway
+поиск и чтение,gpt-4o-mini,custom-2026-29,fresh,True,5,4,0.0006910499999999986,33.1,F1,F1
+поиск и чтение,gpt-4o-mini,custom-2026-30,fresh,True,8,10,0.001924200000000001,119.8,Avatar: Fire and Ash,Avatar: Fire and Ash
+поиск и чтение,gpt-4o-mini,custom-2026-31,fresh,False,3,1,0.00016649999999999998,28.8,информация недоступна.,luther
+поиск и чтение,gpt-4o-mini,custom-2026-32,fresh,False,3,1,0.0001593000000000011,29.9,Unknown,DeBÍ TiRAR MáS FOToS
+поиск и чтение,gpt-4o-mini,custom-2026-33,fresh,False,5,4,0.0008209500000000008,15.8,Unable to determine the exact winner.,WILDFLOWER
+поиск и чтение,gpt-4o-mini,custom-2026-34,fresh,False,3,1,0.00015690000000000148,29.4,неизвестно.,Olivia Dean
+поиск и чтение,gpt-4o-mini,custom-2026-35,fresh,False,2,1,0.0001546499999999923,9.0,Ariana Grande and Cynthia Erivo,"Cynthia Erivo, Ariana Grande"
+поиск и чтение,gpt-4o-mini,custom-2026-36,fresh,True,3,2,0.0003043500000000088,29.6,Tame Impala,Tame Impala
+поиск и чтение,gpt-4o-mini,custom-2026-37,fresh,True,5,4,0.0005959499999999979,32.7,The Cure - Songs of a Lost World,Songs Of A Lost World
+поиск и чтение,gpt-4o-mini,custom-2026-38,fresh,False,4,2,0.00023984999999999979,59.9,Неизвестно.,Chris Stapleton
+поиск и чтение,gpt-4o-mini,custom-2026-39,fresh,True,3,2,0.00030270000000000297,9.1,Caetano e Bethânia Ao Vivo,Caetano e Bethânia Ao Vivo
+поиск и чтение,gpt-4o-mini,custom-2026-40,fresh,False,3,1,0.0001754999999999951,30.6,Информация недоступна.,Austin Wintory
+поиск и чтение,gpt-4o-mini,custom-2026-41,fresh,True,2,1,0.00018689999999998985,12.5,Spain,Spain
+поиск и чтение,gpt-4o-mini,custom-2026-42,fresh,True,2,1,0.00021090000000001385,8.9,Argentina,Argentina
+поиск и чтение,gpt-4o-mini,custom-2026-43,fresh,True,4,3,0.000863699999999995,38.1,1,1
+поиск и чтение,gpt-4o-mini,custom-2026-44,fresh,True,2,1,0.00016499999999999848,9.4,Bukayo Saka,Bukayo Saka
+поиск и чтение,gpt-4o-mini,custom-2026-45,fresh,True,2,1,0.00018585000000001517,5.5,Seattle Seahawks,Seattle Seahawks
+поиск и чтение,gpt-4o-mini,custom-2026-46,fresh,True,2,1,0.00015584999999998517,26.1,29-13,29-13
+поиск и чтение,gpt-4o-mini,custom-2026-47,fresh,True,2,1,0.00014834999999999154,23.3,125.6 million,125.6 million
+поиск и чтение,gpt-4o-mini,custom-2026-48,fresh,False,0,0,0.0,0.0,"ошибка: ('Connection aborted.', ConnectionResetError(54, 'Co",Norway
+поиск и чтение,gpt-4o-mini,custom-2026-49,fresh,True,2,1,0.0001531499999999908,25.1,Mikhail Shaidorov,Mikhail Shaidorov
+поиск и чтение,claude-haiku-4.5,custom-2026-00,fresh,False,2,1,0.0043300000000000005,27.7,I'm unable to provide the answer because the 2026 Australian,George Russell
+поиск и чтение,claude-haiku-4.5,custom-2026-01,fresh,True,2,1,0.004641000000000006,26.4,Andrea Kimi Antonelli,Kimi Antonelli
+поиск и чтение,claude-haiku-4.5,custom-2026-02,fresh,True,5,4,0.014777999999999986,59.2,Kimi Antonelli,Kimi Antonelli
+поиск и чтение,claude-haiku-4.5,custom-2026-03,fresh,True,2,1,0.004524,8.5,Kimi Antonelli,Kimi Antonelli
+поиск и чтение,claude-haiku-4.5,custom-2026-04,fresh,False,3,2,0.0065890000000000115,56.5,"The 2026 Canadian Grand Prix has not yet taken place, so the",Kimi Antonelli
+поиск и чтение,claude-haiku-4.5,custom-2026-05,fresh,False,2,1,0.004379999999999995,27.2,"The 2026 Monaco Grand Prix has not yet occurred, so there is",Kimi Antonelli
+поиск и чтение,claude-haiku-4.5,custom-2026-06,fresh,True,2,1,0.004307000000000005,8.5,"Lewis Hamilton won the 2026 Barcelona-Catalunya Grand Prix, ",Lewis Hamilton
+поиск и чтение,claude-haiku-4.5,custom-2026-07,fresh,True,2,1,0.004483999999999988,9.9,George Russell,George Russell
+поиск и чтение,claude-haiku-4.5,custom-2026-08,fresh,True,2,1,0.004267000000000021,23.2,Charles Leclerc won the 2026 British Grand Prix,Charles Leclerc
+поиск и чтение,claude-haiku-4.5,custom-2026-09,fresh,True,4,3,0.01330199999999998,38.1,Kimi Antonelli won the 2026 Belgian Grand Prix driving for M,Kimi Antonelli
+поиск и чтение,claude-haiku-4.5,custom-2026-10,fresh,False,2,1,0.004489999999999994,28.2,"I apologize, but I'm unable to provide information about the",Lando Norris
+поиск и чтение,claude-haiku-4.5,custom-2026-11,fresh,False,4,3,0.009566000000000019,39.6,Franco Colapinto set the fastest lap at the 2026 Australian ,Max Verstappen
+поиск и чтение,claude-haiku-4.5,custom-2026-12,fresh,True,2,1,0.004390000000000005,6.5,Lando Norris,Lando Norris
+поиск и чтение,claude-haiku-4.5,custom-2026-13,fresh,True,7,6,0.027551999999999993,99.5,Kimi Antonelli,Kimi Antonelli
+поиск и чтение,claude-haiku-4.5,custom-2026-14,fresh,False,3,2,0.0067819999999999825,55.3,"I apologize, but I'm unable to retrieve information about th",Oscar Piastri
+поиск и чтение,claude-haiku-4.5,custom-2026-15,fresh,False,6,5,0.020600000000000035,70.5,I cannot determine who won the Driver of the Day award at th,Charles Leclerc
+поиск и чтение,claude-haiku-4.5,custom-2026-16,fresh,True,7,7,0.02724399999999999,136.8,Lewis Hamilton and Sebastian Vettel each have 4 pole positio,4
+поиск и чтение,claude-haiku-4.5,custom-2026-17,fresh,False,2,2,0.005016999999999994,51.7,50,50 years
+поиск и чтение,claude-haiku-4.5,custom-2026-18,fresh,False,5,5,0.01822499999999999,98.2,10,10 years
+поиск и чтение,claude-haiku-4.5,custom-2026-19,fresh,False,2,2,0.005085999999999979,32.2,9 years,nine years
+поиск и чтение,claude-haiku-4.5,custom-2026-20,fresh,False,4,5,0.014604000000000006,110.0,30,30 years
+поиск и чтение,claude-haiku-4.5,custom-2026-21,fresh,False,3,2,0.006900000000000017,60.5,"The 98th Academy Awards (2026) have not yet occurred, so the",One Battle after Another
+поиск и чтение,claude-haiku-4.5,custom-2026-22,fresh,True,6,6,0.022928999999999977,100.7,Michael B. Jordan won the 2026 Oscar for Actor in a Leading ,Michael B. Jordan
+поиск и чтение,claude-haiku-4.5,custom-2026-23,fresh,True,2,1,0.004635,32.1,Sean Penn won the 2026 Oscar for Actor in a Supporting Role ,Sean Penn
+поиск и чтение,claude-haiku-4.5,custom-2026-24,fresh,False,1,0,0.0021120000000000028,2.1,I can't answer this question because the 2026 Oscars haven't,Jessie Buckley
+поиск и чтение,claude-haiku-4.5,custom-2026-25,fresh,True,2,1,0.0045980000000000465,17.0,Amy Madigan won the 2026 Oscar for Best Supporting Actress f,Amy Madigan
+поиск и чтение,claude-haiku-4.5,custom-2026-26,fresh,True,8,7,0.033047999999999966,83.5,KPop Demon Hunters,KPop Demon Hunters
+поиск и чтение,claude-haiku-4.5,custom-2026-27,fresh,True,4,3,0.012649000000000021,25.1,Paul Thomas Anderson won the Directing Oscar at the 98th Aca,Paul Thomas Anderson
+поиск и чтение,claude-haiku-4.5,custom-2026-28,fresh,True,3,2,0.006776000000000004,57.8,Norway,Norway
+поиск и чтение,claude-haiku-4.5,custom-2026-29,fresh,True,3,3,0.008828000000000003,35.3,F1,F1
+поиск и чтение,claude-haiku-4.5,custom-2026-30,fresh,True,6,6,0.026034999999999975,77.3,Avatar: Fire and Ash,Avatar: Fire and Ash
+поиск и чтение,claude-haiku-4.5,custom-2026-31,fresh,True,2,1,0.004591000000000012,22.5,"""luther"" by Kendrick Lamar featuring SZA",luther
+поиск и чтение,claude-haiku-4.5,custom-2026-32,fresh,True,2,1,0.0047479999999999745,10.6,"Bad Bunny's ""DeBÍ TiRAR MáS FOToS""",DeBÍ TiRAR MáS FOToS
+поиск и чтение,claude-haiku-4.5,custom-2026-33,fresh,False,9,7,0.04635700000000004,61.5,I cannot determine the winner - the retrieved pages did not ,WILDFLOWER
+поиск и чтение,claude-haiku-4.5,custom-2026-34,fresh,True,4,3,0.010827999999999949,60.9,Olivia Dean,Olivia Dean
+поиск и чтение,claude-haiku-4.5,custom-2026-35,fresh,False,3,2,0.0068510000000000515,41.6,Ariana Grande and Cynthia Erivo won Best Pop Duo/Group Perfo,"Cynthia Erivo, Ariana Grande"
+поиск и чтение,claude-haiku-4.5,custom-2026-36,fresh,True,3,3,0.008433000000000024,30.3,Tame Impala won Best Dance/Electronic Recording at the 2026 ,Tame Impala
+поиск и чтение,claude-haiku-4.5,custom-2026-37,fresh,False,3,2,0.006816999999999962,107.3,"I apologize, but I'm currently unable to access search resul",Songs Of A Lost World
+поиск и чтение,claude-haiku-4.5,custom-2026-38,fresh,True,3,2,0.007591000000000014,21.1,Chris Stapleton won Best Country Solo Performance at the 202,Chris Stapleton
+поиск и чтение,claude-haiku-4.5,custom-2026-39,fresh,True,3,2,0.007326999999999972,11.1,"""Caetano e Bethânia Ao Vivo"" by Caetano Veloso and Maria Bet",Caetano e Bethânia Ao Vivo
+поиск и чтение,claude-haiku-4.5,custom-2026-40,fresh,True,3,2,0.008063000000000042,16.5,Austin Wintory won Best Score Soundtrack for Video Games and,Austin Wintory
+поиск и чтение,claude-haiku-4.5,custom-2026-41,fresh,True,2,1,0.004854999999999943,30.6,Spain,Spain
+поиск и чтение,claude-haiku-4.5,custom-2026-42,fresh,False,1,0,0.0022720000000000518,3.5,I don't have information about the 2026 FIFA World Cup final,Argentina
+поиск и чтение,claude-haiku-4.5,custom-2026-43,fresh,True,2,1,0.004778999999999978,7.6,1,1
+поиск и чтение,claude-haiku-4.5,custom-2026-44,fresh,True,4,3,0.010691000000000006,64.2,Bukayo Saka scored a hat-trick for England in the 2026 FIFA ,Bukayo Saka
+поиск и чтение,claude-haiku-4.5,custom-2026-45,fresh,True,3,2,0.007435999999999998,31.3,Seattle Seahawks,Seattle Seahawks
+поиск и чтение,claude-haiku-4.5,custom-2026-46,fresh,False,2,1,0.0045279999999999765,23.6,"Seattle Seahawks 29, New England Patriots 13",29-13
+поиск и чтение,claude-haiku-4.5,custom-2026-47,fresh,True,4,3,0.009817999999999993,46.4,125.6 million viewers,125.6 million
+поиск и чтение,claude-haiku-4.5,custom-2026-48,fresh,True,3,3,0.008867999999999987,55.7,Norway,Norway
+поиск и чтение,claude-haiku-4.5,custom-2026-49,fresh,True,2,1,0.004852999999999996,13.6,Mikhail Shaidorov of Kazakhstan,Mikhail Shaidorov

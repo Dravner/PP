@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-16",
+  "source": "fresh",
+  "question": "As of the 2026 Singapore Grand Prix weekend, how many pole positions did each of the joint record holders have at Singapore?",
+  "answer": "4",
+  "evidence": "Most pole positions – Sebastian Vettel and Lewis Hamilton (4)",
+  "page": "Need to Know: 2026 Singapore Grand Prix",
+  "url": "https://www.formula1.com/en/latest/article/need-to-know-the-most-important-facts-stats-and-trivia-ahead-of-the-2026-singapore-grand-prix.2yF5JZuQTWUoUmbDH4niHv",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "As of the 2026 Singapore Grand Prix weekend, the joint record holders for the most pole positions at Singapore are Sebastian Vettel and Lewis Hamilton. Both drivers, as of that date, have achieved 4 pole positions each at this race.\n\nFINAL: 4 pole positions each",
+ "correct": true,
+ "cost": 4.8149999999996806e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "As of the 2026 Singapore Grand Prix weekend, how many pole positions did each of the joint record holders have at Singapore?"
+  },
+  {
+   "role": "assistant",
+   "content": "As of the 2026 Singapore Grand Prix weekend, the joint record holders for the most pole positions at Singapore are Sebastian Vettel and Lewis Hamilton. Both drivers, as of that date, have achieved 4 pole positions each at this race.\n\nFINAL: 4 pole positions each",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

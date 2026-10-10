@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-31",
+  "source": "fresh",
+  "question": "Which song won Record of the Year at the 2026 Grammy Awards?",
+  "answer": "luther",
+  "evidence": "Record Of The Year | Kendrick Lamar, SZA | luther",
+  "page": "68th Annual Grammy Awards 2026",
+  "url": "https://www.grammy.com/awards/68th-annual-grammy-awards-2025/",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "I do not have access to information beyond October 2023, so I cannot provide the winner of the Record of the Year at the 2026 Grammy Awards. Please check a reliable current source for the latest information. \n\nFINAL: Data unavailable.",
+ "correct": false,
+ "cost": 4.350000000000187e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which song won Record of the Year at the 2026 Grammy Awards?"
+  },
+  {
+   "role": "assistant",
+   "content": "I do not have access to information beyond October 2023, so I cannot provide the winner of the Record of the Year at the 2026 Grammy Awards. Please check a reliable current source for the latest information. \n\nFINAL: Data unavailable.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

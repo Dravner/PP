@@ -1,0 +1,17 @@
+{
+ "task": {
+  "id": "custom-2026-16",
+  "source": "fresh",
+  "question": "As of the 2026 Singapore Grand Prix weekend, how many pole positions did each of the joint record holders have at Singapore?",
+  "answer": "4",
+  "evidence": "Most pole positions – Sebastian Vettel and Lewis Hamilton (4)",
+  "page": "Need to Know: 2026 Singapore Grand Prix",
+  "url": "https://www.formula1.com/en/latest/article/need-to-know-the-most-important-facts-stats-and-trivia-ahead-of-the-2026-singapore-grand-prix.2yF5JZuQTWUoUmbDH4niHv",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "ошибка: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))",
+ "correct": true,
+ "cost": 0.0,
+ "messages": []
+}

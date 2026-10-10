@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-19",
+  "source": "fresh",
+  "question": "When Formula 1 returned to Sepang in 2026, how long had it been since the championship last raced there?",
+  "answer": "nine years",
+  "evidence": "Formula 1 returns to Sepang this week for the first time in nine years, with the Malaysian circuit hosting the Bahrain Grand Prix in Malaysia.",
+  "page": "What was happening in the world the last time F1 raced in Malaysia?",
+  "url": "https://www.formula1.com/en/latest/article/what-was-happening-in-the-world-the-last-time-f1-raced-in-malaysia.6FhCdurEMcfv9tQrcB37d3.6FhCdurEMcfv9tQrcB37d3",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "To find out how long it had been since Formula 1 last raced at Sepang before returning in 2026, we need to check the last race held there. The last Formula 1 Malaysian Grand Prix was held in 2017. \n\nSo, from 2017 to 2026, it had been:\n\n2026 - 2017 = 9 years.\n\nFINAL: 9",
+ "correct": false,
+ "cost": 6.299999999999362e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "When Formula 1 returned to Sepang in 2026, how long had it been since the championship last raced there?"
+  },
+  {
+   "role": "assistant",
+   "content": "To find out how long it had been since Formula 1 last raced at Sepang before returning in 2026, we need to check the last race held there. The last Formula 1 Malaysian Grand Prix was held in 2017. \n\nSo, from 2017 to 2026, it had been:\n\n2026 - 2017 = 9 years.\n\nFINAL: 9",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

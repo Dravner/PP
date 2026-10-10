@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-47",
+  "source": "fresh",
+  "question": "What was Nielsen's revised average U.S. viewership for Super Bowl LX?",
+  "answer": "125.6 million",
+  "evidence": "The average viewer numbers for the Super Bowl increased to 125.6 million after Nielsen released its final viewer figures on Thursday for the Feb. 8 game.",
+  "page": "Nielsen revises Super Bowl LX final rating",
+  "url": "https://www.nfl.com/news/nielsen-revises-super-bowl-final-rating-to-125-million-viewers",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "I don't have reliable data about Nielsen's revised average U.S. viewership for Super Bowl LX. As of my knowledge cutoff, Super Bowl LX (60) would be scheduled for February 2026, which hasn't occurred yet.\n\nFINAL: Super Bowl LX has not yet taken place (scheduled for February 2026), so no viewership data exists.",
+ "correct": false,
+ "cost": 0.0016260000000000024,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What was Nielsen's revised average U.S. viewership for Super Bowl LX?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have reliable data about Nielsen's revised average U.S. viewership for Super Bowl LX. As of my knowledge cutoff, Super Bowl LX (60) would be scheduled for February 2026, which hasn't occurred yet.\n\nFINAL: Super Bowl LX has not yet taken place (scheduled for February 2026), so no viewership data exists.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

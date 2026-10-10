@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-47",
+  "source": "fresh",
+  "question": "What was Nielsen's revised average U.S. viewership for Super Bowl LX?",
+  "answer": "125.6 million",
+  "evidence": "The average viewer numbers for the Super Bowl increased to 125.6 million after Nielsen released its final viewer figures on Thursday for the Feb. 8 game.",
+  "page": "Nielsen revises Super Bowl LX final rating",
+  "url": "https://www.nfl.com/news/nielsen-revises-super-bowl-final-rating-to-125-million-viewers",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Nielsen's revised average U.S. viewership for Super Bowl LX was 125.6 million viewers. \n\nFINAL: 125.6 million",
+ "correct": true,
+ "cost": 0.00014834999999999154,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What was Nielsen's revised average U.S. viewership for Super Bowl LX?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_KLSuCHgsGcDsX0rG4HTyW97J",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Nielsen revised average U.S. viewership Super Bowl LX\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_KLSuCHgsGcDsX0rG4HTyW97J",
+   "content": "1. Nielsen: Super Bowl LX Final Viewership Rises to 125.6 ...\nURL: https://www.nielsen.com/news-center/2026/nielsen-super-bowl-lx-final-viewership-rises-to-125-6-million-viewers-with-verified-big-data/\nFeb 19, 2026 · An estimated 125.6 million viewers watched Super Bowl LX on Sunday, February 8, according to Nielsen’s Big Data + Panel measurement.\n\n2. Nielsen revises Super Bowl LX final rating to 125.6 million ...\nURL: https://www.nfl.com/news/nielsen-revises-super-bowl-final-rating-to-125-million-viewers\nFeb 20, 2026 · The average viewer numbers for the Super Bowl increased to 125.6 million after Nielsen released its final viewer figures on Thursday for the Feb. 8 game.\n\n3. Super Bowl LX Delivers 125.6 Million Viewers - Nielsen\nURL: https://www.nielsen.com/news-center/2026/super-bowl-lx-2026/\nFeb 11, 2026 · An estimated 125.6 million viewers watched Super Bowl LX on Sunday, February 8, according to Nielsen’s Big Data + Panel measurement."
+  },
+  {
+   "role": "assistant",
+   "content": "Nielsen's revised average U.S. viewership for Super Bowl LX was 125.6 million viewers. \n\nFINAL: 125.6 million",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

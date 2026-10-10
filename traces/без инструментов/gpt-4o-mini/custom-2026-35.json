@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-35",
+  "source": "fresh",
+  "question": "Who won Best Pop Duo/Group Performance at the 2026 Grammy Awards?",
+  "answer": "Cynthia Erivo, Ariana Grande",
+  "evidence": "Best Pop Duo/Group Performance | Cynthia Erivo, Ariana Grande | Defying Gravity",
+  "page": "68th Annual Grammy Awards 2026",
+  "url": "https://www.grammy.com/awards/68th-annual-grammy-awards-2025/",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Я не обладаю данными о событиях после октября 2023 года, поэтому не могу ответить на ваш вопрос о победителе в категории Best Pop Duo/Group Performance на Грэмми 2026 года. FINAL: неизвестно.",
+ "correct": false,
+ "cost": 4.484999999999906e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won Best Pop Duo/Group Performance at the 2026 Grammy Awards?"
+  },
+  {
+   "role": "assistant",
+   "content": "Я не обладаю данными о событиях после октября 2023 года, поэтому не могу ответить на ваш вопрос о победителе в категории Best Pop Duo/Group Performance на Грэмми 2026 года. FINAL: неизвестно.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-42",
+  "source": "fresh",
+  "question": "Which country did Spain defeat in the 2026 FIFA World Cup final?",
+  "answer": "Argentina",
+  "evidence": "Spain have been crowned FIFA World Cup 2026™ winners following their 1-0 victory over Argentina after extra-time in the final at New York New Jersey Stadium.",
+  "page": "World Cup 2026: Final tournament standings",
+  "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/final-tournament-standings",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Spain defeated Argentina in the 2026 FIFA World Cup final. \n\nFINAL: Argentina",
+ "correct": true,
+ "cost": 0.00021090000000001385,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which country did Spain defeat in the 2026 FIFA World Cup final?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_VLeVzk5s9AmeLeX4xGOJaSnL",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"2026 FIFA World Cup final Spain opponent\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_VLeVzk5s9AmeLeX4xGOJaSnL",
+   "content": "1. 2026 FIFA World Cup final - WikipediaSpain vs Argentina – 2026 FIFA World Cup FinalSpain’s Route to the 2026 World Cup FinalFIFA World Cup 2026™ Final2026 FIFA World Cup Final Result: Spain 1-0 Argentina (AET)Spain's Next Opponent in World Cup Final: England or ...2026 World Cup Final Result: Spain 1-0 Argentina – Printable ...\nURL: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_final\nThe final took place in front of 80,663 spectators, and was refereed by Slavko Vinčić of Slovenia. Spain dominated possession and created numerous goal-scoring opportunities throughout the match, with Argentina goalkeeper Emiliano Martínez repeatedly denying its offensive efforts. Jul 17, 2026 · Spain vs Argentina 2026 FIFA World Cup Final on July 19, 2026, in MetLife. Full preview with team news, lineups, head-to-head, prediction, and where to watch. Jul 16, 2026 · Win it and Spain reach the last 16 of the 2026 World Cup. What is Spain’s Round of 16 path? A Round-of-16 place would pit Spain against Portugal, played Mon, 6 July 2026, 3:00 PM ET at AT&T Stadium, Dallas (Match 93). Likely contenders from that side include Portugal, Colombia, England or Croatia. Find everything you need to know about the FIFA World Cup 2026 Final in our comprehensive guide! From how to attend or watch to the halftime show and more. Spain won the 2026 FIFA World Cup Final, beating Argentina 1-0 after extra time at New York New Jersey Stadium in East Rutherford, New Jersey on Sunday, July 19, 2026. Substitute Ferran Torres scored the winning goal in the 106th minute, a left footed strike buried just under the crossbar, to give Spain a second world title after 2010. Jul 14, 2026 · Who Will Spain Face Next in the Final? Spain will face either England or Argentina in the 2026 FIFA World Cup final. The second semifinal will determine Spain's opponent, with... Jul 19, 2026 · Argentina arrives as the defending champion, chasing back-to-back titles behind Lionel Messi in what is widely expected to be his final World Cup match. Spain counters with the next generation led by teenage star Lamine Yamal, looking to add a second world title to its 2010 triumph.\n\n2. Spain vs Argentina – 2026 FIFA World Cup Final\nURL: https://www.fifaworldcupnews.com/spain-vs-argentina-2026-world-cup-final/\nJul 17, 2026 · Spain vs Argentina 2026 FIFA World Cup Final on July 19, 2026, in MetLife. Full preview with team news, lineups, head-to-head, prediction, and where to watch.\n\n3. Spain’s Route to the 2026 World Cup Final\nURL: https://www.worldcupknockout.football/guides/spain-world-cup-2026-route\nJul 16, 2026 · Win it and Spain reach the last 16 of the 2026 World Cup. What is Spain’s Round of 16 path? A Round-of-16 place would pit Spain against Portugal, played Mon, 6 July 2026, 3:00 PM ET at AT&T Stadium, Dallas (Match 93). Likely contenders from that side include Portugal, Colombia, England or Croatia."
+  },
+  {
+   "role": "assistant",
+   "content": "Spain defeated Argentina in the 2026 FIFA World Cup final. \n\nFINAL: Argentina",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

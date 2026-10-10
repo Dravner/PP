@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-08",
+  "source": "fresh",
+  "question": "Who won the 2026 British Grand Prix?",
+  "answer": "Charles Leclerc",
+  "evidence": "Great Britain | 05 Jul | Charles Leclerc LEC | Ferrari | 52 | 1:27:11.335",
+  "page": "2026 Race Results",
+  "url": "https://www.formula1.com/en/results/2026/races",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "The 2026 British Grand Prix has not yet taken place as of my last knowledge update in October 2023. Therefore, I cannot provide the winner. \n\nFINAL: Not available.",
+ "correct": false,
+ "cost": 3.5550000000009185e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 British Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 British Grand Prix has not yet taken place as of my last knowledge update in October 2023. Therefore, I cannot provide the winner. \n\nFINAL: Not available.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

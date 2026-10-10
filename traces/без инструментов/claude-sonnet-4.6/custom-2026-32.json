@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-32",
+  "source": "fresh",
+  "question": "Which album won Album of the Year at the 2026 Grammy Awards?",
+  "answer": "DeBÍ TiRAR MáS FOToS",
+  "evidence": "Album Of The Year | Bad Bunny | DeBÍ TiRAR MáS FOToS",
+  "page": "68th Annual Grammy Awards 2026",
+  "url": "https://www.grammy.com/awards/68th-annual-grammy-awards-2025/",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "I don't have information about the 2026 Grammy Awards, as my knowledge cutoff is July 2025 and that event would have taken place in February 2026.\n\nFINAL: I don't know",
+ "correct": false,
+ "cost": 0.0011099999999999999,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which album won Album of the Year at the 2026 Grammy Awards?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have information about the 2026 Grammy Awards, as my knowledge cutoff is July 2025 and that event would have taken place in February 2026.\n\nFINAL: I don't know",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

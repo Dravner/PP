@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-46",
+  "source": "fresh",
+  "question": "What was the final score of Super Bowl LX in 2026?",
+  "answer": "29-13",
+  "evidence": "The Seattle Seahawks' 29-13 victory over the New England Patriots averaged 124.9 million viewers on NBC, Peacock, Telemundo, NBC Sports Digital and NFL+.",
+  "page": "Super Bowl LX second most-watched all time",
+  "url": "https://www.nfl.com/news/super-bowl-lx-second-most-watched-all-time-with-nearly-125m-viewers",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "The final score of Super Bowl LX in 2026 was Seattle Seahawks 29, New England Patriots 13.\n\nFINAL: 29-13",
+ "correct": true,
+ "cost": 0.00015584999999998517,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What was the final score of Super Bowl LX in 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_5kX6RWyUnndvflFasv5ycXxT",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Super Bowl LX 2026 final score\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_5kX6RWyUnndvflFasv5ycXxT",
+   "content": "1. Super Bowl LX - Wikipedia\nURL: https://en.wikipedia.org/wiki/Super_Bowl_LX\nSuper Bowl LX was an American football game played to determine the champion of the National Football League (NFL) for the 2025 season. The National Football Conference (NFC) champion Seattle Seahawks defeated the American Football Conference (AFC) champion New England Patriots 29–13.\n\n2. Super Bowl 2026 highlights: Seahawks capture second Lombardi ...\nURL: https://www.espn.com/nfl/story/_/id/47822193/2026-super-bowl-lx-patriots-seahawks-live-highlights-results\nFeb 9, 2026 · SANTA CLARA -- For the second time in franchise history, the Seattle Seahawks are Super Bowl champions. Led by their defense and Super Bowl MVP running back Kenneth Walker III, the Seahawks stymied...\n\n3. Super Bowl LX 2026 Results: Seahawks vs Patriots Final Score ...\nURL: https://sportsbrackets.net/2026/02/08/super-bowl-lx-2026-results-seahawks-vs-patriots-final-score-key-plays-mvp-props-hits-misses-printable-recap-sheet/\nFeb 8, 2026 · Here’s the Super Bowl LX 2026 results for you. The Seattle Seahawks are Super Bowl champions once again. In a dominant defensive showcase at Levi's Stadium in Santa Clara, California, on February 8, 2026, the Seahawks defeated the New England Patriots 29-13 to claim their second Lombardi Trophy in franchise history. This marked Seattle's first"
+  },
+  {
+   "role": "assistant",
+   "content": "The final score of Super Bowl LX in 2026 was Seattle Seahawks 29, New England Patriots 13.\n\nFINAL: 29-13",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

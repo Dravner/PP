@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-01",
+  "source": "fresh",
+  "question": "Who won the 2026 Chinese Grand Prix?",
+  "answer": "Kimi Antonelli",
+  "evidence": "China | 15 Mar | Kimi Antonelli ANT | Mercedes | 56 | 1:33:15.607",
+  "page": "2026 Race Results",
+  "url": "https://www.formula1.com/en/results/2026/races",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Based on the search results, **Andrea Kimi Antonelli** won the 2026 Chinese Grand Prix. It was his maiden Grand Prix victory, driving for Mercedes AMG Petronas F1 Team. George Russell finished second. This was also the first win for an Italian driver in Formula One since Giancarlo Fisichella in 2006.\n\nFINAL: Andrea Kimi Antonelli",
+ "correct": true,
+ "cost": 0.004641000000000006,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Chinese Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the 2026 Chinese Grand Prix.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01HkDvm8tYAbhLveFmgsj7Dm",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"2026 Chinese Grand Prix winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01HkDvm8tYAbhLveFmgsj7Dm",
+   "content": "1. 2026 Chinese Grand Prix - Wikipedia\nURL: https://en.wikipedia.org/wiki/2026_Chinese_Grand_Prix\nStarting from pole position, Antonelli took his maiden Grand Prix win, Championship leader George Russell finished second. It was the first win for an Italian driver in Formula One since Giancarlo Fisichella at the 2006 Malaysian Grand Prix.\n\n2. FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2026 - RACE RESULT\nURL: https://www.formula1.com/en/results/2026/races/1280/china/race-result\nMar 15, 2026 · Enter the world of Formula 1. Your go-to source for the latest F1 news, video highlights, GP results, live timing, in-depth analysis and expert commentary.\n\n3. 2026 Chinese Grand Prix race report and highlights: Kimi ...\nURL: https://www.formula1.com/en/latest/article/antonelli-beats-russell-for-maiden-f1-victory-in-china-as-hamilton-takes.5aJsWCPiRhp2euZctEwEYA\nMar 15, 2026 · SHANGHAI, CHINA - MARCH 15: Race winner Andrea Kimi Antonelli of Italy and Mercedes AMG Petronas F1 Team celebrates on arrival in parc ferme during the F1 Grand Prix of China at Shanghai International Circuit on March 15, 2026 in Shanghai, China."
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, **Andrea Kimi Antonelli** won the 2026 Chinese Grand Prix. It was his maiden Grand Prix victory, driving for Mercedes AMG Petronas F1 Team. George Russell finished second. This was also the first win for an Italian driver in Formula One since Giancarlo Fisichella in 2006.\n\nFINAL: Andrea Kimi Antonelli",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

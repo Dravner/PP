@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-26",
+  "source": "fresh",
+  "question": "Which film won the 2026 Oscar for Animated Feature Film?",
+  "answer": "KPop Demon Hunters",
+  "evidence": "Animated Feature Film\nWinner\nKPop Demon Hunters",
+  "page": "The 98th Academy Awards | 2026",
+  "url": "https://www.oscars.org/oscars/ceremonies/2026",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "I don't have information about the 2026 Oscar ceremony (98th Academy Awards), as my knowledge cutoff is July 2025 and that event would have taken place in early 2026.\n\nFINAL: Unknown — this event is outside my knowledge cutoff.",
+ "correct": false,
+ "cost": 0.0012869999999999965,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which film won the 2026 Oscar for Animated Feature Film?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have information about the 2026 Oscar ceremony (98th Academy Awards), as my knowledge cutoff is July 2025 and that event would have taken place in early 2026.\n\nFINAL: Unknown — this event is outside my knowledge cutoff.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

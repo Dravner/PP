@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-33",
+  "source": "fresh",
+  "question": "Which song won Song of the Year at the 2026 Grammy Awards?",
+  "answer": "WILDFLOWER",
+  "evidence": "Song Of The Year | Billie Eilish, Finneas O'Connell | WILDFLOWER",
+  "page": "68th Annual Grammy Awards 2026",
+  "url": "https://www.grammy.com/awards/68th-annual-grammy-awards-2025/",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "I don't have information about the 2026 Grammy Awards, as my knowledge cutoff is July 2025 and I may not have details about events that occurred close to or after that date.\n\nFINAL: I don't know",
+ "correct": false,
+ "cost": 0.0011699999999999905,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which song won Song of the Year at the 2026 Grammy Awards?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have information about the 2026 Grammy Awards, as my knowledge cutoff is July 2025 and I may not have details about events that occurred close to or after that date.\n\nFINAL: I don't know",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

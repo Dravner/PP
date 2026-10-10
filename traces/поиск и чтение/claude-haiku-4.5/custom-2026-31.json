@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-31",
+  "source": "fresh",
+  "question": "Which song won Record of the Year at the 2026 Grammy Awards?",
+  "answer": "luther",
+  "evidence": "Record Of The Year | Kendrick Lamar, SZA | luther",
+  "page": "68th Annual Grammy Awards 2026",
+  "url": "https://www.grammy.com/awards/68th-annual-grammy-awards-2025/",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Based on the search results, **\"luther\" by Kendrick Lamar featuring SZA** won Record of the Year at the 2026 Grammy Awards. Kendrick Lamar was the top winner at the 2026 Grammys, taking home five awards total.\n\nFINAL: \"luther\" by Kendrick Lamar featuring SZA",
+ "correct": true,
+ "cost": 0.004591000000000012,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which song won Record of the Year at the 2026 Grammy Awards?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the 2026 Grammy Awards Record of the Year winner.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01TSSch1euxGnc7YtW2beF4w",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"2026 Grammy Awards Record of the Year winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01TSSch1euxGnc7YtW2beF4w",
+   "content": "1. Record Of The Year 2026 Winners & Nominees - GRAMMY.com\nURL: https://www.grammy.com/awards/categories/record-of-the-year/2026/\nThe Grammy Award for Record Of The Year recognizes the artist, producer, recording engineer, mixer, and mastering engineer for best overall achievement on a single or track.\n\n2. 2026 Grammys: See The Full Winners & Nominees List | Grammy\nURL: https://www.grammy.com/news/2026-grammys-nominations-full-winners-nominees-list/\nFeb 1, 2026 · This thorough process underscores the integrity of the 2026 Grammys as music's only industry-recognized, peer-voted honor. Check out the full list of winners and nominees at the 2026 Grammys below.\n\n3. 2026 Grammys Winners: Full List - Billboard\nURL: https://www.billboard.com/lists/2026-grammys-winners-list/\nFeb 1, 2026 · But Kendrick Lamar was the top winner, taking home five awards, including record of the year for “luther” with SZA and best rap album for GNX."
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, **\"luther\" by Kendrick Lamar featuring SZA** won Record of the Year at the 2026 Grammy Awards. Kendrick Lamar was the top winner at the 2026 Grammys, taking home five awards total.\n\nFINAL: \"luther\" by Kendrick Lamar featuring SZA",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

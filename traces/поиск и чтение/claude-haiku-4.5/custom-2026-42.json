@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-42",
+  "source": "fresh",
+  "question": "Which country did Spain defeat in the 2026 FIFA World Cup final?",
+  "answer": "Argentina",
+  "evidence": "Spain have been crowned FIFA World Cup 2026™ winners following their 1-0 victory over Argentina after extra-time in the final at New York New Jersey Stadium.",
+  "page": "World Cup 2026: Final tournament standings",
+  "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/final-tournament-standings",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "I don't have information about the 2026 FIFA World Cup final yet, as that event hasn't occurred. The 2026 FIFA World Cup will take place in the future (scheduled for November-December 2026 in the United States, Canada, and Mexico), so the tournament results, including who Spain might face in the final and who wins, are not yet known.\n\nIf you're asking about a hypothetical scenario or if you'd like to know about Spain's World Cup history, I'd be happy to help with that instead!",
+ "correct": false,
+ "cost": 0.0022720000000000518,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which country did Spain defeat in the 2026 FIFA World Cup final?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have information about the 2026 FIFA World Cup final yet, as that event hasn't occurred. The 2026 FIFA World Cup will take place in the future (scheduled for November-December 2026 in the United States, Canada, and Mexico), so the tournament results, including who Spain might face in the final and who wins, are not yet known.\n\nIf you're asking about a hypothetical scenario or if you'd like to know about Spain's World Cup history, I'd be happy to help with that instead!",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

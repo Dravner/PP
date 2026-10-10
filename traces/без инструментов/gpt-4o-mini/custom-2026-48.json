@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-48",
+  "source": "fresh",
+  "question": "Which country won the most medals overall at the 2026 Winter Olympics?",
+  "answer": "Norway",
+  "evidence": "Athletes from Norway won the most medals overall, with 41, surpassing the previous record of 39 medals set by Norway at the 2018 Winter Olympics.",
+  "page": "2026 Winter Olympics medal table",
+  "url": "https://en.wikipedia.org/wiki/2026_Winter_Olympics_medal_table",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "The 2026 Winter Olympics have not yet occurred, as they are scheduled to take place in February 2026. Therefore, I cannot provide information about which country won the most medals overall at those Olympics. \n\nFINAL: Not applicable.",
+ "correct": false,
+ "cost": 4.229999999999512e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which country won the most medals overall at the 2026 Winter Olympics?"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 Winter Olympics have not yet occurred, as they are scheduled to take place in February 2026. Therefore, I cannot provide information about which country won the most medals overall at those Olympics. \n\nFINAL: Not applicable.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

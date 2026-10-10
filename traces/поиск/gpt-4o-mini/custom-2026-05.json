@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-05",
+  "source": "fresh",
+  "question": "Who won the 2026 Monaco Grand Prix?",
+  "answer": "Kimi Antonelli",
+  "evidence": "Monaco | 07 Jun | Kimi Antonelli ANT | Mercedes | 78 | 2:23:31.243",
+  "page": "2026 Race Results",
+  "url": "https://www.formula1.com/en/results/2026/races",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "The winner of the 2026 Monaco Grand Prix was Andrea Kimi Antonelli. \n\nFINAL: Andrea Kimi Antonelli",
+ "correct": true,
+ "cost": 0.00010994999999999755,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Monaco Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_eoxv9TuHm8bEVeEnIiu7uPNl",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"2026 Monaco Grand Prix winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_eoxv9TuHm8bEVeEnIiu7uPNl",
+   "content": "1. 2026 Monaco Grand Prix - Wikipedia\nURL: https://en.wikipedia.org/wiki/2026_Monaco_Grand_Prix\nThe 2026 Monaco Grand Prix (officially known as the Formula 1 Louis Vuitton Grand Prix de Monaco 2026) was a Formula One motor race. It was held on 7 June 2026, at the Circuit de Monaco in Monaco, and was the sixth round of the 2026 Formula One World Championship.\n\n2. 2026 Monaco Grand Prix — Results & Winner | F1 Archive\nURL: https://www.formula1archive.com/races/1155\n2026 Monaco Grand Prix — full race results, qualifying, grid positions, pit stops & lap times at Circuit de Monaco.Winner: Andrea Kimi Antonelli. Complete Grand Prix classification.\n\n3. Monaco GP 2026 Results: Full Race Classification\nURL: https://www.total-motorsport.com/monaco-gp-2026-race-results/\n2026 Monaco Grand Prix Race Results Here are the complete race results from Monte Carlo at the Circuit de Monaco."
+  },
+  {
+   "role": "assistant",
+   "content": "The winner of the 2026 Monaco Grand Prix was Andrea Kimi Antonelli. \n\nFINAL: Andrea Kimi Antonelli",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

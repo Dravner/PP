@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-25",
+  "source": "fresh",
+  "question": "Who won the 2026 Oscar for Actress in a Supporting Role?",
+  "answer": "Amy Madigan",
+  "evidence": "Actress in a Supporting Role\nWinner\nAmy Madigan\nWeapons",
+  "page": "The 98th Academy Awards | 2026",
+  "url": "https://www.oscars.org/oscars/ceremonies/2026",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "I cannot predict future events or awards. The 2026 Oscars will take place in the future and no winner has been announced yet. \n\nFINAL: Unknown",
+ "correct": false,
+ "cost": 3.195000000000281e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Oscar for Actress in a Supporting Role?"
+  },
+  {
+   "role": "assistant",
+   "content": "I cannot predict future events or awards. The 2026 Oscars will take place in the future and no winner has been announced yet. \n\nFINAL: Unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

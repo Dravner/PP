@@ -1,0 +1,51 @@
+config,model,id,source,correct,steps,tool_calls,cost,seconds,answer,gold
+поиск и чтение,claude-haiku-4.5,custom-2026-00,fresh,False,2,1,0.0043300000000000005,27.7,I'm unable to provide the answer because the 2026 Australian,George Russell
+поиск и чтение,claude-haiku-4.5,custom-2026-01,fresh,True,2,1,0.004641000000000006,26.4,Andrea Kimi Antonelli,Kimi Antonelli
+поиск и чтение,claude-haiku-4.5,custom-2026-02,fresh,True,5,4,0.014777999999999986,59.2,Kimi Antonelli,Kimi Antonelli
+поиск и чтение,claude-haiku-4.5,custom-2026-03,fresh,True,2,1,0.004524,8.5,Kimi Antonelli,Kimi Antonelli
+поиск и чтение,claude-haiku-4.5,custom-2026-04,fresh,False,3,2,0.0065890000000000115,56.5,"The 2026 Canadian Grand Prix has not yet taken place, so the",Kimi Antonelli
+поиск и чтение,claude-haiku-4.5,custom-2026-05,fresh,False,2,1,0.004379999999999995,27.2,"The 2026 Monaco Grand Prix has not yet occurred, so there is",Kimi Antonelli
+поиск и чтение,claude-haiku-4.5,custom-2026-06,fresh,True,2,1,0.004307000000000005,8.5,"Lewis Hamilton won the 2026 Barcelona-Catalunya Grand Prix, ",Lewis Hamilton
+поиск и чтение,claude-haiku-4.5,custom-2026-07,fresh,True,2,1,0.004483999999999988,9.9,George Russell,George Russell
+поиск и чтение,claude-haiku-4.5,custom-2026-08,fresh,True,2,1,0.004267000000000021,23.2,Charles Leclerc won the 2026 British Grand Prix,Charles Leclerc
+поиск и чтение,claude-haiku-4.5,custom-2026-09,fresh,True,4,3,0.01330199999999998,38.1,Kimi Antonelli won the 2026 Belgian Grand Prix driving for M,Kimi Antonelli
+поиск и чтение,claude-haiku-4.5,custom-2026-10,fresh,False,2,1,0.004489999999999994,28.2,"I apologize, but I'm unable to provide information about the",Lando Norris
+поиск и чтение,claude-haiku-4.5,custom-2026-11,fresh,False,4,3,0.009566000000000019,39.6,Franco Colapinto set the fastest lap at the 2026 Australian ,Max Verstappen
+поиск и чтение,claude-haiku-4.5,custom-2026-12,fresh,True,2,1,0.004390000000000005,6.5,Lando Norris,Lando Norris
+поиск и чтение,claude-haiku-4.5,custom-2026-13,fresh,True,7,6,0.027551999999999993,99.5,Kimi Antonelli,Kimi Antonelli
+поиск и чтение,claude-haiku-4.5,custom-2026-14,fresh,False,3,2,0.0067819999999999825,55.3,"I apologize, but I'm unable to retrieve information about th",Oscar Piastri
+поиск и чтение,claude-haiku-4.5,custom-2026-15,fresh,False,6,5,0.020600000000000035,70.5,I cannot determine who won the Driver of the Day award at th,Charles Leclerc
+поиск и чтение,claude-haiku-4.5,custom-2026-16,fresh,True,7,7,0.02724399999999999,136.8,Lewis Hamilton and Sebastian Vettel each have 4 pole positio,4
+поиск и чтение,claude-haiku-4.5,custom-2026-17,fresh,False,2,2,0.005016999999999994,51.7,50,50 years
+поиск и чтение,claude-haiku-4.5,custom-2026-18,fresh,False,5,5,0.01822499999999999,98.2,10,10 years
+поиск и чтение,claude-haiku-4.5,custom-2026-19,fresh,False,2,2,0.005085999999999979,32.2,9 years,nine years
+поиск и чтение,claude-haiku-4.5,custom-2026-20,fresh,False,4,5,0.014604000000000006,110.0,30,30 years
+поиск и чтение,claude-haiku-4.5,custom-2026-21,fresh,False,3,2,0.006900000000000017,60.5,"The 98th Academy Awards (2026) have not yet occurred, so the",One Battle after Another
+поиск и чтение,claude-haiku-4.5,custom-2026-22,fresh,True,6,6,0.022928999999999977,100.7,Michael B. Jordan won the 2026 Oscar for Actor in a Leading ,Michael B. Jordan
+поиск и чтение,claude-haiku-4.5,custom-2026-23,fresh,True,2,1,0.004635,32.1,Sean Penn won the 2026 Oscar for Actor in a Supporting Role ,Sean Penn
+поиск и чтение,claude-haiku-4.5,custom-2026-24,fresh,False,1,0,0.0021120000000000028,2.1,I can't answer this question because the 2026 Oscars haven't,Jessie Buckley
+поиск и чтение,claude-haiku-4.5,custom-2026-25,fresh,True,2,1,0.0045980000000000465,17.0,Amy Madigan won the 2026 Oscar for Best Supporting Actress f,Amy Madigan
+поиск и чтение,claude-haiku-4.5,custom-2026-26,fresh,True,8,7,0.033047999999999966,83.5,KPop Demon Hunters,KPop Demon Hunters
+поиск и чтение,claude-haiku-4.5,custom-2026-27,fresh,True,4,3,0.012649000000000021,25.1,Paul Thomas Anderson won the Directing Oscar at the 98th Aca,Paul Thomas Anderson
+поиск и чтение,claude-haiku-4.5,custom-2026-28,fresh,True,3,2,0.006776000000000004,57.8,Norway,Norway
+поиск и чтение,claude-haiku-4.5,custom-2026-29,fresh,True,3,3,0.008828000000000003,35.3,F1,F1
+поиск и чтение,claude-haiku-4.5,custom-2026-30,fresh,True,6,6,0.026034999999999975,77.3,Avatar: Fire and Ash,Avatar: Fire and Ash
+поиск и чтение,claude-haiku-4.5,custom-2026-31,fresh,True,2,1,0.004591000000000012,22.5,"""luther"" by Kendrick Lamar featuring SZA",luther
+поиск и чтение,claude-haiku-4.5,custom-2026-32,fresh,True,2,1,0.0047479999999999745,10.6,"Bad Bunny's ""DeBÍ TiRAR MáS FOToS""",DeBÍ TiRAR MáS FOToS
+поиск и чтение,claude-haiku-4.5,custom-2026-33,fresh,False,9,7,0.04635700000000004,61.5,I cannot determine the winner - the retrieved pages did not ,WILDFLOWER
+поиск и чтение,claude-haiku-4.5,custom-2026-34,fresh,True,4,3,0.010827999999999949,60.9,Olivia Dean,Olivia Dean
+поиск и чтение,claude-haiku-4.5,custom-2026-35,fresh,False,3,2,0.0068510000000000515,41.6,Ariana Grande and Cynthia Erivo won Best Pop Duo/Group Perfo,"Cynthia Erivo, Ariana Grande"
+поиск и чтение,claude-haiku-4.5,custom-2026-36,fresh,True,3,3,0.008433000000000024,30.3,Tame Impala won Best Dance/Electronic Recording at the 2026 ,Tame Impala
+поиск и чтение,claude-haiku-4.5,custom-2026-37,fresh,False,3,2,0.006816999999999962,107.3,"I apologize, but I'm currently unable to access search resul",Songs Of A Lost World
+поиск и чтение,claude-haiku-4.5,custom-2026-38,fresh,True,3,2,0.007591000000000014,21.1,Chris Stapleton won Best Country Solo Performance at the 202,Chris Stapleton
+поиск и чтение,claude-haiku-4.5,custom-2026-39,fresh,True,3,2,0.007326999999999972,11.1,"""Caetano e Bethânia Ao Vivo"" by Caetano Veloso and Maria Bet",Caetano e Bethânia Ao Vivo
+поиск и чтение,claude-haiku-4.5,custom-2026-40,fresh,True,3,2,0.008063000000000042,16.5,Austin Wintory won Best Score Soundtrack for Video Games and,Austin Wintory
+поиск и чтение,claude-haiku-4.5,custom-2026-41,fresh,True,2,1,0.004854999999999943,30.6,Spain,Spain
+поиск и чтение,claude-haiku-4.5,custom-2026-42,fresh,False,1,0,0.0022720000000000518,3.5,I don't have information about the 2026 FIFA World Cup final,Argentina
+поиск и чтение,claude-haiku-4.5,custom-2026-43,fresh,True,2,1,0.004778999999999978,7.6,1,1
+поиск и чтение,claude-haiku-4.5,custom-2026-44,fresh,True,4,3,0.010691000000000006,64.2,Bukayo Saka scored a hat-trick for England in the 2026 FIFA ,Bukayo Saka
+поиск и чтение,claude-haiku-4.5,custom-2026-45,fresh,True,3,2,0.007435999999999998,31.3,Seattle Seahawks,Seattle Seahawks
+поиск и чтение,claude-haiku-4.5,custom-2026-46,fresh,False,2,1,0.0045279999999999765,23.6,"Seattle Seahawks 29, New England Patriots 13",29-13
+поиск и чтение,claude-haiku-4.5,custom-2026-47,fresh,True,4,3,0.009817999999999993,46.4,125.6 million viewers,125.6 million
+поиск и чтение,claude-haiku-4.5,custom-2026-48,fresh,True,3,3,0.008867999999999987,55.7,Norway,Norway
+поиск и чтение,claude-haiku-4.5,custom-2026-49,fresh,True,2,1,0.004852999999999996,13.6,Mikhail Shaidorov of Kazakhstan,Mikhail Shaidorov

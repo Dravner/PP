@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-48",
+  "source": "fresh",
+  "question": "Which country won the most medals overall at the 2026 Winter Olympics?",
+  "answer": "Norway",
+  "evidence": "Athletes from Norway won the most medals overall, with 41, surpassing the previous record of 39 medals set by Norway at the 2018 Winter Olympics.",
+  "page": "2026 Winter Olympics medal table",
+  "url": "https://en.wikipedia.org/wiki/2026_Winter_Olympics_medal_table",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Norway won the most medals overall at the 2026 Winter Olympics, with 41 medals. \n\nFINAL: Norway",
+ "correct": true,
+ "cost": 0.00011549999999999061,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which country won the most medals overall at the 2026 Winter Olympics?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Tasbxp7FmcVpifX7vxm9znKN",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"2026 Winter Olympics most medals country\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Tasbxp7FmcVpifX7vxm9znKN",
+   "content": "1. 2026 Winter Olympics medal table - Wikipedia\nURL: https://en.wikipedia.org/wiki/2026_Winter_Olympics_medal_table\nAthletes from Norway won the most medals overall, with 41, surpassing the previous record of 39 medals set by Norway at the 2018 Winter Olympics. Norwegian athletes also won the most gold medals with 18, breaking the previous record of 16 golds set by the Norwegians at the 2022 Winter Olympics.\n\n2. List of 2026 Winter Olympics medal winners - Wikipedia\nURL: https://en.wikipedia.org/wiki/List_of_2026_Winter_Olympics_medal_winners\nThe 2026 Winter Olympics were held at sites across Lombardy and Northeast Italy, between 6–22 February 2026. The Games officially opened on 6 February with preliminary events beginning on 4 February.\n\n3. 2026 Winter Olympics medal count - The Athletic\nURL: https://www.nytimes.com/athletic/interactive/2026-winter-olympics-medal-results/\nLive updates of all medals awarded at the 2026 Winter Olympics in Milan Cortina, including medal counts by country and full results from every event"
+  },
+  {
+   "role": "assistant",
+   "content": "Norway won the most medals overall at the 2026 Winter Olympics, with 41 medals. \n\nFINAL: Norway",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

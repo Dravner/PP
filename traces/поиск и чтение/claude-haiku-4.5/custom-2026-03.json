@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-03",
+  "source": "fresh",
+  "question": "Who won the 2026 Miami Grand Prix?",
+  "answer": "Kimi Antonelli",
+  "evidence": "Miami | 03 May | Kimi Antonelli ANT | Mercedes | 57 | 1:33:19.273",
+  "page": "2026 Race Results",
+  "url": "https://www.formula1.com/en/results/2026/races",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Based on the search results, **Kimi Antonelli (Mercedes)** won the 2026 Miami Grand Prix on May 3, 2026. He claimed his third consecutive Grand Prix victory after converting a Mercedes strategy gamble into victory, beating Lando Norris.\n\nFINAL: Kimi Antonelli",
+ "correct": true,
+ "cost": 0.004524,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Miami Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the 2026 Miami Grand Prix winner.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_012BaYkHSLMJSdBfV3RtjLh9",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"2026 Miami Grand Prix winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_012BaYkHSLMJSdBfV3RtjLh9",
+   "content": "1. 2026 Miami Grand Prix - Wikipedia\nURL: https://en.wikipedia.org/wiki/2026_Miami_Grand_Prix\nIt was the fourth round of the 2026 Formula One World Championship and the second of six Grands Prix in the season to utilise the sprint format. Lando Norris (McLaren) converted pole position for the sprint event to a victory ahead of teammate Oscar Piastri and Charles Leclerc (Ferrari).\n\n2. FORMULA 1 CRYPTO.COM MIAMI GRAND PRIX 2026 - RACE RESULT\nURL: https://www.formula1.com/en/results/2026/races/1284/miami/race-result\nMay 3, 2026 · Verstappen received a five-second time penalty for crossing the white line at the pit exit.\n\n3. Miami GP 2026 Results: Full Race Classification - Total ...\nURL: https://www.total-motorsport.com/miami-gp-2026-race-results/\nMay 3, 2026 · The Miami GP 2026 results are in, with Kimi Antonelli claiming a third consecutive Grand Prix victory after a tense race at the Miami International Autodrome. Antonelli converted Mercedes ’ strategy gamble into victory, beating Lando Norris after an early undercut helped him jump the McLaren driver during the pit stop phase."
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, **Kimi Antonelli (Mercedes)** won the 2026 Miami Grand Prix on May 3, 2026. He claimed his third consecutive Grand Prix victory after converting a Mercedes strategy gamble into victory, beating Lando Norris.\n\nFINAL: Kimi Antonelli",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

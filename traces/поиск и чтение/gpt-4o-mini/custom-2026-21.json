@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "custom-2026-21",
+  "source": "fresh",
+  "question": "Which film won Best Picture at the 98th Academy Awards in 2026?",
+  "answer": "One Battle after Another",
+  "evidence": "Best Picture\nWinner\nOne Battle after Another",
+  "page": "The 98th Academy Awards | 2026",
+  "url": "https://www.oscars.org/oscars/ceremonies/2026",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "I am currently unable to retrieve information about the 98th Academy Awards. Please try again later or check other reliable sources for the answer. \n\nFINAL: Not available.",
+ "correct": false,
+ "cost": 0.0002565000000000067,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which film won Best Picture at the 98th Academy Awards in 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_vyY8aPN7C8MtP1wSIhs8gXqI",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Best Picture winner 98th Academy Awards 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_vyY8aPN7C8MtP1wSIhs8gXqI",
+   "content": "ошибка поиска: error sending request for url (https://html.duckduckgo.com/html/) > operation timed out"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_bQiYc4wGL8alsNdz8NlsAtKs",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"98th Academy Awards Best Picture winner 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_bQiYc4wGL8alsNdz8NlsAtKs",
+   "content": "ошибка поиска: error sending request for url (https://html.duckduckgo.com/html/) > operation timed out"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_zyUxYY70JRJLhlnaYbsVw3U7",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"2026 Academy Awards Best Picture winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_zyUxYY70JRJLhlnaYbsVw3U7",
+   "content": "ошибка поиска: error sending request for url (https://html.duckduckgo.com/html/) > operation timed out"
+  },
+  {
+   "role": "assistant",
+   "content": "I am currently unable to retrieve information about the 98th Academy Awards. Please try again later or check other reliable sources for the answer. \n\nFINAL: Not available.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

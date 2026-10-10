@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-22",
+  "source": "fresh",
+  "question": "Who won the 2026 Oscar for Actor in a Leading Role?",
+  "answer": "Michael B. Jordan",
+  "evidence": "Actor in a Leading Role\nWinner\nMichael B. Jordan\nSinners",
+  "page": "The 98th Academy Awards | 2026",
+  "url": "https://www.oscars.org/oscars/ceremonies/2026",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "I don't have information about the 2026 Oscar ceremony, as my knowledge cutoff is early 2025 and that event has not yet occurred (or the results are not in my training data).\n\nFINAL: Unknown — this information is beyond my knowledge cutoff",
+ "correct": false,
+ "cost": 0.0012720000000000023,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Oscar for Actor in a Leading Role?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have information about the 2026 Oscar ceremony, as my knowledge cutoff is early 2025 and that event has not yet occurred (or the results are not in my training data).\n\nFINAL: Unknown — this information is beyond my knowledge cutoff",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

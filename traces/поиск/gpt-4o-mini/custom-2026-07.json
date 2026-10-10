@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "custom-2026-07",
+  "source": "fresh",
+  "question": "Who won the 2026 Austrian Grand Prix?",
+  "answer": "George Russell",
+  "evidence": "Austria | 28 Jun | George Russell RUS | Mercedes | 71 | 1:26:37.979",
+  "page": "2026 Race Results",
+  "url": "https://www.formula1.com/en/results/2026/races",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "The 2026 Austrian Grand Prix was won by George Russell driving for Mercedes. \n\nFINAL: George Russell",
+ "correct": true,
+ "cost": 0.00016004999999999492,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Austrian Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Pphw8AgQjQdAEUr455r2jDJ4",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"2026 Austrian Grand Prix winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Pphw8AgQjQdAEUr455r2jDJ4",
+   "content": "ошибка поиска: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Rh9HaJ5xgknoTjjKWDTIKBjw",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"2026 F1 Austrian Grand Prix results\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Rh9HaJ5xgknoTjjKWDTIKBjw",
+   "content": "1. 2026 Austrian Grand Prix — Results & Winner | F1 Archive\nURL: https://www.formula1archive.com/races/1157\nJun 28, 2026 · Who won the 2026 Austrian Grand Prix? The 2026 Austrian Grand Prix was won by George Russell driving for Mercedes, starting from pole position. Max Verstappen finished second, +1.611 behind, with Andrea Kimi Antonelli completing the podium.\n\n2. Austrian Grand Prix 2026 Results: Winner & Full Standings\nURL: https://worldofspeed.org/f1/austrian-grand-prix-2026-results/\nJun 30, 2026 · Austrian Grand Prix 2026 Race Results: Winner, Full Classification & Championship Implications George Russell held off a late charge from Max Verstappen and teammate Kimi Antonelli to win a scorching, tyre-management masterclass at the Red Bull Ring. Full results, classification, and what it means for the title fight.\n\n3. 2026 F1 Austrian Grand Prix - results | RacingNews365\nURL: https://racingnews365.com/2026-f1-austrian-grand-prix-results\nJun 28, 2026 · Check out the full results from the 2026 F1 Austrian Grand Prix!"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 Austrian Grand Prix was won by George Russell driving for Mercedes. \n\nFINAL: George Russell",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

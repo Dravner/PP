@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "custom-2026-18",
+  "source": "fresh",
+  "question": "At the 2026 Belgian Grand Prix, how many years had Esteban Ocon been in Formula 1 since his debut?",
+  "answer": "10 years",
+  "evidence": "At this weekend’s Belgian Grand Prix, Esteban Ocon will celebrate 10 years since his F1 debut.",
+  "page": "Esteban Ocon reflects on 10 years in F1",
+  "url": "https://www.formula1.com/en/latest/article/im-a-very-different-driver-ocon-reveals-his-biggest-lesson-from-crazy-10-years-in-f1.DdnNLzhT1DOhVRgpSYJNc",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Esteban Ocon made his Formula 1 debut at the 2016 Belgian Grand Prix. The 2026 Belgian Grand Prix would therefore mark his 10 years in Formula 1.\n\nFINAL: 10",
+ "correct": false,
+ "cost": 0.00029069999999999097,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "At the 2026 Belgian Grand Prix, how many years had Esteban Ocon been in Formula 1 since his debut?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_WZtIq2vw8bruee4aJ35DQEaQ",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Esteban Ocon Formula 1 debut year\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_WZtIq2vw8bruee4aJ35DQEaQ",
+   "content": "ошибка поиска: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_HwcmGpRZ0IDmKdL8yggB2ytZ",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Esteban Ocon debut in Formula 1\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_HwcmGpRZ0IDmKdL8yggB2ytZ",
+   "content": "1. Esteban Ocon - Wikipedia\nURL: https://en.wikipedia.org/wiki/Esteban_Ocon\nA member of the Mercedes Junior Team since 2015, Ocon made his Formula One debut at the 2016 Belgian Grand Prix with Manor, replacing Rio Haryanto for the remainder of the 2016 season.\n\n2. Esteban Ocon — WikipédiaEsteban Ocon | Formula 1 Driver | belgium.gpEsteban Ocon Formula 1 Driver Profile | Formula 1 Drivers\nURL: https://fr.wikipedia.org/wiki/Esteban_Ocon\nL'année suivante, son contrat est prolongé pour trois saisons supplémentaires, alors que l'équipe est rebaptisée Alpine F1 Team ; il obtient la première victoire de sa carrière à l'arrivée du Grand Prix de Hongrie, devenant le quatorzième Français vainqueur en Formule 1. Looking ahead, Ocon will take on a fresh challenge in 2025 as he joins Haas F1. The American team is in a rebuilding phase, and Ocon will be hoping to use his experience to help steer them forward. Jan 1, 2026 · Esteban Ocon is a French racing driver currently racing for Alpine F1 Team in Formula One. Ocon made his debut in Formula One racing for Manor Racing in the Belgian Grand Prix in 2016.\n\n3. Esteban Ocon Races, Wins and Teams | F1 Driver | F1 HistoryTop StoriesNews about Esteban Ocon, Formula 1, reserve roleNews about Formula 1, F1, MalaysiaAlso in the newsEsteban Ocon Marks Ten Years After His F1 Debut at the Same ...Esteban Ocon — F1 Career, Wins & Stats | F1pediaEsteban Ocon — WikipédiaEsteban Ocon | Formula 1 Driver | belgium.gpEsteban Ocon Formula 1 Driver Profile | Formula 1 Drivers\nURL: https://www.formulaonehistory.com/drivers/esteban-ocon/\nEsteban Ocon is a French F1 racing driver who debuted with Manor Racing in 2016 and claimed his first Formula One podium in 2020. Jul 19, 2026 · Esteban Ocon arrives at this weekend’s Belgian Grand Prix exactly ten years after the race that started his Formula 1 career. The Frenchman made his debut at Spa-Francorchamps in 2016 for Manor Racing, finishing sixteenth while teammate Pascal Wehrlein retired. Esteban Ocon's initial exposure to Formula 1 machinery came in October 2014, testing for Lotus F1 Team and later for Ferrari as a prize for his F3 title. He made his Grand Prix weekend debut during the first practice session at the 2014 Abu Dhabi Grand Prix with Lotus. L'année suivante, son contrat est prolongé pour trois saisons supplémentaires, alors que l'équipe est rebaptisée Alpine F1 Team ; il obtient la première victoire de sa carrière à l'arrivée du Grand Prix de Hongrie, devenant le quatorzième Français vainqueur en Formule 1. Looking ahead, Ocon will take on a fresh challenge in 2025 as he joins Haas F1. The American team is in a rebuilding phase, and Ocon will be hoping to use his experience to help steer them forward. Jan 1, 2026 · Esteban Ocon is a French racing driver currently racing for Alpine F1 Team in Formula One. Ocon made his debut in Formula One racing for Manor Racing in the Belgian Grand Prix in 2016."
+  },
+  {
+   "role": "assistant",
+   "content": "Esteban Ocon made his Formula 1 debut at the 2016 Belgian Grand Prix. The 2026 Belgian Grand Prix would therefore mark his 10 years in Formula 1.\n\nFINAL: 10",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

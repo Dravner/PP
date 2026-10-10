@@ -1,0 +1,51 @@
+config,model,id,source,correct,steps,tool_calls,cost,seconds,answer,gold
+без инструментов,claude-sonnet-4.6,custom-2026-00,fresh,False,1,0,0.001365,2.7,The 2026 Australian Grand Prix has not yet occurred as of my,George Russell
+без инструментов,claude-sonnet-4.6,custom-2026-01,fresh,False,1,0,0.0013499999999999996,3.1,Unknown — the 2026 Chinese Grand Prix had not yet occurred a,Kimi Antonelli
+без инструментов,claude-sonnet-4.6,custom-2026-02,fresh,False,1,0,0.001380000000000001,2.5,Unknown — the 2026 Japanese Grand Prix has not yet occurred ,Kimi Antonelli
+без инструментов,claude-sonnet-4.6,custom-2026-03,fresh,False,1,0,0.0011549999999999998,2.5,Unknown (event is beyond my knowledge cutoff),Kimi Antonelli
+без инструментов,claude-sonnet-4.6,custom-2026-04,fresh,False,1,0,0.0012899999999999995,2.4,Unknown — the 2026 Canadian Grand Prix had not yet occurred ,Kimi Antonelli
+без инструментов,claude-sonnet-4.6,custom-2026-05,fresh,False,1,0,0.0013500000000000005,2.5,Unknown — the 2026 Monaco Grand Prix has not yet occurred as,Kimi Antonelli
+без инструментов,claude-sonnet-4.6,custom-2026-06,fresh,False,1,0,0.0012960000000000003,3.0,Unknown (event is beyond my knowledge cutoff),Lewis Hamilton
+без инструментов,claude-sonnet-4.6,custom-2026-07,fresh,False,1,0,0.0011849999999999986,2.3,Unknown (event had not occurred as of my knowledge cutoff),George Russell
+без инструментов,claude-sonnet-4.6,custom-2026-08,fresh,False,1,0,0.001440000000000002,2.6,Unknown — the 2026 British Grand Prix has not yet occurred a,Charles Leclerc
+без инструментов,claude-sonnet-4.6,custom-2026-09,fresh,False,1,0,0.0013199999999999983,2.4,Unknown — the 2026 Belgian Grand Prix had not yet occurred a,Kimi Antonelli
+без инструментов,claude-sonnet-4.6,custom-2026-10,fresh,False,1,0,0.0012750000000000018,2.4,The 2026 Hungarian Grand Prix had not yet occurred as of my ,Lando Norris
+без инструментов,claude-sonnet-4.6,custom-2026-11,fresh,False,1,0,0.0014069999999999985,2.8,The 2026 Australian Grand Prix had not yet occurred as of my,Max Verstappen
+без инструментов,claude-sonnet-4.6,custom-2026-12,fresh,False,1,0,0.001302000000000001,2.4,Unknown — the 2026 Miami Grand Prix has not yet taken place ,Lando Norris
+без инструментов,claude-sonnet-4.6,custom-2026-13,fresh,False,1,0,0.0013019999999999976,2.2,Unknown — the 2026 Canadian Grand Prix has not yet taken pla,Kimi Antonelli
+без инструментов,claude-sonnet-4.6,custom-2026-14,fresh,False,1,0,0.0012930000000000025,3.0,I don't know — this event is beyond my knowledge cutoff.,Oscar Piastri
+без инструментов,claude-sonnet-4.6,custom-2026-15,fresh,False,1,0,0.0013679999999999977,3.2,I don't know — the 2026 British Grand Prix has not yet taken,Charles Leclerc
+без инструментов,claude-sonnet-4.6,custom-2026-16,fresh,True,1,0,0.011147999999999998,14.7,I don't have confirmed data for the 2025 and 2026 Singapore ,4
+без инструментов,claude-sonnet-4.6,custom-2026-17,fresh,False,1,0,0.001014000000000001,1.9,50,50 years
+без инструментов,claude-sonnet-4.6,custom-2026-18,fresh,False,1,0,0.0020550000000000013,3.9,10,10 years
+без инструментов,claude-sonnet-4.6,custom-2026-19,fresh,False,1,0,0.0024209999999999995,3.5,9 years,nine years
+без инструментов,claude-sonnet-4.6,custom-2026-20,fresh,False,1,0,0.0033480000000000038,4.6,30,30 years
+без инструментов,claude-sonnet-4.6,custom-2026-21,fresh,False,1,0,0.0011879999999999946,2.0,The Brutalist,One Battle after Another
+без инструментов,claude-sonnet-4.6,custom-2026-22,fresh,False,1,0,0.0012720000000000023,2.7,Unknown — this information is beyond my knowledge cutoff,Michael B. Jordan
+без инструментов,claude-sonnet-4.6,custom-2026-23,fresh,False,1,0,0.001452000000000002,3.1,Unknown — the 2026 Oscar results are beyond my knowledge cut,Sean Penn
+без инструментов,claude-sonnet-4.6,custom-2026-24,fresh,False,1,0,0.0014850000000000002,2.8,Unknown — the 2026 Oscars results are beyond my knowledge cu,Jessie Buckley
+без инструментов,claude-sonnet-4.6,custom-2026-25,fresh,False,1,0,0.0016649999999999998,3.6,I don't know — the 2026 Oscars are beyond my knowledge cutof,Amy Madigan
+без инструментов,claude-sonnet-4.6,custom-2026-26,fresh,False,1,0,0.0012869999999999965,3.3,Unknown — this event is outside my knowledge cutoff.,KPop Demon Hunters
+без инструментов,claude-sonnet-4.6,custom-2026-27,fresh,False,1,0,0.0020760000000000015,3.3,I don't have information about the 98th Academy Awards (2026,Paul Thomas Anderson
+без инструментов,claude-sonnet-4.6,custom-2026-28,fresh,True,1,0,0.0023219999999999977,3.9,Norway,Norway
+без инструментов,claude-sonnet-4.6,custom-2026-29,fresh,False,1,0,0.001926000000000004,3.7,Wicked,F1
+без инструментов,claude-sonnet-4.6,custom-2026-30,fresh,False,1,0,0.0035639999999999977,6.2,I don't have reliable information about the Visual Effects w,Avatar: Fire and Ash
+без инструментов,claude-sonnet-4.6,custom-2026-31,fresh,False,1,0,0.0015450000000000047,2.9,I don't know — the 2026 Grammy Awards are beyond my knowledg,luther
+без инструментов,claude-sonnet-4.6,custom-2026-32,fresh,False,1,0,0.0011099999999999999,2.8,I don't know,DeBÍ TiRAR MáS FOToS
+без инструментов,claude-sonnet-4.6,custom-2026-33,fresh,False,1,0,0.0011699999999999905,2.7,I don't know,WILDFLOWER
+без инструментов,claude-sonnet-4.6,custom-2026-34,fresh,False,1,0,0.001569000000000001,3.8,Unknown — the 2026 Grammy Awards had not occurred as of my k,Olivia Dean
+без инструментов,claude-sonnet-4.6,custom-2026-35,fresh,False,1,0,0.0026460000000000095,5.0,I don't have verified information about the 2026 Grammy Awar,"Cynthia Erivo, Ariana Grande"
+без инструментов,claude-sonnet-4.6,custom-2026-36,fresh,False,1,0,0.0022949999999999915,3.5,I don't have reliable information about the 2026 Grammy Awar,Tame Impala
+без инструментов,claude-sonnet-4.6,custom-2026-37,fresh,False,1,0,0.0019350000000000062,3.6,Imaginal Disk by Magdalena Bay,Songs Of A Lost World
+без инструментов,claude-sonnet-4.6,custom-2026-38,fresh,True,1,0,0.0018719999999999987,4.0,Chris Stapleton,Chris Stapleton
+без инструментов,claude-sonnet-4.6,custom-2026-39,fresh,False,1,0,0.002369999999999997,3.4,I don't have verified information about the 2026 Grammy Awar,Caetano e Bethânia Ao Vivo
+без инструментов,claude-sonnet-4.6,custom-2026-40,fresh,False,1,0,0.0039929999999999966,7.2,I don't have reliable information about this specific award ,Austin Wintory
+без инструментов,claude-sonnet-4.6,custom-2026-41,fresh,False,1,0,0.0015030000000000043,3.6,The 2026 FIFA World Cup has not occurred yet (as of my knowl,Spain
+без инструментов,claude-sonnet-4.6,custom-2026-42,fresh,False,1,0,0.0012899999999999995,2.5,"The 2026 FIFA World Cup has not yet occurred, so this cannot",Argentina
+без инструментов,claude-sonnet-4.6,custom-2026-43,fresh,False,1,0,0.0014100000000000085,2.9,The 2026 FIFA World Cup final has not yet occurred (as of my,1
+без инструментов,claude-sonnet-4.6,custom-2026-44,fresh,False,1,0,0.001466999999999996,2.8,"The 2026 FIFA World Cup has not yet occurred, so this inform",Bukayo Saka
+без инструментов,claude-sonnet-4.6,custom-2026-45,fresh,False,1,0,0.0011879999999999946,3.3,Unknown — Super Bowl LX had not yet occurred as of my knowle,Seattle Seahawks
+без инструментов,claude-sonnet-4.6,custom-2026-46,fresh,False,1,0,0.0013319999999999999,2.6,Unknown — Super Bowl LX had not yet been played as of my kno,29-13
+без инструментов,claude-sonnet-4.6,custom-2026-47,fresh,False,1,0,0.0016260000000000024,3.6,Super Bowl LX has not yet taken place (scheduled for Februar,125.6 million
+без инструментов,claude-sonnet-4.6,custom-2026-48,fresh,False,1,0,0.0017250000000000043,3.4,The 2026 Winter Olympics have not occurred yet (scheduled fo,Norway
+без инструментов,claude-sonnet-4.6,custom-2026-49,fresh,False,1,0,0.0015990000000000032,3.2,The 2026 Winter Olympics had not yet occurred as of my knowl,Mikhail Shaidorov

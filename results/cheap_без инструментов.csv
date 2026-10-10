@@ -1,0 +1,51 @@
+config,model,id,source,correct,steps,tool_calls,cost,seconds,answer,gold
+без инструментов,gpt-4o-mini,custom-2026-00,fresh,False,1,0,3.794999999999493e-05,2.6,Event not yet occurred.,George Russell
+без инструментов,gpt-4o-mini,custom-2026-01,fresh,False,1,0,3.675000000000206e-05,1.2,Not held yet.,Kimi Antonelli
+без инструментов,gpt-4o-mini,custom-2026-02,fresh,False,1,0,3.794999999999493e-05,1.8,Race not yet held.,Kimi Antonelli
+без инструментов,gpt-4o-mini,custom-2026-03,fresh,False,1,0,3.1349999999999434e-05,1.4,The event has not happened yet.,Kimi Antonelli
+без инструментов,gpt-4o-mini,custom-2026-04,fresh,False,1,0,3.554999999999531e-05,2.1,Unknown.,Kimi Antonelli
+без инструментов,gpt-4o-mini,custom-2026-05,fresh,False,1,0,3.2550000000006185e-05,1.6,Event not yet occurred.,Kimi Antonelli
+без инструментов,gpt-4o-mini,custom-2026-06,fresh,False,1,0,3.599999999999437e-05,3.1,Not applicable yet,Lewis Hamilton
+без инструментов,gpt-4o-mini,custom-2026-07,fresh,False,1,0,3.675000000000206e-05,2.0,Event not yet occurred.,George Russell
+без инструментов,gpt-4o-mini,custom-2026-08,fresh,False,1,0,3.5550000000009185e-05,2.7,Not available.,Charles Leclerc
+без инструментов,gpt-4o-mini,custom-2026-09,fresh,False,1,0,3.734999999999156e-05,2.1,Not applicable.,Kimi Antonelli
+без инструментов,gpt-4o-mini,custom-2026-10,fresh,False,1,0,3.7350000000005434e-05,1.4,No winner yet.,Lando Norris
+без инструментов,gpt-4o-mini,custom-2026-11,fresh,False,1,0,5.415000000000281e-05,2.3,Неизвестно.,Max Verstappen
+без инструментов,gpt-4o-mini,custom-2026-12,fresh,False,1,0,4.334999999999756e-05,2.4,Информация недоступна.,Lando Norris
+без инструментов,gpt-4o-mini,custom-2026-13,fresh,False,1,0,4.695000000000393e-05,2.1,Неизвестно.,Kimi Antonelli
+без инструментов,gpt-4o-mini,custom-2026-14,fresh,False,1,0,4.604999999999193e-05,2.2,Данные недоступны.,Oscar Piastri
+без инструментов,gpt-4o-mini,custom-2026-15,fresh,False,1,0,5.204999999999793e-05,3.5,Unknown.,Charles Leclerc
+без инструментов,gpt-4o-mini,custom-2026-16,fresh,True,1,0,4.8149999999996806e-05,2.7,4 pole positions each,4
+без инструментов,gpt-4o-mini,custom-2026-17,fresh,False,1,0,5.100000000000937e-05,2.2,50,50 years
+без инструментов,gpt-4o-mini,custom-2026-18,fresh,False,1,0,4.395000000000093e-05,2.2,10,10 years
+без инструментов,gpt-4o-mini,custom-2026-19,fresh,False,1,0,6.299999999999362e-05,2.7,9,nine years
+без инструментов,gpt-4o-mini,custom-2026-20,fresh,False,1,0,5.639999999999812e-05,2.4,23,30 years
+без инструментов,gpt-4o-mini,custom-2026-21,fresh,False,1,0,4.320000000000712e-05,2.9,Unknown.,One Battle after Another
+без инструментов,gpt-4o-mini,custom-2026-22,fresh,False,1,0,3.0149999999992683e-05,1.6,Not applicable.,Michael B. Jordan
+без инструментов,gpt-4o-mini,custom-2026-23,fresh,False,1,0,3.374999999999906e-05,1.6,Not yet announced.,Sean Penn
+без инструментов,gpt-4o-mini,custom-2026-24,fresh,False,1,0,2.235000000000431e-05,1.9,Unknown (Oscar winners for 2026 are not known yet),Jessie Buckley
+без инструментов,gpt-4o-mini,custom-2026-25,fresh,False,1,0,3.195000000000281e-05,2.4,Unknown,Amy Madigan
+без инструментов,gpt-4o-mini,custom-2026-26,fresh,False,1,0,3.899999999999737e-05,2.1,Information not available.,KPop Demon Hunters
+без инструментов,gpt-4o-mini,custom-2026-27,fresh,False,1,0,5.2949999999996056e-05,1.8,Неизвестно,Paul Thomas Anderson
+без инструментов,gpt-4o-mini,custom-2026-28,fresh,False,1,0,4.020000000000412e-05,2.7,Unknown,Norway
+без инструментов,gpt-4o-mini,custom-2026-29,fresh,False,1,0,4.094999999999793e-05,1.6,Unknown.,F1
+без инструментов,gpt-4o-mini,custom-2026-30,fresh,False,1,0,4.1100000000002246e-05,2.1,Unknown.,Avatar: Fire and Ash
+без инструментов,gpt-4o-mini,custom-2026-31,fresh,False,1,0,4.350000000000187e-05,2.3,Data unavailable.,luther
+без инструментов,gpt-4o-mini,custom-2026-32,fresh,False,1,0,3.269999999999662e-05,1.7,Unknown.,DeBÍ TiRAR MáS FOToS
+без инструментов,gpt-4o-mini,custom-2026-33,fresh,False,1,0,4.1100000000002246e-05,1.7,Unknown.,WILDFLOWER
+без инструментов,gpt-4o-mini,custom-2026-34,fresh,False,1,0,3.060000000000562e-05,2.3,Unknown.,Olivia Dean
+без инструментов,gpt-4o-mini,custom-2026-35,fresh,False,1,0,4.484999999999906e-05,1.9,неизвестно.,"Cynthia Erivo, Ariana Grande"
+без инструментов,gpt-4o-mini,custom-2026-36,fresh,False,1,0,4.3649999999992306e-05,3.7,Данные отсутствуют.,Tame Impala
+без инструментов,gpt-4o-mini,custom-2026-37,fresh,False,1,0,4.2899999999998495e-05,1.5,Unknown,Songs Of A Lost World
+без инструментов,gpt-4o-mini,custom-2026-38,fresh,False,1,0,4.0350000000008435e-05,2.0,Непригодно.,Chris Stapleton
+без инструментов,gpt-4o-mini,custom-2026-39,fresh,False,1,0,3.870000000000262e-05,2.5,Information not available.,Caetano e Bethânia Ao Vivo
+без инструментов,gpt-4o-mini,custom-2026-40,fresh,False,1,0,3.299999999999137e-05,1.8,Unknown,Austin Wintory
+без инструментов,gpt-4o-mini,custom-2026-41,fresh,False,1,0,3.8099999999999246e-05,2.5,Not yet determined.,Spain
+без инструментов,gpt-4o-mini,custom-2026-42,fresh,False,1,0,3.6300000000002997e-05,1.5,Not applicable.,Argentina
+без инструментов,gpt-4o-mini,custom-2026-43,fresh,False,1,0,4.605000000000581e-05,1.5,N/A,1
+без инструментов,gpt-4o-mini,custom-2026-44,fresh,False,1,0,4.229999999999512e-05,2.4,Not applicable.,Bukayo Saka
+без инструментов,gpt-4o-mini,custom-2026-45,fresh,False,1,0,3.8099999999999246e-05,2.5,Unknown,Seattle Seahawks
+без инструментов,gpt-4o-mini,custom-2026-46,fresh,False,1,0,3.554999999999531e-05,1.6,Not applicable (event hasn't happened),29-13
+без инструментов,gpt-4o-mini,custom-2026-47,fresh,False,1,0,3.2250000000011436e-05,3.1,113 million viewers.,125.6 million
+без инструментов,gpt-4o-mini,custom-2026-48,fresh,False,1,0,4.229999999999512e-05,1.8,Not applicable.,Norway
+без инструментов,gpt-4o-mini,custom-2026-49,fresh,False,1,0,3.1799999999998496e-05,1.9,Unknown.,Mikhail Shaidorov

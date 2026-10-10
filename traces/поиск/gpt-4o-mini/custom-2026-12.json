@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-12",
+  "source": "fresh",
+  "question": "Who set the fastest lap at the 2026 Miami Grand Prix?",
+  "answer": "Lando Norris",
+  "evidence": "Miami | Lando Norris NOR | 1:31.869",
+  "page": "2026 DHL Fastest Lap Award",
+  "url": "https://www.formula1.com/en/results/2026/awards/fastest-laps",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Lando Norris set the fastest lap at the 2026 Miami Grand Prix. \n\nFINAL: Lando Norris",
+ "correct": true,
+ "cost": 0.00011864999999999792,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who set the fastest lap at the 2026 Miami Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_DVvQ8GXGs5mZgg9A0Ikp0cEp",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"2026 Miami Grand Prix fastest lap\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_DVvQ8GXGs5mZgg9A0Ikp0cEp",
+   "content": "1. 2026 Miami Grand Prix - Wikipedia\nURL: https://en.wikipedia.org/wiki/2026_Miami_Grand_Prix\nIt was the fourth round of the 2026 Formula One World Championship and the second of six Grands Prix in the season to utilise the sprint format. Lando Norris (McLaren) converted pole position for the sprint event to a victory ahead of teammate Oscar Piastri and Charles Leclerc (Ferrari).\n\n2. FORMULA 1 CRYPTO.COM MIAMI GRAND PRIX 2026 - FASTEST LAPS\nURL: https://www.formula1.com/en/results/2026/races/1284/miami/fastest-laps\nMay 3, 2026 · FORMULA 1 CRYPTO.COM MIAMI GRAND PRIX 2026 - FASTEST LAPS 01 - 03 May 2026 Miami International Autodrome, Miami Gardens\n\n3. F1 2026 Miami GP – Fastest Lap - Total Motorsport\nURL: https://www.total-motorsport.com/f1-2026-miami-gp-fastest-lap/\nMay 3, 2026 · Lando Norris set the Fastest Lap of the Miami GP as the defending world champion chased down Kimi Antonelli in a bid for what would have been his first win of the 2026 F1 season."
+  },
+  {
+   "role": "assistant",
+   "content": "Lando Norris set the fastest lap at the 2026 Miami Grand Prix. \n\nFINAL: Lando Norris",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

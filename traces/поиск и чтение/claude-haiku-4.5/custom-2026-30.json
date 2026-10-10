@@ -1,0 +1,156 @@
+{
+ "task": {
+  "id": "custom-2026-30",
+  "source": "fresh",
+  "question": "Which film won the Visual Effects Oscar at the 98th Academy Awards in 2026?",
+  "answer": "Avatar: Fire and Ash",
+  "evidence": "Visual Effects\nWinner\nAvatar: Fire and Ash",
+  "page": "The 98th Academy Awards | 2026",
+  "url": "https://www.oscars.org/oscars/ceremonies/2026",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Based on my search results, I have found the answer. The Wikipedia article and the YouTube video both confirm that **Avatar: Fire and Ash** won the Best Visual Effects Oscar at the 98th Academy Awards on March 15, 2026. The award was presented to Joe Letteri, Richard Baneham, Eric Saindon, and Daniel Barrett.\n\nFINAL: Avatar: Fire and Ash",
+ "correct": true,
+ "cost": 0.026034999999999975,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which film won the Visual Effects Oscar at the 98th Academy Awards in 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the Visual Effects Oscar winner at the 98th Academy Awards in 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01Nz16X1371ENc7frRJuGxNn",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"98th Academy Awards 2026 Visual Effects Oscar winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01Nz16X1371ENc7frRJuGxNn",
+   "content": "ошибка поиска: error sending request for url (https://html.duckduckgo.com/html/) > operation timed out"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try another search:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_018hw1TQ1qYQRtjQ6z6KWbeg",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"Best Visual Effects 98th Academy Awards\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_018hw1TQ1qYQRtjQ6z6KWbeg",
+   "content": "1. Academy Award for Best Visual Effects - Wikipedia\nURL: https://en.wikipedia.org/wiki/Academy_Award_for_Best_Visual_Effects\nThe Academy Award for Best Visual Effects is presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) for the best achievement in visual effects.\n\n2. Best Visual Effects: Ranking Every Nominee of the 98th ...\nURL: https://www.filmsfatale.com/blog/2026/1/28/best-visual-effects-ranking-every-nominee-of-the-98th-academy-awards\nJan 28, 2026 · Fortunately, none of the five films below have lazy or obvious visual effects (then again, the Academy is quite good at picking strong candidates in this category each year. Which films had the best CGI team at the helm? Here are your nominees for Best Visual Effects, ranked from worst to best.\n\n3. The Academy Has Revealed the Shortlist for the 2026 Best ...\nURL: https://www.comicbasics.com/the-academy-has-revealed-the-shortlist-for-the-2026-best-visual-effects-oscars/\n2 days ago · The Academy of Motion Picture Arts and Sciences has officially announced the shortlist for the Visual Effects category at the 98th Academy Awards. This year features a competitive mix of practical-heavy productions and completely immersive digital worlds that push the boundaries of technology."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me read more details from these pages to find the winner:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01AX7yuFSj1cpE3grxd7ifCk",
+     "function": {
+      "name": "read_page",
+      "arguments": "{\"url\": \"https://www.filmsfatale.com/blog/2026/1/28/best-visual-effects-ranking-every-nominee-of-the-98th-academy-awards\", \"keywords\": \"winner best visual effects\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_019Vez9ufw1kFsLuXNiBSFvD",
+     "function": {
+      "name": "read_page",
+      "arguments": "{\"url\": \"https://en.wikipedia.org/wiki/Academy_Award_for_Best_Visual_Effects\", \"keywords\": \"98th Academy Awards 2026 winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01AX7yuFSj1cpE3grxd7ifCk",
+   "content": "Best Visual Effects: Ranking Every Nominee of the 98th Academy Awards\nOh boy! Blockbusters! Yes, we have reached the Best Visual Effects category, and I do like what I see with these five nominees here. Rating visual effects can be tricky because different films have different motivations. There are motion pictures that want to look as realistic as possible with their CGI magic. Then there are films that don’t aim for realism but want to use their CGI to dazzle and achieve the impossible. You will find both kinds of films below. I want to focus on which films looked the most believable regardless of their intentions; this includes films that overly rely on motion blurring to hide details. Fortunately, none of the five films below have lazy or obvious visual effects (then again, the Academy is quite good at picking strong candidates in this category each year. Which films had the best CGI team at the helm? Here are your nominees for Best Visual Effects, ranked from worst to best.\nI am happy that Sinners got in here and not some of the usual suspects you’d find (the fact that we don’t have a single Marvel film this year is quite a surprise). However, I am placing this film last just because the other four nominees boasted more instances of visual effects and for longer periods of time. Another factor with this film’s ranking is that I feel like much of the visual effects are used to enhance the makeup work (it can also be really tough to tell what is practical and what is computer generated). I don’t think that films like Sinners wind up in this category enough, and — even though I have ranked it last — it is nice to see Sinners amongst the other nominees (in the past, the Academy would opt for some awful film just to fill up the slot, overlooking films that use visual effects more tastefully and artistically like Sinners).\nLike the remaining nominees, The Lost Bus is extremely heavy on its visual effects. I have placed it fourth because it can be a little apparent when CGI is being used to create fires, show destruction, or paint other parts of this disaster film’s bigger picture. The work we do get helps make the film feel thrilling, but I do feel like that The Lost Bus was intended on being a visual effects portfolio more than anything; the hints of motion blurring to “clean” up the visuals also hurts this nomination, in my opinion. There are times where the visual effects feel their strongest: the wreckage that the fires create in their wake. I prefer this film’s effects when they are not showy but, rather, naturalistic.\nThere is always at least one hyper realistic film each year that gets nominated for Best Visual Effects. This year’s entry is F1. While there may not be dinosaurs, atomic explosions, or monsters, F1 certainly holds its own amongst its peers because of how difficult it is to tell where visual effects are even used in this film. You can try and estimate that the skyline of a POV shot, racecars as they zip around corners, or other factors of this film are CGI, but are you ever really sure out of most instances? I sure as hell am not. I don’t care about F1 all that much regarding its story, but the film did well last year because it is a technical showcase, and part of these thrills come from the illusions of the visual effects department: never knowing what is real or what has been created by CGI artists.\nI will refrain from ragging on the worst film to be nominated for an Academy Award this year (my review does that enough). Instead, I have to give credit where it is due. Like any other Gareth Edwards film, Jurassic World Rebirth is not my cup of tea, but, boy, do those visual effect creations look incredible! The Jurassic Park franchise was always an exhibition of strong effects, but, even then, Edwards’ dinosaurs and other prehistoric creatures look way better than the rest of the Jurassic World films. These feel like living beings. Sure, we know that they are made from CGI magic because there is no way that these beasts presently exist, but that doesn’t stop Jurassic World Rebirth from occasionally feeling real. When the rest of the film frustrates me because of its derivative story and lack of originality, it is the mind blowing CGI work that kept me trucking on and believing what was on screen (well, slightly; the visual effects department could only do so much saving)."
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_019Vez9ufw1kFsLuXNiBSFvD",
+   "content": "Academy Award for Best Visual Effects\n| Academy Award for Best Visual Effects |  | \n| Presented by | Academy of Motion Picture Arts and Sciences (AMPAS) | \n| Most recent winner | Joe Letteri, Richard Baneham, Eric Saindon and Daniel Barrett Avatar: Fire and Ash (2025) | \n| Most awards | Industrial Light & Magic (15) / Dennis Muren (8) | \nThe Academy Award for Best Visual Effects is presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) for the best achievement in visual effects. It has been handed to four members of the team directly responsible for creating the film's visual effects since 1980.\nThe Academy of Motion Picture Arts and Sciences first recognized the technical contributions of special effects to movies at its inaugural dinner in 1929, presenting a plaque for \"Best Engineering Effects\" to the first Best Picture Oscar winner, the World War I flying drama Wings.\nProducer David O. Selznick, then production head at RKO Studios, petitioned the Academy Board of Governors to recognize the work of animator Willis O'Brien for his groundbreaking work on 1933's King Kong.[1] However, the Academy did not have a category to acknowledge its visual achievements at the time.[2][3]\nIt was not until 1938 when a film was actually recognized for its effects work, when a \"Special Achievement Award for Special Effects\" was given to the Paramount film Spawn of the North. The following year, \"Best Special Effects\" became a recognized category, although on occasion the Academy has chosen to honor a single film outright rather than nominate two or more films. From 1939 to 1963, it was an award for a film's visual effects as well as audio effects, so it was often given to two persons, although some years only one or the other type of effect was recognized. For the 22nd Academy Awards, RKO was nominated for the work done on Mighty Joe Young (1949), and when they won, it was Willis H. O'Brien who went on stage to accept the statue.[4] In 1964, it was given only for visual effects, and the following year the name of the category was changed to \"Best Special Visual Effects\".\nHonorees for this award have been bestowed several times as a Special Achievement Academy Award. In 1977, the category was given its current name \"Best Visual Effects.\" For decades, shortlisted finalists were selected by a steering committee. They are presently chosen by the visual effects branch executive committee.[5] 1990 was the last year there were no official nominees. Back to the Future Part III, Dick Tracy, Ghost and Total Recall advanced to a second stage of voting, but only Total Recall received a requisite average and it was given a special achievement Oscar.[6]\nAccording to the official Academy Award rules, the criteria are:\nThe credits for 2001 list four effects contributors, including Douglas Trumbull. However, according to the rules of the Academy in effect at the time, only three persons could be nominated for their work on a single film, which would have resulted in the omission of either Trumbull, Tom Howard, Con Pederson or Wally Veevers. Ultimately, it was Kubrick's name that was submitted as a nominee in this category, resulting in his winning the award, which many consider a slight to the four men whose work contributed to the film's success.[12]\nSpecial Effects Awards\nThe tables below display the Oscar nominees for Best Special Effects including the recipients of the Special Achievement Awards.\nVisual Effects Awards\nThe tables below display the Oscar nominees for Best Visual Effects including the recipients of the Special Achievement Awards.\nFinalists for Best Visual Effects are selected by the Visual Effects Branch Executive Committee. Beginning with a long list of up to 20 titles, the committee then advances ten films to the shortlist, where the full membership of the Visual Effects Branch is invited to view excerpts and is provided with supporting information at a \"bake-off\" where balloting determines the five nominees.[16] Prior to the 80th Academy Awards, members of the Visual Effects Executive Committee would select an initial long list of anywhere between ten to twenty films, which would then be voted on to be narrowed down to a final list seven films, which would proceed to the bake off. For example, for the 77th Academy Awards, the long list had eighteen films.[17] From 2007 - 2015, The Executive Committee settled on a long-list of fifteen semi-finalists each year.[18] Starting in 2015, and continuing to today, the Academy expanded the long list to a set list of twenty films, although it is not always announced publicly.[19]\nArtists with multiple awards\n- 8 awards\n- 6 awards\n- 5 awards\n- 4 awards\n- 3 awards\n- 2 awards\nMultiple awards\nFor this Academy Award category, the following superlatives emerge:[70]\n- Most awards: Dennis Muren – 8 awards (resulting from 15 nominations)\n- Most nominations: Dennis Muren – 15 nominations (resulting in 8 awards)\n| Oldest winner | L. B. Abbott | Logan's Run | 68 years"
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the information I found, the Wikipedia article shows that the most recent winner for Best Visual Effects is listed as **Avatar: Fire and Ash (2025)**, which won at a ceremony that would have been for 2025 films. However, I need to find the actual 98th Academy Awards winner. Let me search more specifically:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01D9LcLeizawZ91cPtnmsKZS",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"\\\"98th Academy Awards\\\" \\\"Visual Effects\\\" winner March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01D9LcLeizawZ91cPtnmsKZS",
+   "content": "1. 98th Academy Awards - Wikipedia\nURL: https://en.wikipedia.org/wiki/98th_Academy_Awards\nThe 98th Academy Awards ceremony, presented by the Academy of Motion Picture Arts and Sciences (AMPAS), took place on March 15, 2026, at the Dolby Theatre in Hollywood, Los Angeles.\n\n2. Oscars 2026: Full winners list from the 98th Academy Awards\nURL: https://abcnews.com/GMA/Culture/oscars-2026-full-winners-list/story?id=130769299\nMar 15, 2026 · Hollywood's biggest stars gathered Sunday night to celebrate the year's standout achievements in film at the 98th Academy Awards. \"One Battle After Another\" claimed the night's top honor, winning the Oscar for best picture, while the film's director, Paul Thomas Anderson, earned the award for best ...\n\n3. ‘Avatar: Fire and Ash” Wins Best Visual Effects | 98th Oscars ...The 98th Academy Awards | 2026 - Oscars.org2026 Oscar winners announced: See the full list98th Academy Awards - WikipediaOscars 2026: 98th Academy Awards winners; plus records brokenAwardsPulse | 98th Academy Awards 2026 — Complete Results ...\nURL: https://www.youtube.com/watch?v=vAaUuMlIRh0\nMar 15, 2026 · Pedro Pascal and Sigourney Weaver present Joe Letteri, Richard Baneham, Eric Saindon and Daniel Barrett with the Oscar for Best Visual Effects for 'Avatar Fire & Ash' at the 98th Academy... Sirāt Amanda Villavieja, Laia Casanovas and Yasmina Praderas Visual Effects Winner Avatar: Fire and Ash Joe Letteri, Richard Baneham, Eric Saindon and Daniel Barrett Mar 16, 2026 · The 2026 Oscar winners have been announced. See the full list from the Academy Awards, including who won Best Actor, which film won Best Picture, and more. The 98th Academy Awards ceremony, presented by the Academy of Motion Picture Arts and Sciences (AMPAS), took place on March 15, 2026, at the Dolby Theatre in Hollywood, Los Angeles. Mar 15, 2026 · The 98th Academy Awards, for outstanding film achievements of 2025, will be presented on Sunday, March 15, 2026, at the Dolby Theatre at Ovation Hollywood, and will be televised live on ABC and in more than 200 territories worldwide. Mar 15, 2026 · One Battle After Another, directed by Paul Thomas Anderson, won Best Picture at the 98th Academy Awards on March 15, 2026. The film led the night with 6 total wins, also taking Best Director, Best Adapted Screenplay, Best Supporting Actor, Best Film Editing, and Best Casting (inaugural award)."
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the answer. Let me read more to confirm:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_011kQzeBmFhkURHxo8ErJvUP",
+     "function": {
+      "name": "read_page",
+      "arguments": "{\"url\": \"https://en.wikipedia.org/wiki/98th_Academy_Awards\", \"keywords\": \"Visual Effects winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_011kQzeBmFhkURHxo8ErJvUP",
+   "content": "One Battle After Another won the most awards with six, including Best Picture and the inaugural award for Best Casting.[8] Sinners received a record sixteen nominations and won four awards. Other winners included Frankenstein with three; KPop Demon Hunters with two; and All the Empty Rooms, Avatar: Fire and Ash, F1, The Girl Who Cried Pearls, Hamnet, Mr Nobody Against Putin, Sentimental Value, The Singers, Two People Exchanging Saliva, and Weapons with one each.[8] The telecast drew 17.86 million viewers in the United States.\nWinners and nominees\nThe nominees for the 98th Academy Awards were announced on January 22, 2026, at the Samuel Goldwyn Theater in Beverly Hills, by actress Danielle Brooks and actor Lewis Pullman.[9] Sinners led with sixteen nominations, the most in Oscar history; One Battle After Another came in second with thirteen.[10] The winners were announced during the awards ceremony on March 15.[11]\nMichael B. Jordan became the second actor to win an Oscar for a dual role after Lee Marvin for Cat Ballou (1965).[12] At the age of 30, Timothée Chalamet became the youngest actor to earn three acting nominations since Marlon Brando, and also became the youngest person to be nominated for both acting and producing in the same year.[13] The 40-year span between Amy Madigan's first nomination, for her supporting role in Twice in a Lifetime (1985), and her recent nomination for Weapons, set the record for the longest gap between Oscar nominations for an actress.[14] With her fifth Best Costume Design nomination, Ruth E. Carter became the most-nominated Black woman in Oscar history across all categories.[15] Best Cinematography winner Autumn Durald Arkapaw became the first female and Black winner in the category as well as the first Filipino winner; she was also the first woman of color to be nominated in the category.[16][17] The joint win by The Singers and Two People Exchanging Saliva for Best Live Action Short Film marked the first occurrence of a tie since the 85th ceremony in 2013, and the seventh tie overall.[18]\nWinners are listed first, highlighted in boldface, and indicated with a double dagger (‡).[19]\nIn March 2025, the Academy hired television producers Raj Kapoor and Katy Mullan, for the third year in a row, to oversee production of the 2026 ceremony, with comedian and former talk show host Conan O'Brien as host of the event for the second consecutive year. Jeff Ross and Mike Sweeney, long-time collaborators of O'Brien, also returned as producers for a second time; Sweeney also served as a writer.[28] \"We are thrilled to bring back Conan, Raj, Katy, Jeff, and Mike for the 98th Oscars,\" stated AMPAS CEO Bill Kramer and then-AMPAS president Janet Yang in a press release. \"[Last] year, they produced a hugely entertaining and visually stunning show that celebrated our nominees and the global film community in the most beautiful and impactful way. Conan was the perfect host — skillfully guiding us through the evening with humor, warmth and reverence. It is an honor to be working with them again.\"[29] In response, Kapoor and Mullan stated in a press release, \"We are both so honored to be returning in our roles for the 98th Oscars. We can't wait to work with Conan and his entire team as we continue to explore even more special and heartfelt opportunities to celebrate next year's nominees and the impact of film around the world.\"[30]\nBeginning with this ceremony, AMPAS introduced a new competitive award that would honor casting directors. The award was announced in a February 2024 press release with Academy CEO Kramer and then-AMPAS president Yang stating, \"Casting directors play an essential role in filmmaking, and as the Academy evolves, we are proud to add casting to the disciplines that we recognize and celebrate.\"[38] Nominees would be initially voted in a preliminary round to determine a shortlist consisting of ten films. Each of the shortlisted films would have its respective casting director showcase their work in a shortlist presentation utilizing written notes highlighting the process, film reel clips, and a Q&A with members of the Casting branch. The members in that branch would narrow down the roster to five nominees, and the entire membership would then vote for the winner.[39] A category to award achievement in casting had previously been rejected by the Academy in 1999.[40]\n- Voters must now watch each of the nominated films in each category in order to vote for the winners of said category. Academy members could fulfill this requirement by watching the nominees on the Academy's streaming platform or uploading a ticket stub or any form of documentation stating that the member watched the film.\nVariety chief film critic Owen Gleiberman called the show \"a tasteful and overly safe show sustained by just enough suspense\". He described the production design as \"pleasingly bland and comfortable and a bit generic, like the show itself\" and criticized the lack of a \"more explicit salute\" "
+  },
+  {
+   "role": "assistant",
+   "content": "Based on my search results, I have found the answer. The Wikipedia article and the YouTube video both confirm that **Avatar: Fire and Ash** won the Best Visual Effects Oscar at the 98th Academy Awards on March 15, 2026. The award was presented to Joe Letteri, Richard Baneham, Eric Saindon, and Daniel Barrett.\n\nFINAL: Avatar: Fire and Ash",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

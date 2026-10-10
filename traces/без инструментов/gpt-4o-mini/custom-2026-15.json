@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-15",
+  "source": "fresh",
+  "question": "Who was voted Driver of the Day at the 2026 British Grand Prix?",
+  "answer": "Charles Leclerc",
+  "evidence": "Great Britain | Charles Leclerc LEC",
+  "page": "2026 Salesforce Driver of the Day Award",
+  "url": "https://www.formula1.com/en/results/2026/awards/driver-of-the-day",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "I'm unable to provide real-time or future event results since my data only goes up to October 2023. Therefore, I cannot tell you who was voted Driver of the Day at the 2026 British Grand Prix. Please check the latest sports news or relevant sources for the most accurate information. \n\nFINAL: Unknown.",
+ "correct": false,
+ "cost": 5.204999999999793e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who was voted Driver of the Day at the 2026 British Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'm unable to provide real-time or future event results since my data only goes up to October 2023. Therefore, I cannot tell you who was voted Driver of the Day at the 2026 British Grand Prix. Please check the latest sports news or relevant sources for the most accurate information. \n\nFINAL: Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-48",
+  "source": "fresh",
+  "question": "Which country won the most medals overall at the 2026 Winter Olympics?",
+  "answer": "Norway",
+  "evidence": "Athletes from Norway won the most medals overall, with 41, surpassing the previous record of 39 medals set by Norway at the 2018 Winter Olympics.",
+  "page": "2026 Winter Olympics medal table",
+  "url": "https://en.wikipedia.org/wiki/2026_Winter_Olympics_medal_table",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "The 2026 Winter Olympics (Milano Cortina) are scheduled for February 6–22, 2026. As of my knowledge cutoff in early 2025, the games have not yet taken place, so I cannot answer which country won the most medals.\n\nFINAL: The 2026 Winter Olympics have not occurred yet (scheduled for February 2026), so this information is unavailable.",
+ "correct": false,
+ "cost": 0.0017250000000000043,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which country won the most medals overall at the 2026 Winter Olympics?"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 Winter Olympics (Milano Cortina) are scheduled for February 6–22, 2026. As of my knowledge cutoff in early 2025, the games have not yet taken place, so I cannot answer which country won the most medals.\n\nFINAL: The 2026 Winter Olympics have not occurred yet (scheduled for February 2026), so this information is unavailable.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

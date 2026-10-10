@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-05",
+  "source": "fresh",
+  "question": "Who won the 2026 Monaco Grand Prix?",
+  "answer": "Kimi Antonelli",
+  "evidence": "Monaco | 07 Jun | Kimi Antonelli ANT | Mercedes | 78 | 2:23:31.243",
+  "page": "2026 Race Results",
+  "url": "https://www.formula1.com/en/results/2026/races",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "The 2026 Monaco Grand Prix has not yet occurred as of my last update. Therefore, I cannot provide the winner. \n\nFINAL: Event not yet occurred.",
+ "correct": false,
+ "cost": 3.2550000000006185e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Monaco Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 Monaco Grand Prix has not yet occurred as of my last update. Therefore, I cannot provide the winner. \n\nFINAL: Event not yet occurred.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

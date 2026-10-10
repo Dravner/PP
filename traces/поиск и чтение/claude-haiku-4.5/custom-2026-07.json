@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-07",
+  "source": "fresh",
+  "question": "Who won the 2026 Austrian Grand Prix?",
+  "answer": "George Russell",
+  "evidence": "Austria | 28 Jun | George Russell RUS | Mercedes | 71 | 1:26:37.979",
+  "page": "2026 Race Results",
+  "url": "https://www.formula1.com/en/results/2026/races",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Based on the search results, **George Russell** won the 2026 Austrian Grand Prix. The race was held on June 28, 2026, at the Red Bull Ring in Spielberg, Austria, with Max Verstappen finishing second and Kimi Antonelli finishing third.\n\nFINAL: George Russell",
+ "correct": true,
+ "cost": 0.004483999999999988,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Austrian Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the 2026 Austrian Grand Prix.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_015TPAwPbraa5UHMPFReXFKq",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"2026 Austrian Grand Prix winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_015TPAwPbraa5UHMPFReXFKq",
+   "content": "1. 2026 Austrian Grand Prix - Wikipedia\nURL: https://en.wikipedia.org/wiki/2026_Austrian_Grand_Prix\nThe 2026 Austrian Grand Prix (officially known as the Formula 1 Lenovo Austrian Grand Prix 2026) was a Formula One motor race held on 28 June 2026 at the Red Bull Ring in Spielberg, Austria. It was the eighth round of the 2026 Formula One World Championship.\n\n2. 2026 Austrian Grand Prix, Official F1 results - PlanetF1\nURL: https://www.planetf1.com/news/f1-results-2026-austrian-grand-prix\nJun 28, 2026 · Full F1 results from the 2026 Austrian Grand Prix. Complete race classification, timing gaps, points finishers, and key retirements.\n\n3. Race Report & Results 2026 Austrian F1 Grand Prix\nURL: https://www.f1-fansite.com/f1-result/race-report-results-2026-austrian-f1-grand-prix/\nJun 28, 2026 · George Russell won the 2026 Austrian Grand Prix from Max Verstappen and Kimi Antonelli after a tense race at the Red Bull Ring."
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, **George Russell** won the 2026 Austrian Grand Prix. The race was held on June 28, 2026, at the Red Bull Ring in Spielberg, Austria, with Max Verstappen finishing second and Kimi Antonelli finishing third.\n\nFINAL: George Russell",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

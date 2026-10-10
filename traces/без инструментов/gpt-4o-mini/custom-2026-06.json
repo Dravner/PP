@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-06",
+  "source": "fresh",
+  "question": "Who won the 2026 Barcelona-Catalunya Grand Prix?",
+  "answer": "Lewis Hamilton",
+  "evidence": "Barcelona-Catalunya | 14 Jun | Lewis Hamilton HAM | Ferrari | 66 | 1:32:28.105",
+  "page": "2026 Race Results",
+  "url": "https://www.formula1.com/en/results/2026/races",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "The 2026 Barcelona-Catalunya Grand Prix has not yet occurred as it is scheduled for the future. Therefore, there is no winner at this time. \n\nFINAL: Not applicable yet",
+ "correct": false,
+ "cost": 3.599999999999437e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Barcelona-Catalunya Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 Barcelona-Catalunya Grand Prix has not yet occurred as it is scheduled for the future. Therefore, there is no winner at this time. \n\nFINAL: Not applicable yet",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

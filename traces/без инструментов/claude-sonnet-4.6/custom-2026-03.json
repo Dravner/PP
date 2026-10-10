@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-03",
+  "source": "fresh",
+  "question": "Who won the 2026 Miami Grand Prix?",
+  "answer": "Kimi Antonelli",
+  "evidence": "Miami | 03 May | Kimi Antonelli ANT | Mercedes | 57 | 1:33:19.273",
+  "page": "2026 Race Results",
+  "url": "https://www.formula1.com/en/results/2026/races",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "I don't have information about the 2026 Miami Grand Prix. My knowledge cutoff is early 2025, and that event hasn't occurred yet from my perspective.\n\nFINAL: Unknown (event is beyond my knowledge cutoff)",
+ "correct": false,
+ "cost": 0.0011549999999999998,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Miami Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have information about the 2026 Miami Grand Prix. My knowledge cutoff is early 2025, and that event hasn't occurred yet from my perspective.\n\nFINAL: Unknown (event is beyond my knowledge cutoff)",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-25",
+  "source": "fresh",
+  "question": "Who won the 2026 Oscar for Actress in a Supporting Role?",
+  "answer": "Amy Madigan",
+  "evidence": "Actress in a Supporting Role\nWinner\nAmy Madigan\nWeapons",
+  "page": "The 98th Academy Awards | 2026",
+  "url": "https://www.oscars.org/oscars/ceremonies/2026",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "I don't have information about the 2026 Academy Awards, as my knowledge cutoff is early 2025 and that ceremony would have taken place after my cutoff date (the 98th Academy Awards ceremony for 2026 would be held in March 2026).\n\nFINAL: I don't know — the 2026 Oscars are beyond my knowledge cutoff.",
+ "correct": false,
+ "cost": 0.0016649999999999998,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Oscar for Actress in a Supporting Role?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have information about the 2026 Academy Awards, as my knowledge cutoff is early 2025 and that ceremony would have taken place after my cutoff date (the 98th Academy Awards ceremony for 2026 would be held in March 2026).\n\nFINAL: I don't know — the 2026 Oscars are beyond my knowledge cutoff.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

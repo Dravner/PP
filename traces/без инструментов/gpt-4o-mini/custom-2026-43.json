@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-43",
+  "source": "fresh",
+  "question": "How many total goals were scored in the 2026 FIFA World Cup final, including extra time?",
+  "answer": "1",
+  "evidence": "Spain have been crowned FIFA World Cup 2026™ winners following their 1-0 victory over Argentina after extra-time in the final at New York New Jersey Stadium.",
+  "page": "World Cup 2026: Final tournament standings",
+  "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/final-tournament-standings",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "The 2026 FIFA World Cup has not yet occurred, as it is scheduled to take place from June to July 2026. Therefore, I cannot provide the total number of goals scored in the final or any details about the event. \n\nFINAL: N/A",
+ "correct": false,
+ "cost": 4.605000000000581e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "How many total goals were scored in the 2026 FIFA World Cup final, including extra time?"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 FIFA World Cup has not yet occurred, as it is scheduled to take place from June to July 2026. Therefore, I cannot provide the total number of goals scored in the final or any details about the event. \n\nFINAL: N/A",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

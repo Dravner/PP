@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-14",
+  "source": "fresh",
+  "question": "Who was voted Driver of the Day at the 2026 Japanese Grand Prix?",
+  "answer": "Oscar Piastri",
+  "evidence": "Japan | Oscar Piastri PIA",
+  "page": "2026 Salesforce Driver of the Day Award",
+  "url": "https://www.formula1.com/en/results/2026/awards/driver-of-the-day",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Oscar Piastri was voted Driver of the Day at the 2026 Japanese Grand Prix. \n\nFINAL: Oscar Piastri",
+ "correct": true,
+ "cost": 0.00011655000000000693,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who was voted Driver of the Day at the 2026 Japanese Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_eso3lNQlM70i1SUYF7sM4Px7",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"2026 Japanese Grand Prix Driver of the Day\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_eso3lNQlM70i1SUYF7sM4Px7",
+   "content": "1. 2026 Japanese Grand Prix - Wikipedia\nURL: https://en.wikipedia.org/wiki/2026_Japanese_Grand_Prix\nKimi Antonelli converted the pole position to a win for Mercedes, ahead of Oscar Piastri (McLaren) and Charles Leclerc (Ferrari). Antonelli took the lead of the Drivers' Championship for the first time in his career, becoming the youngest World Drivers' Championship leader at 19 years and 216 days.\n\n2. F1 Driver of the Day - 2026 Japanese GP - Total Motorsport\nURL: https://www.total-motorsport.com/f1-driver-of-the-day-2026-japanese-gp/\nMar 29, 2026 · While Piastri couldn’t live with Antonelli’s blistering pace on his way to his second consecutive Formula 1 victory, he was able to secure second as he landed the Driver of the Day honours at the 2026 Japanese GP.\n\n3. Japan - Driver of the Day\nURL: https://driveroftheday.com/race/japanese-grand-prix-2026\nMar 29, 2026 · Race results and driver ratings."
+  },
+  {
+   "role": "assistant",
+   "content": "Oscar Piastri was voted Driver of the Day at the 2026 Japanese Grand Prix. \n\nFINAL: Oscar Piastri",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

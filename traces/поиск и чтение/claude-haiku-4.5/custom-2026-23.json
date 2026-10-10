@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-23",
+  "source": "fresh",
+  "question": "Who won the 2026 Oscar for Actor in a Supporting Role?",
+  "answer": "Sean Penn",
+  "evidence": "Actor in a Supporting Role\nWinner\nSean Penn\nOne Battle after Another",
+  "page": "The 98th Academy Awards | 2026",
+  "url": "https://www.oscars.org/oscars/ceremonies/2026",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Based on the search results, **Sean Penn** won the 2026 Oscar for Actor in a Supporting Role for his role in \"One Battle After Another.\" However, he did not attend the ceremony, and Kieran Culkin accepted the award on his behalf.\n\nFINAL: Sean Penn won the 2026 Oscar for Actor in a Supporting Role for \"One Battle After Another\"",
+ "correct": true,
+ "cost": 0.004635,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Oscar for Actor in a Supporting Role?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to search for information about the 2026 Oscar for Actor in a Supporting Role.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01DmMuwnkyH5r82PrTn5s2hG",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"2026 Oscar Actor in a Supporting Role winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01DmMuwnkyH5r82PrTn5s2hG",
+   "content": "1. Academy Award for Best Supporting Actor - Wikipedia\nURL: https://en.wikipedia.org/wiki/Academy_Award_for_Best_Supporting_Actor\nThe Academy Award for Best Supporting Actor is an award presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS). It has been awarded since the 9th Academy Awards to an actor who has delivered an outstanding performance in a supporting role in a film released that year.\n\n2. Oscars 2026: Full winners list from the 98th Academy Awards\nURL: https://abcnews.com/GMA/Culture/oscars-2026-full-winners-list/story?id=130769299\nMar 15, 2026 · Amy Madigan secured the Oscar for best supporting actress for her role in \"Weapons,\" while Sean Penn won best supporting actor for \"One Battle After Another.\" The ceremony also marked the debut of a new category called best achievement in casting, with \"One Battle After Another\" taking home the inaugural award.\n\n3. Sean Penn wins supporting actor Oscar for ‘One Battle’ but ...\nURL: https://www.latimes.com/entertainment-arts/awards/story/2026-03-15/sean-penn-oscars-2026-supporting-actor\nMar 16, 2026 · Sean Penn won the Oscar for supporting actor Sunday for his role, but he did not attend the ceremony, with presenter Kieran Culkin accepting the award on his behalf."
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, **Sean Penn** won the 2026 Oscar for Actor in a Supporting Role for his role in \"One Battle After Another.\" However, he did not attend the ceremony, and Kieran Culkin accepted the award on his behalf.\n\nFINAL: Sean Penn won the 2026 Oscar for Actor in a Supporting Role for \"One Battle After Another\"",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

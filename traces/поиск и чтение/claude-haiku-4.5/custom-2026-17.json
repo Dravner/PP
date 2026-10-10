@@ -1,0 +1,68 @@
+{
+ "task": {
+  "id": "custom-2026-17",
+  "source": "fresh",
+  "question": "In Formula 1's 2026 retrospective, how many years had passed since the 1976 F1 season began?",
+  "answer": "50 years",
+  "evidence": "The storied 1976 F1 season began 50 years ago today, featuring a title fight between Ferrari’s Niki Lauda and McLaren’s James Hunt that was so dramatic, it inspired the hit film Rush.",
+  "page": "On this day 50 years ago: The iconic 1976 Formula 1 season that inspired Rush begins",
+  "url": "https://www.formula1.com/en/latest/article/on-this-day-50-years-ago-the-iconic-1976-formula-1-season-that-inspired-rush.Otn39lw7ILaJlV0jR0KOo.Otn39lw7ILaJlV0jR0KOo",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "The 1976 F1 season began on January 25, 1976. If we're looking at 2026 retrospectively, that means from 1976 to 2026 would be:\n\n2026 - 1976 = 50 years\n\nFINAL: 50",
+ "correct": false,
+ "cost": 0.005016999999999994,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "In Formula 1's 2026 retrospective, how many years had passed since the 1976 F1 season began?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to find information about Formula 1's 2026 retrospective and when the 1976 F1 season began.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01CDKJ92S1RUhcprAGUhwDfc",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"Formula 1 2026 retrospective 1976 season\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01Usy2HCBxt2PdCAgyYQk3Qh",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"1976 F1 season start date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01CDKJ92S1RUhcprAGUhwDfc",
+   "content": "ошибка поиска: error sending request for url (https://html.duckduckgo.com/html/) > operation timed out"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01Usy2HCBxt2PdCAgyYQk3Qh",
+   "content": "1. 1976 Formula One season - Wikipedia\nURL: https://en.wikipedia.org/wiki/1976_Formula_One_season\nThe 1976 Formula One season was the 30th season of FIA Formula One motor racing. It featured the 1976 World Championship of Drivers [1] and the 1976 International Cup for Formula 1 Manufacturers. [2] The two titles were contested over a 16-race series that began on 25 January and ended on 24 October. [3]\n\n2. F1 1976 Calendar & Schedule of Race Dates - F1-Fansite.com\nURL: https://www.f1-fansite.com/f1-calendar/f1-1976-calendar-schedule/\nSep 1, 2026 · When does the 1976 F1 season start? The 1976 Formula 1 season starts with the 1976 Brazilian F1 GP on January 25. See the F1 1976 calendar schedule: Check out now the GP race dates of the twinty-seventh Formula 1 grand prix list of events.\n\n3. 1976 F1 Season Calendar - racerewind.org\nURL: https://racerewind.org/seasons/1976/preseason/season/\n1976 F1 season calendar: all 16 rounds with spoiler-safe race-weekend navigation."
+  },
+  {
+   "role": "assistant",
+   "content": "The 1976 F1 season began on January 25, 1976. If we're looking at 2026 retrospectively, that means from 1976 to 2026 would be:\n\n2026 - 1976 = 50 years\n\nFINAL: 50",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

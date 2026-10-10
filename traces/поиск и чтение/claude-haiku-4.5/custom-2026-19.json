@@ -1,0 +1,68 @@
+{
+ "task": {
+  "id": "custom-2026-19",
+  "source": "fresh",
+  "question": "When Formula 1 returned to Sepang in 2026, how long had it been since the championship last raced there?",
+  "answer": "nine years",
+  "evidence": "Formula 1 returns to Sepang this week for the first time in nine years, with the Malaysian circuit hosting the Bahrain Grand Prix in Malaysia.",
+  "page": "What was happening in the world the last time F1 raced in Malaysia?",
+  "url": "https://www.formula1.com/en/latest/article/what-was-happening-in-the-world-the-last-time-f1-raced-in-malaysia.6FhCdurEMcfv9tQrcB37d3.6FhCdurEMcfv9tQrcB37d3",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Based on the search results, I found the answer. According to multiple sources from 2026, Formula 1 returned to Sepang in 2026 for the first time in **nine years**. This means the championship had last raced at Sepang in 2017.\n\nFINAL: 9 years",
+ "correct": false,
+ "cost": 0.005085999999999979,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "When Formula 1 returned to Sepang in 2026, how long had it been since the championship last raced there?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about Formula 1 racing at Sepang in 2026 and when it last raced there.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01UZvnp8kam54MGyJwUA6Hab",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"Formula 1 Sepang 2026 return\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01WsYRd3LuPb9Jfy4QbwmLme",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\": \"Formula 1 Sepang last race\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01UZvnp8kam54MGyJwUA6Hab",
+   "content": "1. Formula 1 and FIA confirm Malaysia will join 2026 calendar as ...\nURL: https://www.formula1.com/en/latest/article/formula-1-and-fia-confirm-malaysia-will-join-2026-calendar-as-host-venue-for-bahrain-grand-prix.6lL7vjFEM2VVynRHvg1TCf\nJul 26, 2026 · Formula 1 and the FIA can confirm that Malaysia will host the Formula 1 Gulf Air Bahrain Grand Prix at the Sepang International Circuit from October 2-4 2026, between the Azerbaijan and Singapore Grands Prix.\n\n2. Why a return to Sepang is a 'golden ticket' for Formula 1 drivers\nURL: https://www.formula1.com/en/latest/article/why-a-return-to-sepang-is-a-golden-ticket-for-formula-1-drivers.65koMbP1GaLhOtlXJL2Nn6\nSep 29, 2026 · F1 is set to return to Malaysia's Sepang International Circuit for the first time in nine years, with the track stepping in to host the Bahrain Grand Prix.\n\n3. Bahrain Grand Prix Moves to Sepang for 2026 Formula 1 Race ...\nURL: https://worldinsport.com/bahrain-grand-prix-malaysia-sepang/\nSep 28, 2026 · The 2026 Formula 1 Gulf Air Bahrain Grand Prix takes place at Sepang, restoring the Bahrain round on the Formula 1 calendar and marking F1's return to Malaysia after nine years."
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01WsYRd3LuPb9Jfy4QbwmLme",
+   "content": "ошибка поиска: error sending request for url (https://html.duckduckgo.com/html/) > operation timed out"
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, I found the answer. According to multiple sources from 2026, Formula 1 returned to Sepang in 2026 for the first time in **nine years**. This means the championship had last raced at Sepang in 2017.\n\nFINAL: 9 years",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

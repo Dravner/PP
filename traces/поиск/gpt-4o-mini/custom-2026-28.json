@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-28",
+  "source": "fresh",
+  "question": "Which country won the 2026 Oscar for International Feature Film with Sentimental Value?",
+  "answer": "Norway",
+  "evidence": "International Feature Film\nWinner\nNorway\nSentimental Value",
+  "page": "The 98th Academy Awards | 2026",
+  "url": "https://www.oscars.org/oscars/ceremonies/2026",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "The country that won the 2026 Oscar for International Feature Film with \"Sentimental Value\" is Norway. \n\nFINAL: Norway",
+ "correct": true,
+ "cost": 0.00012719999999999398,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which country won the 2026 Oscar for International Feature Film with Sentimental Value?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_USuJx2nECLGjJAIdOvxUk0Ne",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"2026 Oscar for International Feature Film winner Sentimental Value\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_USuJx2nECLGjJAIdOvxUk0Ne",
+   "content": "1. ‘Sentimental Value’ wins Oscar for best international film ...\nURL: https://apnews.com/article/oscars-2026-best-international-film-ac9d608fec5a03ecbe2d0a0b67b44bbd\n“Sentimental Value” has won the Oscar for best international film. The family drama by Joachim Trier explores an estranged family’s wounds in when a director father, who repeatedly prioritized career over family, tries to reconcile with his daughters.\n\n2. Sentimental Value becomes first Norwegian film to win best ...\nURL: https://www.theguardian.com/film/2026/mar/16/sentimental-value-wins-best-international-feature-oscar\nMar 16, 2026 · Sentimental Value has won the Oscar for best international feature at the 98th Academy Awards. The film is the first Norwegian film to win the honour; seven films have previously been nominated....\n\n3. Oscars 2026: 'Sentimental Value' wins best international ...\nURL: https://digital.abcaudio.com/news/oscars-2026-sentimental-value-wins-best-international-feature-film\nHis film Sentimental Value won best international feature film, also making history for Norway as the first Norwegian feature film to win in the category. The film triumphed over The Secret Agent (Brazil), It Was Just an Accident (France), Sirāt (Spain) and The Voice of Hind Rajab (Tunisia)."
+  },
+  {
+   "role": "assistant",
+   "content": "The country that won the 2026 Oscar for International Feature Film with \"Sentimental Value\" is Norway. \n\nFINAL: Norway",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

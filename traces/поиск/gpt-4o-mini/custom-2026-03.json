@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-03",
+  "source": "fresh",
+  "question": "Who won the 2026 Miami Grand Prix?",
+  "answer": "Kimi Antonelli",
+  "evidence": "Miami | 03 May | Kimi Antonelli ANT | Mercedes | 57 | 1:33:19.273",
+  "page": "2026 Race Results",
+  "url": "https://www.formula1.com/en/results/2026/races",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Kimi Antonelli won the 2026 Miami Grand Prix. \n\nFINAL: Kimi Antonelli",
+ "correct": true,
+ "cost": 0.00011595000000000355,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Miami Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_gYqZVULnUO8BNAUQOyDVL4HE",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"2026 Miami Grand Prix winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_gYqZVULnUO8BNAUQOyDVL4HE",
+   "content": "1. 2026 Miami Grand Prix - Wikipedia\nURL: https://en.wikipedia.org/wiki/2026_Miami_Grand_Prix\nThe 2026 Miami Grand Prix (officially known as the Formula 1 Crypto.com Miami Grand Prix 2026) was a Formula One motor race that was held on May 3, 2026, at the Miami International Autodrome in Miami Gardens, Florida, United States. It was the fourth round of the 2026 Formula One World Championship and the second of six Grands Prix in the season to utilise the sprint format. Lando Norris ...\n\n2. 2026 Miami Grand Prix race report and highlights: Kimi Antonelli wins ...\nURL: https://www.formula1.com/en/latest/article/antonelli-wins-thrilling-miami-grand-prix-from-norris-and-piastri.2bxaKuYKJjxlXx8KOJf7lc\nKimi Antonelli has claimed his third consecutive victory of the season at the Miami Grand Prix, holding off McLaren's Lando Norris in an eventful race.\n\n3. 2026 Miami Grand Prix - Official F1 results (Miami Gardens)\nURL: https://www.planetf1.com/news/f1-results-2026-miami-grand-prix\nFull results following a chaotic Miami Grand Prix that saw a history-making win for Kimi Antonelli."
+  },
+  {
+   "role": "assistant",
+   "content": "Kimi Antonelli won the 2026 Miami Grand Prix. \n\nFINAL: Kimi Antonelli",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

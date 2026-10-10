@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-18",
+  "source": "fresh",
+  "question": "At the 2026 Belgian Grand Prix, how many years had Esteban Ocon been in Formula 1 since his debut?",
+  "answer": "10 years",
+  "evidence": "At this weekend’s Belgian Grand Prix, Esteban Ocon will celebrate 10 years since his F1 debut.",
+  "page": "Esteban Ocon reflects on 10 years in F1",
+  "url": "https://www.formula1.com/en/latest/article/im-a-very-different-driver-ocon-reveals-his-biggest-lesson-from-crazy-10-years-in-f1.DdnNLzhT1DOhVRgpSYJNc",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Esteban Ocon made his Formula 1 debut at the 2016 Belgian Grand Prix. By the time of the 2026 Belgian Grand Prix, he had been in Formula 1 for 10 years.\n\nFINAL: 10",
+ "correct": false,
+ "cost": 0.00018674999999999942,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "At the 2026 Belgian Grand Prix, how many years had Esteban Ocon been in Formula 1 since his debut?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_51r1JLUmHhNVavfgBkl5WJH3",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"Esteban Ocon Formula 1 debut year\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_51r1JLUmHhNVavfgBkl5WJH3",
+   "content": "1. Esteban Ocon - Wikipedia\nURL: https://en.wikipedia.org/wiki/Esteban_Ocon\nA member of the Mercedes Junior Team since 2015, Ocon made his Formula One debut at the 2016 Belgian Grand Prix with Manor, replacing Rio Haryanto for the remainder of the 2016 season.\n\n2. Esteban Ocon Races, Wins and Teams | F1 Driver | F1 HistoryTop StoriesEsteban Ocon: F1 Career Stats, Wins & ResultsOcon: Biggest Lesson From 10 Crazy Years in F1 | 123HelmetsEsteban Ocon – F1 Driver Profile, Stats & Biography - Total ...Esteban Ocon Marks Ten Years After His F1 Debut at the Same ...Esteban Ocon | Formula 1 Driver | belgium.gp\nURL: https://www.formulaonehistory.com/drivers/esteban-ocon/\nOcon’s efforts paid off. He made his Formula One debut in 2016 with Manor Racing at the 2016 Belgian Grand Prix, replacing Rio Haryanto for the remainder of the season. Show more 1 day ago · His F1 career started at Lotus in 2014. He took was selected for their young driver program. His first lap times were clocked on the Yas Marina circuit for the Abu Dhabi Grand Prix. He drove 28 laps during free practice. Esteban Ocon made his Formula 1 debut at the 2016 Belgian Grand Prix with Manor Racing, finishing P16. He marks the 10-year anniversary of that debut at the 2026 Belgian Grand Prix at the same Spa-Francorchamps circuit. Ocon’s break into Formula 1 came in the middle of the 2016 season. Backed by Mercedes, he was offered an F1 race seat with the small Manor team, replacing Rio Haryanto from the Belgian Grand Prix onward. Jul 19, 2026 · Esteban Ocon is celebrating a decade in Formula 1, a milestone that falls at the same Belgian Grand Prix where he made his debut in 2016. Esteban Ocon Date of birth: 17.9.1996 Nationality: French F1 debut: 2016 Achievements: 8th (2017, 2022) In 2023, Esteban Ocon found himself in a new position—serving as the most experienced driver within the Alpine team for the first time.\n\n3. Ocon: Biggest Lesson From 10 Crazy Years in F1 | 123Helmets\nURL: https://123helmets.com/f1-news/ocon-10-years-f1-biggest-lesson-2026/\nEsteban Ocon made his Formula 1 debut at the 2016 Belgian Grand Prix with Manor Racing, finishing P16. He marks the 10-year anniversary of that debut at the 2026 Belgian Grand Prix at the same Spa-Francorchamps circuit."
+  },
+  {
+   "role": "assistant",
+   "content": "Esteban Ocon made his Formula 1 debut at the 2016 Belgian Grand Prix. By the time of the 2026 Belgian Grand Prix, he had been in Formula 1 for 10 years.\n\nFINAL: 10",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-12",
+  "source": "fresh",
+  "question": "Who set the fastest lap at the 2026 Miami Grand Prix?",
+  "answer": "Lando Norris",
+  "evidence": "Miami | Lando Norris NOR | 1:31.869",
+  "page": "2026 DHL Fastest Lap Award",
+  "url": "https://www.formula1.com/en/results/2026/awards/fastest-laps",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "Я не обладаю информацией о событиях после октября 2023 года. Поэтому я не могу предоставить данные о самом быстром круге на Гран-при Майами 2026 года. \n\nFINAL: Информация недоступна.",
+ "correct": false,
+ "cost": 4.334999999999756e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who set the fastest lap at the 2026 Miami Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": "Я не обладаю информацией о событиях после октября 2023 года. Поэтому я не могу предоставить данные о самом быстром круге на Гран-при Майами 2026 года. \n\nFINAL: Информация недоступна.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

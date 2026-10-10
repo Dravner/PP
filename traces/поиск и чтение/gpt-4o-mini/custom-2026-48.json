@@ -1,0 +1,17 @@
+{
+ "task": {
+  "id": "custom-2026-48",
+  "source": "fresh",
+  "question": "Which country won the most medals overall at the 2026 Winter Olympics?",
+  "answer": "Norway",
+  "evidence": "Athletes from Norway won the most medals overall, with 41, surpassing the previous record of 39 medals set by Norway at the 2018 Winter Olympics.",
+  "page": "2026 Winter Olympics medal table",
+  "url": "https://en.wikipedia.org/wiki/2026_Winter_Olympics_medal_table",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "ошибка: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))",
+ "correct": false,
+ "cost": 0.0,
+ "messages": []
+}

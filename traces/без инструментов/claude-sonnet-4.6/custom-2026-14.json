@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "custom-2026-14",
+  "source": "fresh",
+  "question": "Who was voted Driver of the Day at the 2026 Japanese Grand Prix?",
+  "answer": "Oscar Piastri",
+  "evidence": "Japan | Oscar Piastri PIA",
+  "page": "2026 Salesforce Driver of the Day Award",
+  "url": "https://www.formula1.com/en/results/2026/awards/driver-of-the-day",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "I don't have information about the 2026 Japanese Grand Prix. My knowledge cutoff is early 2025, so events occurring in 2026 are beyond what I can access.\n\nFINAL: I don't know — this event is beyond my knowledge cutoff.",
+ "correct": false,
+ "cost": 0.0012930000000000025,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who was voted Driver of the Day at the 2026 Japanese Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have information about the 2026 Japanese Grand Prix. My knowledge cutoff is early 2025, so events occurring in 2026 are beyond what I can access.\n\nFINAL: I don't know — this event is beyond my knowledge cutoff.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

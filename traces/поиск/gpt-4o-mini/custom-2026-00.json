@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-00",
+  "source": "fresh",
+  "question": "Who won the 2026 Australian Grand Prix?",
+  "answer": "George Russell",
+  "evidence": "Australia | 08 Mar | George Russell RUS | Mercedes | 58 | 1:23:06.801",
+  "page": "2026 Race Results",
+  "url": "https://www.formula1.com/en/results/2026/races",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "George Russell won the 2026 Australian Grand Prix, leading his teammate Kimi Antonelli for a Mercedes 1-2 finish. \n\nFINAL: George Russell",
+ "correct": true,
+ "cost": 0.00012779999999999736,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Australian Grand Prix?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_A7DRua4HieZKTCq73QGSvBNr",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"2026 Australian Grand Prix winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_A7DRua4HieZKTCq73QGSvBNr",
+   "content": "1. 2026 Australian Grand Prix - Wikipedia\nURL: https://en.wikipedia.org/wiki/2026_Australian_Grand_Prix\nThe 2026 Australian Grand Prix (officially known as the Formula 1 Qatar Airways Australian Grand Prix 2026) was a Formula One motor race that was held on 8 March 2026 at the Albert Park Circuit in Melbourne, Victoria, Australia.\n\n2. FORMULA 1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026 - RACE RESULT\nURL: https://www.formula1.com/en/results/2026/races/1279/australia/race-result\nMar 8, 2026 · FORMULA 1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026 - RACE RESULT 06 - 08 Mar 2026 Albert Park Grand Prix Circuit, Melbourne\n\n3. 2026 Australian Grand Prix race report and highlights: George ...\nURL: https://www.formula1.com/en/latest/article/russell-wins-action-packed-australian-gp-from-antonelli-as-mercedes-secure-1.4WRxPAtF4dFtrKCsWIiQX2\nMar 8, 2026 · George Russell claimed victory in the 2026 season-opening Australian Grand Prix, the Briton leading team mate Kimi Antonelli to secure a Mercedes 1-2 ahead of the Ferrari duo in an action-packed event that saw the Silver Arrows make a one-stop strategy work to their favour."
+  },
+  {
+   "role": "assistant",
+   "content": "George Russell won the 2026 Australian Grand Prix, leading his teammate Kimi Antonelli for a Mercedes 1-2 finish. \n\nFINAL: George Russell",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

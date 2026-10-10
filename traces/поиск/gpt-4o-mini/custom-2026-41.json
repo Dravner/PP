@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "custom-2026-41",
+  "source": "fresh",
+  "question": "Which country won the 2026 FIFA World Cup?",
+  "answer": "Spain",
+  "evidence": "Spain have been crowned FIFA World Cup 2026™ winners following their 1-0 victory over Argentina after extra-time in the final at New York New Jersey Stadium.",
+  "page": "World Cup 2026: Final tournament standings",
+  "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/final-tournament-standings",
+  "sonnet_answer": "",
+  "agent_ok": false
+ },
+ "answer": "The 2026 FIFA World Cup has not yet occurred, as it is scheduled to take place in the United States, Canada, and Mexico. \n\nFINAL: Not occurred yet.",
+ "correct": false,
+ "cost": 8.415000000000505e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which country won the 2026 FIFA World Cup?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_JFk6DVFvfunHOjiunilh8VGJ",
+     "function": {
+      "name": "ddg_search",
+      "arguments": "{\"query\":\"2026 FIFA World Cup winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_JFk6DVFvfunHOjiunilh8VGJ",
+   "content": "ошибка поиска: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 FIFA World Cup has not yet occurred, as it is scheduled to take place in the United States, Canada, and Mexico. \n\nFINAL: Not occurred yet.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}
