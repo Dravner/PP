@@ -1,0 +1,10 @@
+requests
+pydantic>=2,<3
+python-dotenv
+pandas
+matplotlib
+numpy
+pymilvus>=2.6,<2.7
+trafilatura
+pypdf
+ipykernel

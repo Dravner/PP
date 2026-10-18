@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Homework: local environment and memory
+.DS_Store
+.agent/
+.env.*
+!.env.example
+episodes.jsonl
+facts.json
+volumes/
+milvus-data/
