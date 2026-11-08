@@ -222,3 +222,7 @@ __marimo__/
 .DS_Store
 .duty_seed.json
 duty_workspace/
+
+.venv-hw4/
+
+workspace/

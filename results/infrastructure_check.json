@@ -1,0 +1,16 @@
+{
+  "sandbox_mcp_tools": [
+    "list_files",
+    "read_file",
+    "search",
+    "replace_in_file",
+    "write_file",
+    "run_tests",
+    "diff",
+    "changed_files",
+    "new_tests_on_original",
+    "run_acceptance"
+  ],
+  "run_tests": "exit code 0\n...............\n----------------------------------------------------------------------\nRan 15 tests in 0.000s\n\nOK\n",
+  "model_calls": 0
+}

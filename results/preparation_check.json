@@ -1,0 +1,37 @@
+{
+  "issues": 10,
+  "bugs": 6,
+  "baseline": [
+    {
+      "key": "promo-case",
+      "reproduced": true,
+      "exit_code": 1
+    },
+    {
+      "key": "discount-rounding",
+      "reproduced": true,
+      "exit_code": 1
+    },
+    {
+      "key": "friday-shipping",
+      "reproduced": true,
+      "exit_code": 1
+    },
+    {
+      "key": "orders-sort",
+      "reproduced": true,
+      "exit_code": 1
+    },
+    {
+      "key": "free-delivery",
+      "reproduced": true,
+      "exit_code": 1
+    },
+    {
+      "key": "search-yo",
+      "reproduced": true,
+      "exit_code": 1
+    }
+  ],
+  "note": "Reconstructed exercise, not an agent evaluation; acceptance is outside target repo."
+}
