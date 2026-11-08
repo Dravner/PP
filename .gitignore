@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local homework environment and runtime files
+.agent/
+.DS_Store
+.duty_seed.json
+duty_workspace/

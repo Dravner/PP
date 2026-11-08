@@ -1,0 +1,15 @@
+name: duty
+
+services:
+  github-mcp:
+    image: ghcr.io/github/github-mcp-server:v1.13.0
+    container_name: github-mcp
+    command: ["http", "--port", "8082"]
+    ports:
+      - "127.0.0.1:8082:8082"
+    restart: unless-stopped
+
+  sandbox:
+    image: romashka-sandbox:1
+    build: ./sandbox
+    profiles: ["build"]
